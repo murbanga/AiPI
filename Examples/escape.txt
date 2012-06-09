@@ -1,0 +1,1 @@
+"hola \n  como\v\\ \a loco eres  nose ";

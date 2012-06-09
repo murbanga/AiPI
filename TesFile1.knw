@@ -1,0 +1,25 @@
+
+RULE "Juanca"()
+
+int j;
+
+int k;
+
+CLASS clasea
+{
+}
+
+
+long fun(  int j, int l)
+{
+
+
+}
+
+SQLQUERY query = | hola  mara |;
+
+
+function JSF1 ( j, o )
+{
+
+}

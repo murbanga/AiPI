@@ -1,0 +1,14 @@
+STRING  name1 = "TIZZIANNA";
+STRING name2 = "OCTUBRE";
+STRING name3;
+name3 = name1 + name2;
+INT k = 45 + 67/2;
+
+ 
+
+/*
+INT x = 6;
+INT y = 2;
+INT z;
+z = x + y;
+*/

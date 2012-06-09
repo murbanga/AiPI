@@ -1,0 +1,13 @@
+
+string " cadena de caracteres";
+56 + 78.9 = 23;
+RULE 'nombre regla'()
+{
+  int $   a b c $
+  [ cadena larga    ]
+  
+  long $  a b c $;
+  'nombre regla'
+  [    cadena   larga   ]
+}
+

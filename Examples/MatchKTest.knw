@@ -1,0 +1,47 @@
+
+
+ASSERT( Jorge  [casa ubicada]   "Escalon");
+ASSERT( Jorge  cuenta = 100000);
+ASSERT( Jorge  casado  "Ana");
+
+RULE "R1"()
+{
+IF 		Jorge [ casa ubicada ] "Escalon"
+AND		Jorge   cuenta > 50000
+THEN       Jorge   es 	"Rico"
+
+}
+
+
+RULE "R2"()
+{
+IF 		Jorge   es		"Rico"
+AND		Jorge    casado "Ana"
+THEN       Ana	    es        "Rico"
+AND		Ana      casada  "Jorge"        	
+
+}
+
+RULE "R3"()
+{
+IF		Ana     es    "Rico"
+THEN	Ana    es  	  "Feliz"
+
+}
+
+
+RULE "R4"()
+{
+IF		Ana 	es	"Feliz"	
+AND        Ana   casada    "Jorge"
+THEN      Ana    tiene     "Hijos"		
+}
+
+
+RULE "R5"()
+{
+IF	Jorge [ casa ubicada] "Escalon"
+AND Jorge casado "Ana"
+THEN Ana [casa ubicada] "Escalon"
+
+}

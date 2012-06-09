@@ -1,0 +1,38 @@
+ASSERT( Paciente temperatura = 39);
+ASSERT( Paciente  tiempo_enfermo =  40);
+ASSERT( Paciente tiene "llaga en garganta");
+
+
+RULE "R1"()
+{
+IF  
+Paciente  tiene   "llaga en garganta"
+AND
+Se 	sospecha  "infección bacterial" 
+THEN
+Paciente   tiene  "strep de garganta"	 
+OUTPUT>>"CONCLUSION: Tiene un Strep de Garganta";
+
+}
+
+
+RULE "R2"()
+{
+IF
+Paciente	temperatura > 38
+THEN
+Paciente   tiene "fiebre"
+}
+
+
+RULE "R3"()
+{
+IF
+Paciente	tiempo_enfermo  > 30
+AND
+Paciente  tiene "fiebre"
+THEN
+Se sospecha "infección bacterial"
+
+}
+

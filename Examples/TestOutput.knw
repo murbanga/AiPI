@@ -1,0 +1,28 @@
+
+INT k = 34;
+STRING cadena = "Es es la frase";
+
+ASSERT( Maria   age  = 56);
+
+RULE "Test Output"()
+{
+IF		Maria  age > 50
+AND		Maria age < 60
+THEN	OUTPUT >> "Estoy contigo";
+AND		OUTPUT>>"5";
+AND 	OUTPUT>>k>>"Es un mumero";
+AND		OUTPUT>>cadena;
+//AND        Maria	  status "old"		
+
+}
+
+/*
+RULE "Test2"()
+{
+IF   		gato   comida "extranjera"
+THEN	OUTPUT >> "gato  \n sucio";
+AND		EXEC( DOUBLE alpha = 12.56;
+			  INT beta = 24;)
+AND		OUTPUT>> "Alpha = ">>alpha>>"  Beta = ">>beta;
+}
+*/

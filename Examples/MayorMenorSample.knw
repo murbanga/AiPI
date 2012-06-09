@@ -1,0 +1,17 @@
+
+ASSERT( objeto nombre "carro");
+ASSERT(  carro  monto = 10000 );
+
+RULE "Monto"()
+{
+IF 
+objeto   nombre  $x$
+AND
+$x$ monto > 1000
+AND   
+$x$  monto < 20000
+THEN
+carro  es  "costoso"	
+OUTPUT>>"Carro es costoso";
+} 
+

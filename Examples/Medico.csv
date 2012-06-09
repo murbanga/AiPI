@@ -1,0 +1,15 @@
+Paciente,Presión Arterial,Urea en Sangre,Gota,Hipotiroidism,Administrar Tratamiento
+1,Alta,Alta,Si,No,No
+2,Alta,Alta,Si,Si,No
+3,Normal,Alta,Si,No,Si
+4,Baja,Normal,Si,No,Si
+5,Baja,Baja,No,No,Si
+6,Baja,Baja,No,Si,No
+7,Normal,Baja,No,Si,Si
+8,Alta,Normal,Si,No,No
+9,Alta,Baja,No,No,Si
+10,Baja,Normal,No,No,Si
+11,Alta,Normal,No,Si,Si
+12,Normal,Normal,Si,Si,Si
+13,Normal,Alta,No,No,Si
+14,Baja,Normal,Si,Si,No

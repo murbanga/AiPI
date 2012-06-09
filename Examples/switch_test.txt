@@ -1,0 +1,20 @@
+void main()
+{
+	switch ( m_lookahead )
+	{
+		case IDENTIFIER:
+			a = 1;
+			break;
+		case DIGIT:
+			b = 2 + 4;
+			break;
+		case NUMBER:
+			d++;
+ 
+		default :
+			c = a - y;
+			break;
+
+	}
+
+}

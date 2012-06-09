@@ -1,0 +1,28 @@
+//RETE Process Test2
+
+ASSERT (block1 	on 		"block2");
+ASSERT( block1 	on 		"block3");
+ASSERT( block1 	color 	"red");
+ASSERT( block2 	on 		"table");
+ASSERT( block2 	left_of 	"block3");
+ASSERT( block2 	color 	"blue");
+ASSERT( block3 	left_of 	"block4");
+ASSERT( block3 	on 		"table");
+
+RULE "R1"()
+{
+IF  		$x$ 		left_of	"block3"
+AND 	$x$  	color		"blue"
+THEN	block3	color		"red"
+
+}
+
+
+RULE "R2"()
+{
+IF		$x$		on		$y$
+AND		$y$		left_of	$z$
+AND		$z$		color		"red"
+THEN	block2	left_of	"block5"
+}
+

@@ -1,0 +1,25 @@
+int main()
+{
+	if ( i > 7)
+	{
+		long a = e;
+	}
+        else
+	{
+		g + u++;
+	}		
+
+	if( a <= b )
+	{
+	}
+	else if ( b == a )
+	{
+	}
+	else if ( b >= a)
+	{
+	}
+	else
+	{
+		
+	}
+}

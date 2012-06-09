@@ -1,0 +1,15 @@
+
+INT min = 50;
+INT max = 100;
+SQLQUERY rangoProductos = |SELECT * FROM [Productos] WHERE UnidadesEnExistencia > $min$ AND UnidadesEnExistencia < $max$ |
+STRING location = "C:\AIPI Project\AIPI\Examples\Northwind.mdb";
+
+ASSERT( Perro  tiene "pulgas");
+
+RULE "Perro"()
+{
+IF Perro tiene "pulgas"
+THEN Perro es "sucio"
+AND     DB_OPEN    ( DB_PROVIDER = "Ms_Access", DB_NAME = location) ;
+AND EXEC( rangoProductos;)
+}		

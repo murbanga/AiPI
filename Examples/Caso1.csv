@@ -1,0 +1,15 @@
+Estado,Temperatura,Humedad,Viento,Jugar Tennis
+Soleado,Calor,Alta,FALSO,No
+Soleado,Calor,Alta,VERDADERO,No
+Nublado,Calor,Alta,FALSO,Si
+Lluvioso,Templada,Alta,FALSO,Si
+Lluvioso,Fresca,Normal,FALSO,Si
+Lluvioso,Fresca,Normal,VERDADERO,No
+Nublado,Fresca,Normal,VERDADERO,Si
+Soleado,Templada,Alta,FALSO,No
+Soleado,Fresca,Normal,FALSO,Si
+Lluvioso,Templada,Normal,FALSO,Si
+Soleado,Templada,Normal,VERDADERO,Si
+Nublado,Templada,Alta,VERDADERO,Si
+Nublado,Calor,Normal,FALSO,Si
+Lluvioso,Templada,Alta,VERDADERO,No

@@ -1,0 +1,71 @@
+
+ASSERT(  block1    on     "block2");
+ASSERT( block1   on   "block3");
+ASSERT(  block1   color  "red");
+ASSERT( bock1  size  = 2);
+ASSERT( block2   on   "table");
+ASSERT( block2  left_of  "block3");
+ASSERT( block2  color "blue");
+ASSERT( block2  size = 4);
+ASSERT( block3 left_of "bock4");
+ASSERT( block3 on "block4");
+ASSERT( block3   color "red");
+ASSERT( block3  size = 6);
+ASSERT( block4  color "blue");
+ASSERT( block4  on "table");
+ASSERT( block4 size = 8);
+  
+
+RULE "R1"()
+{
+IF 
+$x$     on     $y$
+AND
+$y$    left_of   $z$
+AND
+$z$    color   "red"
+AND
+block3   size  >= 2
+THEN
+block4   calificacion  "grande"
+OUTPUT>>"El bloque 4 es grande";
+}	
+
+RULE "R2"()
+{
+IF   
+$x$      on     $y$
+AND  
+$y$    left_of    $z$
+
+AND  
+$z$   color "red"
+AND
+$z$    size   > $w$
+THEN
+block3  calificacion  "medio"
+OUTPUT >> "El bloque 3 es medio";
+}
+
+/*
+RULE "R3"()
+{
+IF  
+$x$    size     $sx$
+AND
+$z$    size   $sz$
+AND
+$x$		on   $y$
+AND
+$y$     left_of    $z$
+AND
+$sz$  <   $sx$
+AND
+$sx$   size  >= 6
+AND
+$sz$   size  > 2
+THEN
+block2  calificacion "pobre"
+OUTPUT>>"El bloque 2 es pobre";
+}
+*/

@@ -1,0 +1,13 @@
+//Test global input and output
+INT d = 12.67;
+OUTPUT>>"Hola mundo AIPI";
+OUTPUT>>d;
+OUTPUT >> "Introduzca un numero";
+INPUT<<d;
+
+
+OUTPUT >> "Numero introducido....">>d;
+OUTPUT >> "Introduzca otro numero";
+INPUT<<d;
+OUTPUT>>d;
+OUTPUT>> "Fin definitivo";

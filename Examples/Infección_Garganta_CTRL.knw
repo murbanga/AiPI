@@ -1,0 +1,52 @@
+DOUBLE temp = 35;
+INT tiempo= 40;
+STRING descrip = "llagas en garganta";
+
+
+
+OUTPUT>>"Seleccione la temperatura aproximada de el paciente";
+DISPLAYCTRL ListOptionCtrl( ShowCtrl = true, Insert = { "36", "37", "38", "39", "40"},  InputVar = temp );
+
+OUTPUT>>"Selecione el tiempo que ha estado enfermo";
+DISPLAYCTRL ListOptionCtrl( ShowCtrl = true, Insert = { "15", "20", "30", "40", "50", "60" }, InputVar = tiempo);
+DISPLAYCTRL ImageFilterDlg( ShowCtrl = true, Path= "C:\Aipi_Release_Unicode_Download\Garganta2.bmp");
+OUTPUT>>"Seleccione lo que ve al abrir la boca";
+DISPLAYCTRL ListOptionCtrl( ShowCtrl = true, Insert = { "fuego", "llagas en garganta", "amigdalas inflamadas"}, InputVar = descrip);
+
+ASSERT( Paciente temperatura = |temp|);
+ASSERT( Paciente  tiempo_enfermo =  |tiempo|);
+ASSERT( Paciente tiene |descrip|);
+
+
+RULE "R1"()
+{
+IF  
+Paciente  tiene   "llagas en garganta"
+AND
+Se 	sospecha  "infección bacterial" 
+THEN
+Paciente   tiene  "strep de garganta"	 
+OUTPUT>>"El paciente tiene strep de garganta";
+}
+
+
+RULE "R2"()
+{
+IF
+Paciente	temperatura > 38
+THEN
+Paciente   tiene "fiebre"
+}
+
+
+RULE "R3"()
+{
+IF
+Paciente	tiempo_enfermo  > 30
+AND
+Paciente  tiene "fiebre"
+THEN
+Se sospecha "infección bacterial"
+
+}
+

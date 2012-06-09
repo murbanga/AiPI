@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SciLexer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP16.tmp" with contents
+[
+/nologo /G6 /MT /W4 /O1 /I "..\include" /I "..\src" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "SCI_LEXER" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Project AIPI VS6\AIPI\scintilla\vcbuild\LexAIPI.cxx"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP16.tmp" 
+Creating temporary file "D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP17.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib imm32.lib comctl32.lib /nologo /dll /pdb:none /map:"Release/SciLexer.map" /machine:I386 /out:"../bin/SciLexer.dll" /implib:"../bin/SciLexer.lib" /opt:nowin98 
+".\Release\AutoComplete.obj"
+".\Release\CallTip.obj"
+".\Release\CellBuffer.obj"
+".\Release\CharClassify.obj"
+".\Release\ContractionState.obj"
+".\Release\Document.obj"
+".\Release\DocumentAccessor.obj"
+".\Release\Editor.obj"
+".\Release\ExternalLexer.obj"
+".\Release\Indicator.obj"
+".\Release\KeyMap.obj"
+".\Release\KeyWords.obj"
+".\Release\LexAda.obj"
+".\Release\LexAIPI.obj"
+".\Release\LexAIPIBullant.obj"
+".\Release\LexAPDL.obj"
+".\Release\LexAsm.obj"
+".\Release\LexAsn1.obj"
+".\Release\LexAU3.obj"
+".\Release\LexAVE.obj"
+".\Release\LexBaan.obj"
+".\Release\LexBash.obj"
+".\Release\LexBasic.obj"
+".\Release\LexBullant.obj"
+".\Release\LexCaml.obj"
+".\Release\LexCLW.obj"
+".\Release\LexConf.obj"
+".\Release\LexCPP.obj"
+".\Release\LexCrontab.obj"
+".\Release\LexCsound.obj"
+".\Release\LexCSS.obj"
+".\Release\LexEiffel.obj"
+".\Release\LexErlang.obj"
+".\Release\LexEScript.obj"
+".\Release\LexFlagship.obj"
+".\Release\LexForth.obj"
+".\Release\LexFortran.obj"
+".\Release\LexGui4Cli.obj"
+".\Release\LexHaskell.obj"
+".\Release\LexHTML.obj"
+".\Release\LexInno.obj"
+".\Release\LexKix.obj"
+".\Release\LexLisp.obj"
+".\Release\LexLout.obj"
+".\Release\LexLua.obj"
+".\Release\LexMatlab.obj"
+".\Release\LexMetapost.obj"
+".\Release\LexMMIXAL.obj"
+".\Release\LexMPT.obj"
+".\Release\LexMSSQL.obj"
+".\Release\LexNsis.obj"
+".\Release\LexOpal.obj"
+".\Release\LexOthers.obj"
+".\Release\LexPascal.obj"
+".\Release\LexPB.obj"
+".\Release\LexPerl.obj"
+".\Release\LexPOV.obj"
+".\Release\LexPS.obj"
+".\Release\LexPython.obj"
+".\Release\LexRebol.obj"
+".\Release\LexRuby.obj"
+".\Release\LexScriptol.obj"
+".\Release\LexSmalltalk.obj"
+".\Release\LexSpecman.obj"
+".\Release\LexSpice.obj"
+".\Release\LexSQL.obj"
+".\Release\LexTADS3.obj"
+".\Release\LexTCL.obj"
+".\Release\LexTeX.obj"
+".\Release\LexVB.obj"
+".\Release\LexVerilog.obj"
+".\Release\LexVHDL.obj"
+".\Release\LexYAML.obj"
+".\Release\LineMarker.obj"
+".\Release\PlatWin.obj"
+".\Release\PropSet.obj"
+".\Release\RESearch.obj"
+".\Release\ScintillaBase.obj"
+".\Release\ScintillaWin.obj"
+".\Release\Style.obj"
+".\Release\StyleContext.obj"
+".\Release\UniConversion.obj"
+".\Release\ViewStyle.obj"
+".\Release\WindowAccessor.obj"
+".\Release\XPM.obj"
+".\Release\ScintRes.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP17.tmp"
+<h3>Output Window</h3>
+Compiling...
+LexAIPI.cxx
+Linking...
+   Creating library ../bin/SciLexer.lib and object ../bin/SciLexer.exp
+
+
+
+<h3>Results</h3>
+SciLexer.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

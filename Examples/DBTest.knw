@@ -1,0 +1,44 @@
+
+ASSERT( Perro  tiene "pulgas");
+SQLQUERY query = |SELECT *  FROM JugarTennis WHERE Viento = "FALSO"|
+SQLQUERY n = |SELECT COUNT(*)  FROM JugarTennis WHERE Viento = "FALSO"| 
+//Test1
+/*
+DB_OPEN( DB_USER = "Carlos", 
+		DB_PROVIDER = "Ms_Access", 
+		DB_PASSWORD = "12345", 
+		DB_NAME = "D:\Project AIPI VS6\AIPI\Examples\DT_DBSamples.mdb") ;
+
+*/		
+//Test2
+/*
+STRING dns = "Lucassss";
+STRING location = "D:\Project AIPI VS6\AIPI\Examples\DT_DBSamples.mdb";
+DB_OPEN( DB_USER = "Carlos", 
+		DB_PROVIDER = "Ms_Access",
+		DB_DNS = dns,
+		DB_PASSWORD = "12345", 
+		DB_NAME = location) ;
+*/	
+
+//Test3
+/*
+DB_OPEN( DB_USER = "Carlos", 
+		DB_PROVIDER = "Ms_Access", 
+		DB_PASSWORD = "12345", 
+		DB_NAME = "D:\Project AIPI VS6\AIPI\Examples\SIMP24.mdb") ;
+*/	
+
+RULE "Perro"()
+{
+IF Perro tiene "pulgas"
+THEN Perro es "sucio"
+AND EXEC( 
+			STRING dns = "Lucassss";
+			STRING location = "C:\AIPI Project\AIPI\Examples\DT_DBSamples.mdb";
+               )
+AND DB_OPEN( DB_USER = "Carlos", DB_PROVIDER = "Ms_Access",DB_DNS = dns,	DB_PASSWORD = "12345",DB_NAME = location) ;
+AND EXEC( query;)
+AND EXEC( INT cuenta = n; )
+}		
+

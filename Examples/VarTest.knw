@@ -1,0 +1,79 @@
+
+
+ASSERT( Pedro estatura = 1.69 );
+ASSERT( Pedro status_social  "alto" );
+ASSERT( Pedro sexo  "masculino" );
+
+
+ASSERT( Juan estatura = 1.79 );
+ASSERT( Juan status_social  "alto" );
+ASSERT( Juan sexo  "masculino" );
+
+
+ASSERT( Carlos estatura = 1.70 );
+ASSERT( Carlos status_social  "medio" );
+ASSERT( Carlos sexo  "masculino" );
+
+
+ASSERT( Miguel estatura = 1.74 );
+ASSERT( Miguel status_social  "pobre" );
+ASSERT( Miguel sexo  "masculino" );
+
+
+ASSERT( Karla estatura = 1.67 );
+ASSERT( Karla status_social  "medio" );
+ASSERT( Karla sexo "femenino");
+
+
+ASSERT( Jessica estatura = 1.70 );
+ASSERT( Jessica status_social  "alto" );
+ASSERT( Jessica sexo "femenino");
+
+
+ASSERT( Carolina estatura = 1.58 );
+ASSERT( Carolina status_social  "pobre" );
+ASSERT( Carolina sexo "femenino");
+
+
+ASSERT( Ligia estatura = 1.72 );
+ASSERT( Ligia status_social  "medio" );
+ASSERT( Ligia sexo "femenino");
+
+
+ASSERT( Alejandra estatura = 1.79 );
+ASSERT( Alejandra status_social  "alto" );
+ASSERT( Alejandra sexo "femenino");
+
+
+ASSERT( Lucas estatura = 1.73 );
+ASSERT( Lucas status_social  "medio" );
+ASSERT( Lucas sexo  "masculino" );
+
+
+ASSERT( Mateo estatura = 1.75 );
+ASSERT( Mateo status_social  "pobre" );
+ASSERT( Mateo sexo  "masculino" );
+
+
+RULE "R777"()
+{
+IF     $x$    estatura > 1.70
+AND $x$  estatura < 1.75
+AND $x$ status_social "alto"
+AND $x$  sexo "masculino"
+THEN  
+Hombre  altura "promedio"
+OUTPUT>>"Dispara Regla777";
+} 
+
+
+RULE "R666"()
+{
+IF   $x$ estatura > 1.65
+AND $x$ status_social "alto"
+AND $x$ sexo  "femenino"
+THEN  
+Hembra  altura  "media"
+OUTPUT>>"Dispara Regla666";
+} 
+

@@ -1,0 +1,9 @@
+SKY,BAROMETER,WIND,RAIN
+Clear,Rising,North,-
+Cloudy,Rising,South,+
+Cloudy,Steady,North,+
+Clear,Falling,North,-
+Cloudy,Falling,North,+
+Cloudy,Rising,North,+
+Cloudy,Falling,South,-
+Clear,Rising,South,-

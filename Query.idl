@@ -1,0 +1,19 @@
+
+	// Query.idl : IDL source for Query.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (Query.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(B4080AC8-A4A8-492C-ADCF-B7113A25423B),
+	version(1.0),
+	helpstring("Query 1.0 Type Library")
+]
+library QueryLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	

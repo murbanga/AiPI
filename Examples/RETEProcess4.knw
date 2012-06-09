@@ -1,0 +1,42 @@
+//RETE Process Test3  Sample 3.001
+//Edited RULE 2 match sample (BM4 y BM5)
+
+ASSERT (block1 	on 		"block2");
+ASSERT( block1 	on 		"block3");
+ASSERT( block1 	color 	"red");
+ASSERT( block2 	on 		"table");
+ASSERT( block2 	left_of 	"block3");
+ASSERT( block2 	color 	"blue");
+ASSERT( block3 	left_of 	"block4");
+ASSERT( block3 	on 		"block4");
+ASSERT( block3 	color 	"red");
+
+RULE "R1"()
+{
+IF  		$x$ 		on		$y$
+AND 	$y$  	left_of	$z$
+AND		$z$		color		"red"
+THEN	block4	color		"blue"
+
+}
+
+
+RULE "R2"()
+{
+IF		$x$		on		$y$
+AND		$y$		left_of	$z$
+AND		$z$		on		"table"
+THEN	block1	right_of	"block4"
+}
+
+RULE "R3"()
+{
+IF		$x$		on		$y$
+AND		$x$		color		"red"
+AND		$y$		left_of	$z$
+AND		$z$		color		"blue"
+THEN	block4	on		"table"
+}
+
+
+

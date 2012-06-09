@@ -1,0 +1,14 @@
+Col1,Col2,Col3,Col4,Col5,Col6,Col7
+Perro,V,Desayuno,Cuadrupedo,Aceptado,Si,Bravo
+Gato,V,Almuerzo,Cuadrupedo,Aceptado,No,Calmado
+Loro,V,Cena,Cuadrupedo,No Aceptado,No,Bravo
+Ratón,F,Merienda,Cuadrupedo,No Aceptado,No,Bravo
+Perro,F,Merienda,Cuadrupedo,No Aceptado,Si,Calmado
+Gato,V,Merienda,Cuadrupedo,Aceptado,Si,Calmado
+Loro,V,Merienda,Cuadrupedo,Aceptado,Si,Bravo
+Ratón,V,Merienda,Cuadrupedo,Aceptado,Si,Calmado
+Perro,F,Desayuno,Cuadrupedo,No Aceptado,No,Bravo
+Gato,V,Desayuno,Cuadrupedo,No Aceptado,No,Bravo
+Loro,F,Desayuno,Cuadrupedo,Aceptado,Si,Bravo
+Ratón,F,Almuerzo,Cuadrupedo,Aceptado,No,Bravo
+Perro,F,Almuerzo,Cuadrupedo,Aceptado,Si,Calmado

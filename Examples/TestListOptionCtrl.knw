@@ -1,0 +1,10 @@
+STRING   k;
+
+DISPLAYCTRL ListOptionCtrl( 
+Insert = { ("Orden", "Salon Te"), 
+		("Casa", "Estado de Cuenta"), 
+		("Pentagrama", "Murte Subita"), 
+		("Estado Dorsal", "Logica Difusa") }, ShowCtrl = true, InputVar = k);
+		
+		
+DISPLAYCTRL ListOptionCtrl( ShowCtrl = true, Insert = { "Musica", "Destello", "Luna"} );		

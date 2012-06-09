@@ -1,0 +1,6 @@
+void main()
+{
+	d = (int ) jota;
+	int k = (int) 134.67;
+	t = (float)(int) suma(6, 9);
+}

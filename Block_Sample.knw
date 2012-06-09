@@ -1,0 +1,54 @@
+CLASS object
+{
+	STRING  block;
+	STRING  table;
+}
+
+CLASS block1
+{
+	STRING on;
+	STRING left_of;
+	STRING color;
+}
+
+CLASS block2
+{
+	STRING on;
+	STRING left_of;
+	STRING color;
+}
+
+CLASS block3 
+{
+	STRING on;
+	STRING left_of;
+	STRING color;
+}
+
+
+ASSERT( object		block	"block1");
+ASSERT( object		block	"block2");
+ASSERT( object		table		"table1");
+ASSERT (block1 	on 		"block2");
+ASSERT( block1 	on 		"block3");
+ASSERT( block1 	color 	"red");
+ASSERT( block2 	on 		"table");
+ASSERT( block2 	left_of 	"block3");
+ASSERT( block2 	color 	"blue");
+ASSERT( block3 	left_of 	"block4");
+ASSERT( block3 	on 		"table");
+ASSERT( block3 	color 	"red");
+
+
+RULE "Find stack of 2 blocks to the left of a red block"()
+{
+IF 		$x$ 		on		$y$
+AND		$y$   	left_of	$z$
+AND 	$z$		color		"red"
+THEN	block1	on 		"floor"
+
+}
+
+
+
+

@@ -1,0 +1,18 @@
+void main()
+{
+	long a = *(p1 + 4);
+	b = *x[2];
+	int *x[10];
+	
+	c[2] = &var;
+	int  *ptr1,  *ptr2;
+	m = &cuenta;
+	q = *m;  */
+	char cad[80], *p1;
+	float **balance;
+
+	//función
+	busca(  *p[],  *nombre);
+
+return 0;
+}

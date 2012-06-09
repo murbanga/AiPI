@@ -1,0 +1,1053 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CadIO - Win32 Unicode_Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP2A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_UNICODE" /D "_USRDLL" /D "CADIO_EXPORTS" /FR"CadIO___Win32_Unicode_Debug/" /Fp"CadIO___Win32_Unicode_Debug/CadIO.pch" /Yu"stdafx.h" /Fo"CadIO___Win32_Unicode_Debug/" /Fd"CadIO___Win32_Unicode_Debug/" /FD /GZ /c 
+"D:\Project AIPI VS6\AIPI\CadLib\DXFFile\Read\DRBlocks.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\DXFFile\Read\DREntities.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\DXFFile\Read\DRTables.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\DXFFile\Write\DWBlocks.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\DXFFile\Write\DWEntities.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\DXFFile\Write\DWTables.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\DXFFile\Base\DXFBase.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\DXFFile\Read\DXFRead.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\DXFFile\Write\DXFWrite.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\Drawing\View\DimView.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\Drawing\DrwIO.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\Drawing\MemDrw.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\Drawing\View\TextView.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\Drawing\View\View.cpp"
+"D:\Project AIPI VS6\AIPI\CadLib\CadIO\CadIO.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP2A.tmp" 
+Creating temporary file "D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP2B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"CadIO___Win32_Unicode_Debug/CadIO.pdb" /debug /machine:I386 /def:".\CadIO.def" /out:"../Bin/Debug/CadIO.dll" /implib:"CadIO___Win32_Unicode_Debug/CadIO.lib" /pdbtype:sept 
+".\CadIO___Win32_Unicode_Debug\DRBlocks.obj"
+".\CadIO___Win32_Unicode_Debug\DREntities.obj"
+".\CadIO___Win32_Unicode_Debug\DRTables.obj"
+".\CadIO___Win32_Unicode_Debug\DWBlocks.obj"
+".\CadIO___Win32_Unicode_Debug\DWEntities.obj"
+".\CadIO___Win32_Unicode_Debug\DWTables.obj"
+".\CadIO___Win32_Unicode_Debug\DXFBase.obj"
+".\CadIO___Win32_Unicode_Debug\DXFRead.obj"
+".\CadIO___Win32_Unicode_Debug\DXFWrite.obj"
+".\CadIO___Win32_Unicode_Debug\DimView.obj"
+".\CadIO___Win32_Unicode_Debug\DrwIO.obj"
+".\CadIO___Win32_Unicode_Debug\MemDrw.obj"
+".\CadIO___Win32_Unicode_Debug\TextView.obj"
+".\CadIO___Win32_Unicode_Debug\View.obj"
+".\CadIO___Win32_Unicode_Debug\CadIO.obj"
+".\CadIO___Win32_Unicode_Debug\StdAfx.obj"
+".\CadIO___Win32_Unicode_Debug\CadIO.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP2B.tmp"
+<h3>Output Window</h3>
+Compiling...
+DRBlocks.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DREntities.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DRTables.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DWBlocks.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DWEntities.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DWTables.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DXFBase.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DXFRead.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DXFWrite.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DimView.cpp
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+DrwIO.cpp
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+D:\Project AIPI VS6\AIPI\CadLib\Drawing\DrwIO.cpp(580) : error C2065: '_tcscpy' : undeclared identifier
+MemDrw.cpp
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+TextView.cpp
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+View.cpp
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\vc\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+CadIO.cpp
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2065: '_T' : undeclared identifier
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(261) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(262) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(263) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'int' to 'const char *'
+        Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+d:\project aipi vs6\aipi\cadlib\interface\dxfdef.h(264) : error C2440: 'initializing' : cannot convert from 'const double' to 'const char *'
+        There is no context in which this conversion is possible
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+CadIO.dll - 496 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

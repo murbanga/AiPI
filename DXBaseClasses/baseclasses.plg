@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BaseClasses - Win32 Debug Unicode--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSPD.tmp" with contents
+[
+..\lib\strmiids.lib /nologo /out:"Debug_Unicode\strmbasd.lib" /nodefaultlib 
+".\Debug_Unicode\amextra.obj"
+".\Debug_Unicode\amfilter.obj"
+".\Debug_Unicode\amvideo.obj"
+".\Debug_Unicode\combase.obj"
+".\Debug_Unicode\cprop.obj"
+".\Debug_Unicode\ctlutil.obj"
+".\Debug_Unicode\ddmm.obj"
+".\Debug_Unicode\dllentry.obj"
+".\Debug_Unicode\dllsetup.obj"
+".\Debug_Unicode\mtype.obj"
+".\Debug_Unicode\outputq.obj"
+".\Debug_Unicode\pstream.obj"
+".\Debug_Unicode\pullpin.obj"
+".\Debug_Unicode\refclock.obj"
+".\Debug_Unicode\renbase.obj"
+".\Debug_Unicode\schedule.obj"
+".\Debug_Unicode\seekpt.obj"
+".\Debug_Unicode\source.obj"
+".\Debug_Unicode\strmctl.obj"
+".\Debug_Unicode\sysclock.obj"
+".\Debug_Unicode\transfrm.obj"
+".\Debug_Unicode\transip.obj"
+".\Debug_Unicode\videoctl.obj"
+".\Debug_Unicode\vtrans.obj"
+".\Debug_Unicode\winctrl.obj"
+".\Debug_Unicode\winutil.obj"
+".\Debug_Unicode\wxdebug.obj"
+".\Debug_Unicode\wxlist.obj"
+".\Debug_Unicode\wxutil.obj"
+]
+Creating command line "link.exe -lib @D:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Creating library...
+
+
+
+<h3>Results</h3>
+strmbasd.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

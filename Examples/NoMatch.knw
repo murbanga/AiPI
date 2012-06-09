@@ -1,0 +1,47 @@
+
+ASSERT (block1 	on 		"block2");
+ASSERT( block1 	on 		"block3");
+ASSERT( block1 	color 	"red");
+ASSERT( block2 	on 		"table");
+ASSERT( block2 	left_of 	"block3");
+ASSERT( block2 	color 	"blue");
+ASSERT( block3 	left_of 	"block4");
+ASSERT( block3 	on 		"block4");
+ASSERT( block3 	color 	"red");
+ASSERT( block4 	color 	"blue");
+ASSERT( block4 	on 		"table");
+
+
+/*
+RULE "R4"()
+{
+IF		$x$		on		$y$
+AND		$y$		left_of	$z$
+AND		$z$		color		"blue"
+AND		$z$		color		"red"
+THEN	block5	on		"floor"	
+
+}
+
+RULE "R4.1"()
+{
+IF		$x$		on		$y$
+AND		$y$		left_of	$z$
+THEN	block5	on		"floor"	
+}
+
+RULE "R4.2"()
+{
+IF		$y$		left_of	$z$
+AND		$z$		color		"red"
+THEN	block5	on		"floor"	
+
+}
+*/
+RULE "R4.3"()
+{
+IF		$z$		color		"red"
+AND		$z$		color		"blue"
+THEN	block5	on		"floor"	
+
+}

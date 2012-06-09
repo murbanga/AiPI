@@ -1,0 +1,14 @@
+STRATEGY: CR_ORDER
+
+
+ASSERT( Carlos   tiene   'SIDA');
+ASSERT( Pedro   tiene 'SIDA');
+ASSERT(  Miguel  tiene 'SIDA');
+
+RULE "Espasmo"()
+{
+IF
+$persona$  tiene 'SIDA'
+THEN
+Karla  tiene 'SIDA'	
+}

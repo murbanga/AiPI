@@ -1,0 +1,31 @@
+/*
+INT x = 5;
+INT y = 10;
+INT z = 2;
+
+z = x + y;
+*/
+/*
+LONG f, y, u = 67;
+STRING k, b, c = "cadena";
+INT g;
+*/
+//Comment
+//Declaraciones
+/*
+short    a;
+double  v1, v2, v3;
+long    g1 = 67.9;
+te
+quiero
+mucho
+ 
+*/
+/*
+int  array[ 6 ];
+
+char esso[ ] = { 1, 2, 3};
+*/
+//INT funcion1( INT n, LONG m, FLOAT y);
+INT a = function1( 56, 9);
+Function1(6, 9);

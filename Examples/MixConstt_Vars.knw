@@ -1,0 +1,54 @@
+
+//Mix variables with constant test
+ASSERT (block1 	on 		"block2");
+ASSERT( block1 	on 		"block3");
+ASSERT( block1 	color 	"red");
+ASSERT( block1 	left_of 	"block2");
+ASSERT( block2 	on 		"table");
+ASSERT( block2 	left_of 	"block3");
+ASSERT( block2 	color 	"blue");
+ASSERT( block3 	left_of 	"block4");
+ASSERT( block3 	on 		"table");
+ASSERT( block3 	color 	"red");
+
+
+//Cumple constantes y variables
+RULE "R1"()
+{
+IF 		$x$ 		on		$y$
+AND		block2   	left_of	"block3"
+AND 	$y$		color		"red"
+THEN	block4	right_of 	"block5"
+AND		block3	right_of	"block4"
+}
+/*
+//No cumple variables, cumple constantes
+RULE "R1.1"()
+{
+IF 		$x$ 		on		$y$
+AND		block2   	left_of	"block3"
+AND 	$y$		color		"green"
+THEN	block4	right_of 	"block5"
+AND		block3	right_of	"block4"
+}
+
+//Cumple variables y cumple constantes
+RULE "R2"()
+{
+IF 		block1 	on		"block2"
+AND		$x$   	left_of	$y$
+AND 	$y$		color		"blue"
+AND		$y$		on 		"table"
+THEN	block5	on		"table"
+}
+
+//Cumple las variable no cumple constantes
+RULE "R2.2"()
+{
+IF 		block1 	on		"block4"
+AND		$x$   	left_of	$y$
+AND 	$y$		color		"blue"
+AND		$y$		on 		"table"
+THEN	block5	on		"table"
+}
+*/

@@ -1,0 +1,75 @@
+//Block World
+//Rule Move block Directly
+//The way CLIPS solve it
+
+CLASS block
+{
+	STRING name;
+}
+
+CLASS on_top_of
+{
+	STRING upper;
+	STRING lower;
+}
+
+CLASS goal
+{
+	STRING move;
+	STRING top;
+	STRING status;
+}
+
+
+
+
+//ASSERT( block 		name       "nothing"); 
+ASSERT (block 		name 	"A");
+ASSERT( block 		name 	"B");
+ASSERT( block 		name 	"C");
+ASSERT( block 		name 	"D");
+ASSERT (block 		name 	"E");
+ASSERT( block 		name 	"F");
+ASSERT (nothing	on		"A");
+ASSERT( nothing 	on 		"D");
+ASSERT (A 		on 		"B");
+ASSERT( B		on 		"C");
+ASSERT (D		on 		"E");
+ASSERT( E 		on 		"F");
+ASSERT (C 		on		"floor");
+ASSERT( F 		on 		"floor");
+ASSERT(goal		move	"A");
+ASSERT(goal		on		"D");
+
+/*
+RULE "Move directly"()
+{
+IF		goal			move	$block1$
+AND		goal			on		$block2$
+AND		block		name	$block1$
+AND		block		name	$block2$
+AND		nothing		on		$block1$
+AND		nothing		on		$block2$
+AND		$block1$		on		$block3$
+THEN	goal			status	"ok"
+
+}
+*/
+
+
+RULE "Move directly"()
+{
+IF		block		name	$block1$
+AND		block		name	$block2$
+AND		block		name	$block3$
+AND		nothing		on		$block1$
+AND		nothing		on		$block2$
+AND		$block1$		on		$block3$
+AND		goal			move	$block1$
+AND		goal			on		$block2$
+THEN	goal			status	"ok"
+
+}
+
+
+

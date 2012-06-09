@@ -1,0 +1,457 @@
+//Hechos
+INICIO
+{
+REGLA :1
+{
+SI			¿El bloque A esta encima de bloque B?;
+			(SALIDA<<'El bloque A está encima del bloque B';RESP : 'Sí';)
+ENTONCES	¿El bloque A esta encima de bloque B?;
+SI_FIN
+}
+
+REGLA :2
+{
+SI			¿El bloque B esta encima de bloque C?;
+			(SALIDA<<'El bloque B está encima del bloque C';RESP : 'Sí';)
+ENTONCES	¿El bloque B esta encima de bloque C?;
+SI_FIN
+}
+
+REGLA :3
+{
+SI			¿El bloque D esta encima de bloque E?;
+			(SALIDA<<'El bloque D está encima del bloque E';RESP : 'Sí';)
+ENTONCES	¿El bloque D esta encima de bloque E?;
+SI_FIN
+}
+
+REGLA :4
+{
+SI			¿El bloque E esta encima de bloque F?;
+			(SALIDA<<'El bloque E está encima del bloque F';RESP : 'Sí';)
+ENTONCES	¿El bloque E esta encima de bloque F?;
+SI_FIN
+}
+
+REGLA :5
+{
+SI			¿El bloque A es el bloque en la cima de su pila?;
+			(SALIDA<<'El bloque A es el bloque en la cima de su pila';RESP : 'Sí';)
+ENTONCES	¿Bloque A es el bloque en la cima de su pila?;
+			¿Bloque B no es el bloque en la cima de su pila?;
+			¿Bloque C no es el bloque en la cima de su pila?;
+SI_FIN
+}
+
+
+REGLA :6
+{
+SI			¿El bloque D es el bloque en la cima de su pila?;
+			(SALIDA<<'El bloque D es el bloque en la cima de su pila';RESP : 'Sí';)
+ENTONCES	¿Bloque D es el bloque en la cima de su pila?;
+			¿Bloque E no es el bloque en la cima de su pila?;
+			¿Bloque F no es el bloque en la cima de su pila?;
+SI_FIN
+}
+
+REGLA :7
+{
+SI			¿El bloque C es el bloque encima del piso?;
+			(SALIDA<<'El bloque C es el bloque encima del piso';RESP : 'Sí';)
+ENTONCES	¿Bloque C es el bloque encima del piso?;
+SI_FIN
+}
+
+REGLA :8
+{
+SI			¿El bloque F es el bloque encima del piso?;
+			(SALIDA<<'El bloque F es el bloque encima del piso';RESP : 'Sí';)
+ENTONCES	¿Bloque F es el bloque encima del piso?;
+SI_FIN
+}
+
+
+
+
+//Reglas mover directamente
+REGLA :10
+{
+SI 			¿La meta es mover el bloque A encima del bloque D?;
+Y			¿Bloque A es el bloque en la cima de su pila?;
+Y			¿Bloque D es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque A en la cima de bloque D?;
+SI_FIN
+}
+
+REGLA :11
+{
+SI 			¿La meta es mover el bloque A encima del bloque E?;
+Y			¿Bloque A es el bloque en la cima de su pila?;
+Y			¿Bloque E es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque A en la cima de bloque E?;
+SI_FIN
+}
+REGLA :12
+{
+SI 			¿La meta es mover el bloque A encima del bloque F?;
+Y			¿Bloque A es el bloque en la cima de su pila?;
+Y			¿Bloque F es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque A en la cima de bloque F?;
+SI_FIN
+}
+REGLA :13
+{
+SI 			¿La meta es mover el bloque B encima del bloque D?;
+Y			¿Bloque B es el bloque en la cima de su pila?;
+Y			¿Bloque D es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque B en la cima de bloque D?;
+SI_FIN
+}
+REGLA :14
+{
+SI 			¿La meta es mover el bloque B encima del bloque E?;
+Y			¿Bloque B es el bloque en la cima de su pila?;
+Y			¿Bloque E es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque B en la cima de bloque E?;
+SI_FIN
+}
+
+REGLA :15
+{
+SI 			¿La meta es mover el bloque B encima del bloque F?;
+Y			¿Bloque B es el bloque en la cima de su pila?;
+Y			¿Bloque F es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque B en la cima de bloque F?;
+SI_FIN
+}
+REGLA :16
+{
+SI 			¿La meta es mover el bloque C encima del bloque D?;
+Y			¿Bloque C es el bloque en la cima de su pila?;
+Y			¿Bloque D es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque C en la cima de bloque D?;
+SI_FIN
+}
+
+REGLA :17
+{
+SI 			¿La meta es mover el bloque C encima del bloque E?;
+Y			¿Bloque C es el bloque en la cima de su pila?;
+Y			¿Bloque E es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque C en la cima de bloque E?;
+SI_FIN
+}
+
+REGLA :18
+{
+SI 			¿La meta es mover el bloque C encima del bloque F?;
+Y			¿Bloque C es el bloque en la cima de su pila?;
+Y			¿Bloque F es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque C en la cima de bloque F?;
+SI_FIN
+}
+
+
+/*
+REGLA 1:
+{
+SI 			¿La meta es mover el bloque superior encima del bloque inferior?;
+Y			¿Bloque superior es el bloque en la cima de su pila?;
+Y			¿Bloque inferior es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque superior en la cima de bloque inferior?;
+}
+*/
+
+//Reglas Limpiar Bloque Superior
+REGLA :20
+{
+SI			¿La meta es mover el bloque A?;
+Y			¿Bloque A no es el bloque en la cima de su pila?;
+Y			¿El bloque B está encima del bloque A?;
+ENTONCES	¿La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :21
+{
+SI			¿La meta es mover el bloque A?;
+Y			¿Bloque A no es el bloque en la cima de su pila?;
+Y			¿El bloque C está encima del bloque A?;
+ENTONCES	¿La meta es mover el bloque C encima del piso?;
+SI_FIN
+}
+
+
+REGLA :22
+{
+SI			¿La meta es mover el bloque B?;
+Y			¿Bloque B no es el bloque en la cima de su pila?;
+Y			¿El bloque A está encima del bloque B?;
+ENTONCES	¿La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :23
+{
+SI			¿La meta es mover el bloque B?;
+Y			¿Bloque B no es el bloque en la cima de su pila?;
+Y			¿El bloque C está encima del bloque B?;
+ENTONCES	¿La meta es mover el bloque C encima del piso?;
+SI_FIN
+}
+
+
+REGLA :24
+{
+SI			¿La meta es mover el bloque C?;
+Y			¿Bloque C no es el bloque en la cima de su pila?;
+Y			¿El bloque A está encima del bloque C?;
+ENTONCES	¿La meta es mover el bloque A encima del piso?;
+SI_FIN
+}
+
+REGLA :25
+{
+SI			¿La meta es mover el bloque C?;
+Y			¿Bloque C no es el bloque en la cima de su pila?;
+Y			¿El bloque B está encima del bloque C?;
+ENTONCES	¿La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :26
+{
+SI			¿La meta es mover el bloque D?;
+Y			¿Bloque D no es el bloque en la cima de su pila?;
+Y			¿El bloque E está encima del bloque D?;
+ENTONCES	¿La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :27
+{
+SI			¿La meta es mover el bloque D?;
+Y			¿Bloque D no es el bloque en la cima de su pila?;
+Y			¿El bloque F está encima del bloque D?;
+ENTONCES	¿La meta es mover el bloque F encima del piso?;
+SI_FIN
+}
+
+
+REGLA :28
+{
+SI			¿La meta es mover el bloque E?;
+Y			¿Bloque E no es el bloque en la cima de su pila?;
+Y			¿El bloque D está encima del bloque E?;
+ENTONCES	¿La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :29
+{
+SI			¿La meta es mover el bloque E?;
+Y			¿Bloque E no es el bloque en la cima de su pila?;
+Y			¿El bloque F está encima del bloque E?;
+ENTONCES	¿La meta es mover el bloque F encima del piso?;
+SI_FIN
+}
+
+REGLA :30
+{
+SI			¿La meta es mover el bloque F?;
+Y			¿Bloque F no es el bloque en la cima de su pila?;
+Y			¿El bloque D está encima del bloque F?;
+ENTONCES	¿La meta es mover el bloque D encima del piso?;
+SI_FIN
+}
+
+REGLA :31
+{
+SI			¿La meta es mover el bloque F?;
+Y			¿Bloque F no es el bloque en la cima de su pila?;
+Y			¿El bloque E está encima del bloque F?;
+ENTONCES	¿La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+
+/*
+
+REGLA 3:
+{
+SI			¿La meta es mover bloque encima del bloque X?;
+Y			¿Bloque X no es el bloque en la cima de su pila?;
+Y			¿El bloque Y está encima del bloque X?;
+ENTONCES	¿La meta es mover el bloque Y al piso?;
+}
+*/
+//Reglas Limpiar Bloque Inferior
+REGLA :60
+{
+SI			¿La meta es mover el bloque A encima del bloque B?;
+Y			¿Bloque B no es el bloque en la cima de su pila?;
+Y			¿El bloque A está encima del bloque B?;
+ENTONCES	¿La meta es mover el bloque A encima del piso?;
+SI_FIN
+}
+
+REGLA :61
+{
+SI			¿La meta es mover el bloque A encima del bloque C?;
+Y			¿Bloque C no es el bloque en la cima de su pila?;
+Y			¿El bloque A está encima del bloque C?;
+ENTONCES	¿La meta es mover el bloque A encima del piso?;
+SI_FIN
+}
+REGLA :62
+{
+SI			¿La meta es mover el bloque B encima del bloque A?;
+Y			¿Bloque A no es el bloque en la cima de su pila?;
+Y			¿El bloque B está encima del bloque A?;
+ENTONCES	¿La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :63
+{
+SI			¿La meta es mover el bloque B encima del bloque C?;
+Y			¿Bloque C no es el bloque en la cima de su pila?;
+Y			¿El bloque B está encima del bloque C?;
+ENTONCES	¿La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :64
+{
+SI			¿La meta es mover el bloque C encima del bloque A?;
+Y			¿Bloque A no es el bloque en la cima de su pila?;
+Y			¿El bloque C está encima del bloque A?;
+ENTONCES	¿La meta es mover el bloque C encima del piso?;
+SI_FIN
+}
+
+REGLA :65
+{
+SI			¿La meta es mover el bloque C encima del bloque B?;
+Y			¿Bloque B no es el bloque en la cima de su pila?;
+Y			¿El bloque C está encima del bloque B?;
+ENTONCES	¿La meta es mover el bloque C encima del piso?;
+SI_FIN
+}
+
+REGLA :66
+{
+SI			¿La meta es mover el bloque D encima del bloque E?;
+Y			¿Bloque E no es el bloque en la cima de su pila?;
+Y			¿El bloque D está encima del bloque E?;
+ENTONCES	¿La meta es mover el bloque D encima del piso?;
+SI_FIN
+}
+
+REGLA :67
+{
+SI			¿La meta es mover el bloque D encima del bloque F?;
+Y			¿Bloque D no es el bloque en la cima de su pila?;
+Y			¿El bloque D está encima del bloque F?;
+ENTONCES	¿La meta es mover el bloque D encima del piso?;
+SI_FIN
+}
+REGLA :68
+{
+SI			¿La meta es mover el bloque E encima del bloque D?;
+Y			¿Bloque D no es el bloque en la cima de su pila?;
+Y			¿El bloque E está encima del bloque D?;
+ENTONCES	¿La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :69
+{
+SI			¿La meta es mover el bloque E encima del bloque F?;
+Y			¿Bloque F no es el bloque en la cima de su pila?;
+Y			¿El bloque E está encima del bloque F?;
+ENTONCES	¿La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :70
+{
+SI			¿La meta es mover el bloque F encima del bloque D?;
+Y			¿Bloque D no es el bloque en la cima de su pila?;
+Y			¿El bloque F está encima del bloque D?;
+ENTONCES	¿La meta es mover el bloque F encima del piso?;
+SI_FIN
+}
+
+
+REGLA :71
+{
+SI			¿La meta es mover el bloque F encima del bloque E?;
+Y			¿Bloque E no es el bloque en la cima de su pila?;
+Y			¿El bloque F está encima del bloque E?;
+ENTONCES	¿La meta es mover el bloque F encima del piso?;
+SI_FIN
+}
+
+
+/*
+REGLA 4:
+{
+SI 			¿La meta es mover bloque superior al piso?;
+Y			¿Bloque superior es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque superior al piso?;
+}
+*/
+
+
+//Reglas mover al piso
+REGLA :100
+{
+SI 			¿La meta es mover el bloque A encima del piso?;
+Y			¿Bloque A es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque A encima del piso?;
+SI_FIN
+}
+
+REGLA :101
+{
+SI 			¿La meta es mover el bloque B encima del piso?;
+Y			¿Bloque B es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :102
+{
+SI 			¿La meta es mover el bloque C encima del piso?;
+Y			¿Bloque C es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque C encima del piso?;
+SI_FIN
+}
+
+REGLA :103
+{
+SI 			¿La meta es mover el bloque D encima del piso?;
+Y			¿Bloque D es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque D encima del piso?;
+SI_FIN
+}
+
+REGLA :104
+{
+SI 			¿La meta es mover el bloque E encima del piso?;
+Y			¿Bloque E es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :105
+{
+SI 			¿La meta es mover el bloque F encima del piso?;
+Y			¿Bloque F es el bloque en la cima de su pila?;
+ENTONCES	¿Mover bloque F encima del piso?;
+SI_FIN
+}
+
+}
+FIN

@@ -1,0 +1,769 @@
+EXPERT SYSTEMS  vs. ESTRUCTURAL PROGRAMMING
+	
+Sample 01
+
+Expert System : Meninguitis	
+
+RULE 1:	
+IF	El paciente tiene una garganta inflamada
+AND	Se sospecha una infecci¢n bacterial
+THEN	Se cree que el paciente tiene Meninguitis
+
+RULE 2:	
+IF	La temperatura del paciente es > 37.6 grados
+THEN	El paciente tiene fiebre
+
+RULE 3:	
+IF	El paciente ha estado enfermo m s de un mes
+AND	El paciente tiene fiebre
+THEN	Se sospecha una infecci¢n bacterial
+
+Estructural Programming C++ : Meninguitis  (Solution 1)	
+
+int main()	
+{	
+string repuesta1, respuesta2,  respuesta3;	
+
+cout >> "¨Tiene el paciente una garganta inflamada?"	;
+cin>> repuesta1;	
+cout >> "¨Tiene el paciente la temperatura > 37.6?";	
+cin>> repuesta2;	
+cout >> "¨Ha estado el paciente enfermo m s de un mes?";	
+cin>> repuesta3;	
+
+if ( respuesta1 == "si" && respuesta2 == "si" && respuesta3 == "si" )	
+{	
+	printf("Se cree que el paciente tiene Meninguitis");
+}	
+return 0;	
+}	
+
+Estructural Programming C++ : Meninguitis  (Solution 2)
+
+int main()	
+{	
+string repuesta;	
+
+cout >> "¨Tiene el paciente una garganta inflamada?"	;
+cin>> repuesta;	
+if ( respuesta == "si" )	
+{	
+	cout >> "¨Tiene el paciente la temperatura > 37.6?"
+	cin>> repuesta;	
+	if ( respuesta == "si" )	
+	{	
+		cout >> "¨Ha estado el paciente enfermo m s de un mes?";
+		cin>> repuesta;
+	}	
+	else	
+	{	
+		printf( "No se llego a una soluci¢n");
+	}	
+}		
+else		
+{		
+	printf( "No se llego a una soluci¢n");	
+}		
+return 0;		
+}					
+
+
+Sample 02
+
+Data for predict the day Mauricio plays Tennis
+
+ID
+Attributes
+Class
+DAY
+OUTLOOK
+TEMPERATURE
+HUMIDITY
+WIND
+PLAY TENNIS
+D1
+Sunny
+Hot
+High
+Weak
+No
+D2
+Sunny
+Hot
+High
+Strong
+No
+D3
+Overcast
+Hot
+High
+Weak
+Yes
+D4
+Rain
+Mild
+High
+Weak
+Yes
+D5
+Rain
+Cool
+Normal
+Weak
+Yes
+D6
+Rain
+Cool
+Normal
+Strong
+No
+D7
+Overcast
+Cool
+Normal
+Strong
+Yes
+D8
+Sunny
+Mild
+High
+Weak
+No
+D9
+Sunny
+Cool
+High
+Weak
+Yes
+D10
+Rain
+Mild
+Normal
+Weak
+Yes
+D11
+Sunny
+Mild
+Normal
+Strong
+Yes
+D12
+Overcast
+Mild
+High
+Strong
+Yes
+D13
+Overcast
+Hot
+Normal
+Weak
+Yes
+D14
+Rain
+Mild
+High
+Strong
+No
+
+Decision Tree  Prediction for Mauricio Playing Tennis
+
+
+
+Expert System : Predicci¢n si se jugar s tennis	
+
+RULE 1:	
+IF	El clima es soleado
+AND	La humedad es alta
+THEN	No se jugar  tennis hoy
+
+RULE 2:	
+IF	El clima es soleado
+AND	La humedad es normal
+THEN	Se jugar  tennis hoy
+
+RULE 3:	
+IF	Si el clima es Nublado
+THEN	Se jugar  tennis hoy
+
+RULE 3:	
+IF	El clima es lluvioso
+AND	El viento es fuerte
+THEN	No se jugar  tennis hoy
+
+RULE 4:	
+IF	El clima es lluvioso
+AND	El viento es suave
+THEN	Se jugar  tennis hoy
+
+
+Estructural Programming C++: Predicci¢n si se jugar s tennis
+int main()	
+{	
+string repuesta;	
+
+cout >> "¨Est  el clima Soleado?"	
+cin>> repuesta;	
+if ( respuesta == "si" )	
+{	
+	cout >> "¨Est  la humedad Normal?";
+	cin>> repuesta;
+	if ( respuesta == "si" )
+	{
+		cout<<"Hoy se jugar  tennis";	
+	}		
+	else		
+	{		
+		cout >> "¨Est  la humedad Alta?";	
+		cin>> repuesta;	
+		if ( respuesta == "si" )	
+		{	
+			cout<<"Hoy no se jugar  tennis";
+		}	
+	}		
+}			
+else if			
+{			
+	cout >> "¨Est  el clima Nublado?";		
+	cin>> repuesta;		
+
+	if ( respuesta == "si" )			
+	{			
+		cout >> "¨Est  la humedad Normal?";		
+		cin>> repuesta;		
+		if ( respuesta == "si" )		
+		{		
+			cout<<"Hoy se jugar  tennis";	
+		}		
+		else		
+		{		
+			cout >> "¨Est  la humedad Alta?";	
+			cin>> repuesta;	
+			if ( respuesta == "si" )	
+			{	
+				cout<<"Sin Soluci¢n";
+			}
+		}	
+	}		
+}			
+else if			
+{			
+	cout >> "¨Est  el clima Lluvioso?";		
+	cin>> repuesta;		
+	if ( respuesta == "si" )		
+	{		
+		cout >> "¨Est  el Viento suave?";	
+		cin>> repuesta;	
+		if ( respuesta == "si" )	
+		{	
+			cout<<"Hoy se jugar  tennis";
+		}	
+		else		
+		{		
+			cout >> "¨Est  el Viento fuerte?"	
+			cin>> repuesta;	
+			if ( respuesta == "no" )	
+			{	
+				cout<<"Hoy no se jugar  tennis";
+			}	
+		}		
+	}			
+}				
+else 				
+{				
+	cout<<"Sin Soluci¢n";	
+		
+}
+
+Ejemplo Utilizando Variables Detective
+Rules Memory:
+
+If 		person ?x did something illegal
+Then 		person ?x is a criminal.
+ 
+If 		person ?x has fingerprints belonging to on object ?y
+Then 		person ?x touched object ?y at some point in the past.
+ 
+If 		person ?x shot person ?y 
+Then 		person ?x did something illegal. 
+
+If 		person ?x is dead
+Then 		person ?x should not be invited over for dinner. 
+
+
+JUEGO BLOCKS WORLD
+
+
+Consiste en un brazo mec nico el cual debe ordenar los bloques del estado inicial (figura1) de manera que lo ejecute en una cantidad m¡nima de movimientos hasta colocarlos en su posici¢n correcta que ser¡a el estado final (figura 2).   
+
+Figura 1 (Estado Inicial )
+ 
+ 
+
+Figura 2 ( Estado Final)
+
+
+REGLA MOVER DIRECTAMENTE
+IF	La meta es mover el bloque ?superior en la cima del bloque ?inferior,
+AND	El bloque ?superior es el bloque ubicado en la cima de su pila,
+AND	El bloque ?inferior es el bloque ubicado en la cima de su pila,
+THEN	Mover el bloque ?superior en la cima del bloque ?inferior.
+
+REGLA LIMPIAR BLOQUE SUPERIOR
+IF	La meta es mover el bloque ?x,
+AND	El bloque ?x no es el bloque ubicado en la cima de su pila,
+AND	El bloque ?superior esta encima del bloque ?x,
+THEN	La meta es mover el bloque ?superior al piso.
+
+REGLA LIMPIAR BLOQUE INFERIOR
+IF	La meta es mover otro bloque encima del bloque ?x,
+AND	El bloque ?x no es el bloque ubicado en la cima de su pila,
+AND	El bloque ?superior esta encima del bloque ?x,
+THEN	La meta es mover el bloque ?superior al piso.
+
+REGLA MOVER AL PISO
+IF	La meta es mover el bloque ?superior al piso
+AND	El bloque ?superior es el bloque en la cima de su pila,
+THEN	Mover el bloque ?superior al piso.
+
+
+Sin utilizar variable tomar¡a 105 reglas implementar el sistema experto.
+Ejemplo tomado de NIVEL9
+
+		//Hechos
+INICIO
+{
+REGLA :1
+{
+SI			¨El bloque A esta encima de bloque B?;
+			(SALIDA<<'El bloque A est  encima del bloque B';RESP : 'S¡';)
+ENTONCES		¨El bloque A esta encima de bloque B?;
+SI_FIN
+}
+
+REGLA :2
+{
+SI			¨El bloque B esta encima de bloque C?;
+			(SALIDA<<'El bloque B est  encima del bloque C';RESP : 'S¡';)
+ENTONCES		¨El bloque B esta encima de bloque C?;
+SI_FIN
+}
+
+REGLA :3
+{
+SI			¨El bloque D esta encima de bloque E?;
+			(SALIDA<<'El bloque D est  encima del bloque E';RESP : 'S¡';)
+ENTONCES		¨El bloque D esta encima de bloque E?;
+SI_FIN
+}
+
+REGLA :4
+{
+SI			¨El bloque E esta encima de bloque F?;
+			(SALIDA<<'El bloque E est  encima del bloque F';RESP : 'S¡';)
+ENTONCES		¨El bloque E esta encima de bloque F?;
+SI_FIN
+}
+
+REGLA :5
+{
+SI			¨El bloque A es el bloque en la cima de su pila?;
+			(SALIDA<<'El bloque A es el bloque en la cima de su pila';RESP : 'S¡';)
+ENTONCES		¨Bloque A es el bloque en la cima de su pila?;
+			¨Bloque B no es el bloque en la cima de su pila?;
+			¨Bloque C no es el bloque en la cima de su pila?;
+SI_FIN
+}
+
+
+REGLA :6
+{
+SI			¨El bloque D es el bloque en la cima de su pila?;
+			(SALIDA<<'El bloque D es el bloque en la cima de su pila';RESP : 'S¡';)
+ENTONCES		¨Bloque D es el bloque en la cima de su pila?;
+			¨Bloque E no es el bloque en la cima de su pila?;
+			¨Bloque F no es el bloque en la cima de su pila?;
+SI_FIN
+}
+
+REGLA :7
+{
+SI			¨El bloque C es el bloque encima del piso?;
+			(SALIDA<<'El bloque C es el bloque encima del piso';RESP : 'S¡';)
+ENTONCES		¨Bloque C es el bloque encima del piso?;
+SI_FIN
+}
+
+REGLA :8
+{
+SI			¨El bloque F es el bloque encima del piso?;
+			(SALIDA<<'El bloque F es el bloque encima del piso';RESP : 'S¡';)
+ENTONCES		¨Bloque F es el bloque encima del piso?;
+SI_FIN
+}
+
+
+
+
+//Reglas mover directamente
+REGLA :10
+{
+SI 			¨La meta es mover el bloque A encima del bloque D?;
+Y			¨Bloque A es el bloque en la cima de su pila?;
+Y			¨Bloque D es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque A en la cima de bloque D?;
+SI_FIN
+}
+
+REGLA :11
+{
+SI 			¨La meta es mover el bloque A encima del bloque E?;
+Y			¨Bloque A es el bloque en la cima de su pila?;
+Y			¨Bloque E es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque A en la cima de bloque E?;
+SI_FIN
+}
+REGLA :12
+{
+SI 			¨La meta es mover el bloque A encima del bloque F?;
+Y			¨Bloque A es el bloque en la cima de su pila?;
+Y			¨Bloque F es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque A en la cima de bloque F?;
+SI_FIN
+}
+REGLA :13
+{
+SI 			¨La meta es mover el bloque B encima del bloque D?;
+Y			¨Bloque B es el bloque en la cima de su pila?;
+Y			¨Bloque D es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque B en la cima de bloque D?;
+SI_FIN
+}
+REGLA :14
+{
+SI 			¨La meta es mover el bloque B encima del bloque E?;
+Y			¨Bloque B es el bloque en la cima de su pila?;
+Y			¨Bloque E es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque B en la cima de bloque E?;
+SI_FIN
+}
+
+REGLA :15
+{
+SI 			¨La meta es mover el bloque B encima del bloque F?;
+Y			¨Bloque B es el bloque en la cima de su pila?;
+Y			¨Bloque F es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque B en la cima de bloque F?;
+SI_FIN
+}
+REGLA :16
+{
+SI 			¨La meta es mover el bloque C encima del bloque D?;
+Y			¨Bloque C es el bloque en la cima de su pila?;
+Y			¨Bloque D es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque C en la cima de bloque D?;
+SI_FIN
+}
+
+REGLA :17
+{
+SI 			¨La meta es mover el bloque C encima del bloque E?;
+Y			¨Bloque C es el bloque en la cima de su pila?;
+Y			¨Bloque E es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque C en la cima de bloque E?;
+SI_FIN
+}
+
+REGLA :18
+{
+SI 			¨La meta es mover el bloque C encima del bloque F?;
+Y			¨Bloque C es el bloque en la cima de su pila?;
+Y			¨Bloque F es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque C en la cima de bloque F?;
+SI_FIN
+}
+
+
+
+//Reglas Limpiar Bloque Superior
+REGLA :20
+{
+SI			¨La meta es mover el bloque A?;
+Y			¨Bloque A no es el bloque en la cima de su pila?;
+Y			¨El bloque B est  encima del bloque A?;
+ENTONCES		¨La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :21
+{
+SI			¨La meta es mover el bloque A?;
+Y			¨Bloque A no es el bloque en la cima de su pila?;
+Y			¨El bloque C est  encima del bloque A?;
+ENTONCES		¨La meta es mover el bloque C encima del piso?;
+SI_FIN
+}
+
+
+REGLA :22
+{
+SI			¨La meta es mover el bloque B?;
+Y			¨Bloque B no es el bloque en la cima de su pila?;
+Y			¨El bloque A est  encima del bloque B?;
+ENTONCES		¨La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :23
+{
+SI			¨La meta es mover el bloque B?;
+Y			¨Bloque B no es el bloque en la cima de su pila?;
+Y			¨El bloque C est  encima del bloque B?;
+ENTONCES		¨La meta es mover el bloque C encima del piso?;
+SI_FIN
+}
+
+
+REGLA :24
+{
+SI			¨La meta es mover el bloque C?;
+Y			¨Bloque C no es el bloque en la cima de su pila?;
+Y			¨El bloque A est  encima del bloque C?;
+ENTONCES		¨La meta es mover el bloque A encima del piso?;
+SI_FIN
+}
+
+REGLA :25
+{
+SI			¨La meta es mover el bloque C?;
+Y			¨Bloque C no es el bloque en la cima de su pila?;
+Y			¨El bloque B est  encima del bloque C?;
+ENTONCES		¨La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :26
+{
+SI			¨La meta es mover el bloque D?;
+Y			¨Bloque D no es el bloque en la cima de su pila?;
+Y			¨El bloque E est  encima del bloque D?;
+ENTONCES		¨La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :27
+{
+SI			¨La meta es mover el bloque D?;
+Y			¨Bloque D no es el bloque en la cima de su pila?;
+Y			¨El bloque F est  encima del bloque D?;
+ENTONCES		¨La meta es mover el bloque F encima del piso?;
+SI_FIN
+}
+
+
+REGLA :28
+{
+SI			¨La meta es mover el bloque E?;
+Y			¨Bloque E no es el bloque en la cima de su pila?;
+Y			¨El bloque D est  encima del bloque E?;
+ENTONCES		¨La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :29
+{
+SI			¨La meta es mover el bloque E?;
+Y			¨Bloque E no es el bloque en la cima de su pila?;
+Y			¨El bloque F est  encima del bloque E?;
+ENTONCES		¨La meta es mover el bloque F encima del piso?;
+SI_FIN
+}
+
+REGLA :30
+{
+SI			¨La meta es mover el bloque F?;
+Y			¨Bloque F no es el bloque en la cima de su pila?;
+Y			¨El bloque D est  encima del bloque F?;
+ENTONCES		¨La meta es mover el bloque D encima del piso?;
+SI_FIN
+}
+
+REGLA :31
+{
+SI			¨La meta es mover el bloque F?;
+Y			¨Bloque F no es el bloque en la cima de su pila?;
+Y			¨El bloque E est  encima del bloque F?;
+ENTONCES		¨La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+
+*/
+//Reglas Limpiar Bloque Inferior
+REGLA :60
+{
+SI			¨La meta es mover el bloque A encima del bloque B?;
+Y			¨Bloque B no es el bloque en la cima de su pila?;
+Y			¨El bloque A est  encima del bloque B?;
+ENTONCES		¨La meta es mover el bloque A encima del piso?;
+SI_FIN
+}
+
+REGLA :61
+{
+SI			¨La meta es mover el bloque A encima del bloque C?;
+Y			¨Bloque C no es el bloque en la cima de su pila?;
+Y			¨El bloque A est  encima del bloque C?;
+ENTONCES		¨La meta es mover el bloque A encima del piso?;
+SI_FIN
+}
+REGLA :62
+{
+SI			¨La meta es mover el bloque B encima del bloque A?;
+Y			¨Bloque A no es el bloque en la cima de su pila?;
+Y			¨El bloque B est  encima del bloque A?;
+ENTONCES		¨La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :63
+{
+SI			¨La meta es mover el bloque B encima del bloque C?;
+Y			¨Bloque C no es el bloque en la cima de su pila?;
+Y			¨El bloque B est  encima del bloque C?;
+ENTONCES		¨La meta es mover el bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :64
+{
+SI			¨La meta es mover el bloque C encima del bloque A?;
+Y			¨Bloque A no es el bloque en la cima de su pila?;
+Y			¨El bloque C est  encima del bloque A?;
+ENTONCES		¨La meta es mover el bloque C encima del piso?;
+SI_FIN
+}
+
+REGLA :65
+{
+SI			¨La meta es mover el bloque C encima del bloque B?;
+Y			¨Bloque B no es el bloque en la cima de su pila?;
+Y			¨El bloque C est  encima del bloque B?;
+ENTONCES		¨La meta es mover el bloque C encima del piso?;
+SI_FIN
+}
+
+REGLA :66
+{
+SI			¨La meta es mover el bloque D encima del bloque E?;
+Y			¨Bloque E no es el bloque en la cima de su pila?;
+Y			¨El bloque D est  encima del bloque E?;
+ENTONCES		¨La meta es mover el bloque D encima del piso?;
+SI_FIN
+}
+
+REGLA :67
+{
+SI			¨La meta es mover el bloque D encima del bloque F?;
+Y			¨Bloque D no es el bloque en la cima de su pila?;
+Y			¨El bloque D est  encima del bloque F?;
+ENTONCES		¨La meta es mover el bloque D encima del piso?;
+SI_FIN
+}
+REGLA :68
+{
+SI			¨La meta es mover el bloque E encima del bloque D?;
+Y			¨Bloque D no es el bloque en la cima de su pila?;
+Y			¨El bloque E est  encima del bloque D?;
+ENTONCES		¨La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :69
+{
+SI			¨La meta es mover el bloque E encima del bloque F?;
+Y			¨Bloque F no es el bloque en la cima de su pila?;
+Y			¨El bloque E est  encima del bloque F?;
+ENTONCES		¨La meta es mover el bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :70
+{
+SI			¨La meta es mover el bloque F encima del bloque D?;
+Y			¨Bloque D no es el bloque en la cima de su pila?;
+Y			¨El bloque F est  encima del bloque D?;
+ENTONCES		¨La meta es mover el bloque F encima del piso?;
+SI_FIN
+}
+
+
+REGLA :71
+{
+SI			¨La meta es mover el bloque F encima del bloque E?;
+Y			¨Bloque E no es el bloque en la cima de su pila?;
+Y			¨El bloque F est  encima del bloque E?;
+ENTONCES		¨La meta es mover el bloque F encima del piso?;
+SI_FIN	
+}
+
+
+//Reglas mover al piso
+REGLA :100
+{
+SI 			¨La meta es mover el bloque A encima del piso?;
+Y			¨Bloque A es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque A encima del piso?;
+SI_FIN
+}
+
+REGLA :101
+{
+SI 			¨La meta es mover el bloque B encima del piso?;
+Y			¨Bloque B es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque B encima del piso?;
+SI_FIN
+}
+
+REGLA :102
+{
+SI 			¨La meta es mover el bloque C encima del piso?;
+Y			¨Bloque C es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque C encima del piso?;
+SI_FIN
+}
+
+REGLA :103
+{
+SI 			¨La meta es mover el bloque D encima del piso?;
+Y			¨Bloque D es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque D encima del piso?;
+SI_FIN
+}
+
+REGLA :104
+{
+SI 			¨La meta es mover el bloque E encima del piso?;
+Y			¨Bloque E es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque E encima del piso?;
+SI_FIN
+}
+
+REGLA :105
+{
+SI 			¨La meta es mover el bloque F encima del piso?;
+Y			¨Bloque F es el bloque en la cima de su pila?;
+ENTONCES		¨Mover bloque F encima del piso?;
+SI_FIN
+}
+
+}
+FIN
+TERMINAR
+		
+
+
+
+1
+
+

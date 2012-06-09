@@ -1,0 +1,32 @@
+ASSERT( lenguaje    es   "malo");
+ASSERT( pedro    es  "bueno");
+
+FLOAT num = 45.78;
+
+RULE "Local Input"()
+{
+IF( lenguaje es "malo")
+AND ( pedro es "bueno")
+THEN
+OUTPUT >> "Introduzca un dato";
+AND 
+EXEC (INT var = 0;)
+AND 
+INPUT<<var;
+AND
+OUTPUT >> "var es = " >> var;
+AND pedro habla "lenguaje"
+}
+
+RULE "Global Input"()
+{
+IF pedro es "bueno"
+AND pedro habla "lenguaje"
+THEN
+OUTPUT >> "Introduzca un número";
+INPUT <<num;
+OUTPUT >> num; 	
+
+} 
+
+

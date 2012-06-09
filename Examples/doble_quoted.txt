@@ -1,0 +1,93 @@
+//Double Quoted Strings
+	if( symbol == DOBLE_QUOTATION )
+	{
+		pos1 = g_currentPos;
+		++g_currentPos;
+		symbol = rCtrl.GetCharAt(g_currentPos);
+		
+		while(symbol != DOBLE_QUOTATION && symbol != CARRIAGE_RETURN && symbol != NUL )
+		{
+			//Check for \n escape sequence
+			if( symbol == BACK_SLASH )
+			{
+				tempPos = g_currentPos;
+				++tempPos;
+				int escSymbol = rCtrl.GetCharAt(tempPos);
+				
+				switch (escSymbol) 
+				{
+					case 97://  Escape /a  alert
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, ALERT, tk, LITERAL);
+						break;
+					case 98://  Escape /b backspace
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, BACKSPACE, tk, LITERAL);
+						break;
+					case 102://  Escape /f forward feed page
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, FORWARD_FEED, tk, LITERAL);
+						break;
+					case 110://  Escape /n  new line
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, NEW_LINE, tk, LITERAL);
+						break;
+					case 114://  Escape /r  carriage return
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, CARRIAGE_RETURN, tk, LITERAL);
+						break;
+					case 116://  Escape /t  horizontal tab
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, HORIZONTAL_TAB, tk, LITERAL);
+						break;
+					case 118://  Escape /v  vertical tab
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, VERTICAL_TAB, tk, LITERAL);
+						break;
+					case 27://  Symbol /'  single quotes
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, SINGLE_QUOTATION, tk, LITERAL);
+						break;
+					case 34://  Symbol /"  double quotes
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, DOBLE_QUOTATION, tk, LITERAL);
+						break;
+					case 92://  Symbol //  back slash
+						tk = getTextRange(tempPos -1, tempPos + 1); 
+						g_currentPos = tempPos;
+						addToken(tempPos -1, tempPos + 1, g_currentLine, BACK_SLASH, tk, LITERAL);
+						break;
+				}
+				
+				if( escSymbol != 34 )
+				{
+					symbol = escSymbol;
+				}
+						
+			}
+			++g_currentPos;
+		}
+		if( symbol == CARRIAGE_RETURN || symbol == NUL )
+		{
+				CAipi_Error err;
+				err.displayError(SYNTAX);
+				return ERROR;
+		}
+		pos2 = g_currentPos;
+		tstring tk = getTextRange(pos1, pos2);
+		addToken(pos1, pos2, g_currentLine, LIT_STRING, tk, LITERAL);
+		if( pos2 != SPACE )
+		{
+			--g_currentPos;
+		}
+		return LITERAL;
+	}

@@ -1,0 +1,38 @@
+ASSERT( persona  tiene  "carro");
+ASSERT( persona  tiene >= 18);
+ASSERT( carro	color    "negro");
+
+INT aipi = 12;
+LONG project = 56 + 7;
+STRING location = "C:\AIPI ProjectVS6\AIPI\Examples\DT_DBSamples.mdb";
+
+function suma( x,  y, z)
+{
+var c = parseInt(x) + parseInt(y) + parseInt(z);
+return c;
+}
+
+
+function  error()
+{
+este es un error
+}
+
+//SQL query = ( SELECT TOP 100 * FROM [JugarTennis] WHERE Humedad = "Alta");
+
+RULE "persona"()
+{
+	IF		persona	tiene  	"carro"
+	AND		carro	color		"negro"
+	THEN	ASSERT ( persona	es	"adulto")
+	AND		ASSERT( carro		es	"elegante")
+	AND		EXEC( INT a = 5;
+				  FLOAT b = 10;
+				DOUBLE c = 5;
+				INT var = suma( a, b, c) + 6; )
+	//AND	EXEC( query )	
+	//AND		ASSERT( persona	es	"elegante")
+	//AND		PRINTOUT<<"Te quiero "<<a<<"muerto";
+	//AND		PRINTOUT("Amor es " a " entrega");
+}		
+

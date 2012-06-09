@@ -1,0 +1,8 @@
+TEMPERATURE,WIND,SKY,BAROMETER,PREDICTION
+Above freezing,West,Cloudy,Falling,Rain
+Below freezing,*,Cloudy,Steady,Snow
+Above freezing,East,Cloudy,Rising,Shine
+Above freezing,*,Partly,Steady,Shine
+*,*,Clear,Steady,Shine
+Above freezing,South,Clear,Falling,Rain
+Freezing,North,Partly,Steady,Snow

@@ -1,0 +1,42 @@
+
+DISPLAYCTRL    JukeBoxDlg( Play = true, ShowCtrl = true,  Path = "F:\Videos\Gianella5.avi");
+DISPLAYCTRL  ImageFilterDlg( ShowCtrl = true, Path= "F:\Fotos\Malfaro05.jpg");
+OUTPUT >> "Digite su respuesta";
+STRING f = "Si";
+INT numero = 5;
+
+INPUT << f;
+OUTPUT>>f;
+
+DISPLAYCTRL    MediaPlayerDlg( Play = true, ShowCtrl = true,  Path = "F:\Videos\Gianella3.avi");
+
+ASSERT( id  attr = 45 );
+
+
+RULE "R1"()
+{
+IF   
+id	attr  >= 6
+AND 
+id     attr < 78
+THEN
+a es = 5
+AND
+
+DISPLAYCTRL MediaPlayerDlg( ShowCtrl = true, Play = false); 
+AND 
+OUTPUT >> f;
+AND 
+INPUT << numero;
+AND
+OUTPUT>> numero;
+AND
+DISPLAYCTRL  JukeBoxDlg( ShowCtrl = true,  Path = "F:\Videos\Gianella4.avi" );
+AND
+DISPLAYCTRL ListOptionCtrl( ShowCtrl = true, Insert = { "1", "2", "3", "Cuarenta" }, InputVar = numero);
+AND 
+OUTPUT >> numero;
+AND 
+DISPLAYCTRL JukeBoxDlg( ShowCtrl = false);
+}
+

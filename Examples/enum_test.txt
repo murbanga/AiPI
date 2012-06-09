@@ -1,0 +1,5 @@
+void main()
+{
+	enum moneda { penique, niquel, diez_centavos, cuarto, medio_dolar, dolar };
+	
+}

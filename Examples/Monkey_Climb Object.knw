@@ -1,0 +1,39 @@
+//Monkes and Bananas
+//Rule Climb Object 
+
+ASSERT (goal 		status 	"active");
+ASSERT( goal 		type 	"on");
+ASSERT( goal 		name 	"ladder");
+ASSERT( goal 		name 	"couch");
+ASSERT (goal 		name 	"banana");
+ASSERT (goal 		name 	"floor");
+ASSERT( object 	name 	"banana");
+ASSERT( banana 	at 		"2,2");
+ASSERT( banana 	on 		"ceiling");
+ASSERT( object 	name 	"ladder");
+ASSERT( ladder 	at 		"4,4");
+ASSERT( ladder 	on 		"floor");
+ASSERT( object 	name	"couch");
+ASSERT( couch		at 		"7,7");
+ASSERT( couch 	on 		"floor");
+ASSERT( object 	name 	"blanquet");
+ASSERT( monkey 	at 		"2,2");
+ASSERT( monkey 	hold 		"nothing");
+ASSERT( monkey 	on 		"floor");
+
+
+RULE "Climb object"()
+{
+IF		goal		status	"active"
+AND		goal 		type		"on"
+AND		goal		name	$o$
+AND		object   	name	$o$
+AND		$o$		at		$p$
+AND 	$o$		on		"floor"
+AND	        monkey	at		$p$
+AND		monkey	hold		"nothing"
+AND		monkey	on		"floor"
+THEN	gola		status 	"no active"
+
+
+}

@@ -1,0 +1,14 @@
+void main()
+{
+	union tipo_u
+	{
+		int i;
+		char ch;
+	};
+
+	union tipo_u cnvt;
+	cnvt.i = 10;
+	
+
+
+}

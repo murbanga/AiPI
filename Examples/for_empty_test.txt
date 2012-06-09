@@ -1,0 +1,8 @@
+void main()
+{
+	for( ; ; ) {    }
+
+	for( ; cad == ' ' ; cad = cad + 1 )
+	{
+	}
+}

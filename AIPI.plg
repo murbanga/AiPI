@@ -1,0 +1,1305 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AIPI - Win32 Unicode_Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP8.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "UTInclude" /I "DXBaseClasses" /I "DXInclude" /I "Common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_UNICODE" /D "UNICODE" /D _WIN32_WINNT=0x400 /D "TARGET_WMF9" /Fp"AIPI___Win32_Unicode_Debug/AIPI.pch" /Yu"stdafx.h" /Fo"AIPI___Win32_Unicode_Debug/" /Fd"AIPI___Win32_Unicode_Debug/" /FD /Zm400 /GZ /c 
+"C:\AIPI Project\AIPI\AIPI.cpp"
+"C:\AIPI Project\AIPI\Aipi_CParser.cpp"
+"C:\AIPI Project\AIPI\Aipi_Emitter.cpp"
+"C:\AIPI Project\AIPI\Aipi_Error.cpp"
+"C:\AIPI Project\AIPI\Aipi_ExpParser.cpp"
+"C:\AIPI Project\AIPI\Aipi_ExpParserFile.cpp"
+"C:\AIPI Project\AIPI\Aipi_ExpParserFileGlobal.cpp"
+"C:\AIPI Project\AIPI\Aipi_ExpParserGUI.cpp"
+"C:\AIPI Project\AIPI\Aipi_ExpParserGUIGlobal.cpp"
+"C:\AIPI Project\AIPI\Aipi_ExpParserRT.cpp"
+"C:\AIPI Project\AIPI\Aipi_Init.cpp"
+"C:\AIPI Project\AIPI\Aipi_Lexer.cpp"
+"C:\AIPI Project\AIPI\Aipi_Main.cpp"
+"C:\AIPI Project\AIPI\Aipi_Parser.cpp"
+"C:\AIPI Project\AIPI\Aipi_ParserFile.cpp"
+"C:\AIPI Project\AIPI\Aipi_ParserGUI.cpp"
+"C:\AIPI Project\AIPI\Aipi_ScriptCode.cpp"
+"C:\AIPI Project\AIPI\Aipi_ScriptLocation.cpp"
+"C:\AIPI Project\AIPI\Aipi_STableClass.cpp"
+"C:\AIPI Project\AIPI\Aipi_STableGlobalLiteral.cpp"
+"C:\AIPI Project\AIPI\Aipi_STableGlobalNumeric.cpp"
+"C:\AIPI Project\AIPI\Aipi_STableLiteral.cpp"
+"C:\AIPI Project\AIPI\Aipi_STableLocalLiteral.cpp"
+"C:\AIPI Project\AIPI\Aipi_STableLocalNumeric.cpp"
+"C:\AIPI Project\AIPI\Aipi_STableNumeric.cpp"
+"C:\AIPI Project\AIPI\Aipi_Symbol.cpp"
+"C:\AIPI Project\AIPI\Aipi_SymbolTable.cpp"
+"C:\AIPI Project\AIPI\Aipi_Tokenizer.cpp"
+"C:\AIPI Project\AIPI\AIPIDoc.cpp"
+"C:\AIPI Project\AIPI\AIPIEditorDoc.cpp"
+"C:\AIPI Project\AIPI\AIPIEditorView.cpp"
+"C:\AIPI Project\AIPI\AIPIGlobalFunctions.cpp"
+"C:\AIPI Project\AIPI\AIPIGlobals.cpp"
+"C:\AIPI Project\AIPI\AIPITabView.cpp"
+"C:\AIPI Project\AIPI\AIPITreeDoc.cpp"
+"C:\AIPI Project\AIPI\AIPITreeView.cpp"
+"C:\AIPI Project\AIPI\AIPIView.cpp"
+"C:\AIPI Project\AIPI\CalendarDlg.cpp"
+"C:\AIPI Project\AIPI\ChartAxisOptionDlg.cpp"
+"C:\AIPI Project\AIPI\ChartBarCtrl.cpp"
+"C:\AIPI Project\AIPI\ChartLinePropDlg.cpp"
+"C:\AIPI Project\AIPI\ChartPointPropDlg.cpp"
+"C:\AIPI Project\AIPI\ChartSerieDelDlg.cpp"
+"C:\AIPI Project\AIPI\ChartSeriePropDlg.cpp"
+"C:\AIPI Project\AIPI\ChartSurfacePropDlg.cpp"
+"C:\AIPI Project\AIPI\ChildFrm.cpp"
+"C:\AIPI Project\AIPI\CntrItem.cpp"
+"C:\AIPI Project\AIPI\ColourPicker.cpp"
+"C:\AIPI Project\AIPI\ColourPopup.cpp"
+"C:\AIPI Project\AIPI\CommandDlgBar.cpp"
+"C:\AIPI Project\AIPI\DocTemplateEx.cpp"
+"C:\AIPI Project\AIPI\DxfCadDlg.cpp"
+"C:\AIPI Project\AIPI\DxfDrawingView.cpp"
+"C:\AIPI Project\AIPI\DxfProgressDlg.cpp"
+"C:\AIPI Project\AIPI\EditInfoCtrl.cpp"
+"C:\AIPI Project\AIPI\FileFinder.cpp"
+"C:\AIPI Project\AIPI\FindInFilesDlg.cpp"
+"C:\AIPI Project\AIPI\FindInFilesExtDlg.cpp"
+"C:\AIPI Project\AIPI\FunctionProperties.cpp"
+"C:\AIPI Project\AIPI\GoToDlg.cpp"
+"C:\AIPI Project\AIPI\GraphAxisDlg.cpp"
+"C:\AIPI Project\AIPI\GraphBarCtrl.cpp"
+"C:\AIPI Project\AIPI\GraphCoordinatesDlg.cpp"
+"C:\AIPI Project\AIPI\ImageCtrl.cpp"
+"C:\AIPI Project\AIPI\ImageDlg.cpp"
+"C:\AIPI Project\AIPI\ImageFilterDlg.cpp"
+"C:\AIPI Project\AIPI\InductionTabView.cpp"
+"C:\AIPI Project\AIPI\InfoCtrl.cpp"
+"C:\AIPI Project\AIPI\jb_playvideo.cpp"
+"C:\AIPI Project\AIPI\jb_videoglobals.cpp"
+"C:\AIPI Project\AIPI\JukeBoxDlg.cpp"
+"C:\AIPI Project\AIPI\ListMultiOptionCtrl.cpp"
+"C:\AIPI Project\AIPI\ListOptionCtrl.cpp"
+"C:\AIPI Project\AIPI\MainFrm.cpp"
+"C:\AIPI Project\AIPI\MediaPlayerDlg.cpp"
+"C:\AIPI Project\AIPI\mp_playvideo.cpp"
+"C:\AIPI Project\AIPI\mp_videoglobals.cpp"
+"C:\AIPI Project\AIPI\NewProjectEndPage.cpp"
+"C:\AIPI Project\AIPI\NewProjectIntroPage.cpp"
+"C:\AIPI Project\AIPI\NewProjectPage1.cpp"
+"C:\AIPI Project\AIPI\NewProjectPage2.cpp"
+"C:\AIPI Project\AIPI\NewProjectSheet.cpp"
+"C:\AIPI Project\AIPI\NSChartBarCtrl.cpp"
+"C:\AIPI Project\AIPI\NSChartDlg.cpp"
+"C:\AIPI Project\AIPI\OleDBConnectionDlg.cpp"
+"C:\AIPI Project\AIPI\OleDBConnectionProp.cpp"
+"C:\AIPI Project\AIPI\OleDBDlg.cpp"
+"C:\AIPI Project\AIPI\OutputTabView.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXShellNamespaceNavigator.cpp"
+"C:\AIPI Project\AIPI\PageCellSizeDlg.cpp"
+"C:\AIPI Project\AIPI\PageEditDlg.cpp"
+"C:\AIPI Project\AIPI\PageFileDlg.cpp"
+"C:\AIPI Project\AIPI\PageFormatDlg.cpp"
+"C:\AIPI Project\AIPI\PageInsertDlg.cpp"
+"C:\AIPI Project\AIPI\PageOptionsDlg.cpp"
+"C:\AIPI Project\AIPI\PathFinder.cpp"
+"C:\AIPI Project\AIPI\ProjectProperties.cpp"
+"C:\AIPI Project\AIPI\PropertiesBar.cpp"
+"C:\AIPI Project\AIPI\QueryProperties.cpp"
+"C:\AIPI Project\AIPI\ResourceProperties.cpp"
+"C:\AIPI Project\AIPI\RuleProperties.cpp"
+"C:\AIPI Project\AIPI\StaticMeterCtrl.cpp"
+"C:\AIPI Project\AIPI\StringInputDlg.cpp"
+"C:\AIPI Project\AIPI\VariableProperties.cpp"
+"C:\AIPI Project\AIPI\WorkspaceLocation.cpp"
+"C:\AIPI Project\AIPI\WorkspaceTabDoc.cpp"
+"C:\AIPI Project\AIPI\WorkspaceTabView.cpp"
+"C:\AIPI Project\AIPI\WorkspaceTree1.cpp"
+"C:\AIPI Project\AIPI\WorkspaceView.cpp"
+"C:\AIPI Project\AIPI\ZoomViewDlg.cpp"
+"C:\AIPI Project\AIPI\UTSource\COPYTREE.CPP"
+"C:\AIPI Project\AIPI\UTSource\DIR.CPP"
+"C:\AIPI Project\AIPI\UTSource\DSTRLIST.CPP"
+"C:\AIPI Project\AIPI\UTSource\FILE.CPP"
+"C:\AIPI Project\AIPI\UTSource\MFCToolBar.cpp"
+"C:\AIPI Project\AIPI\UTSource\OX3DTabView.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXAdvancedAssert.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXAdvancedAssertMail.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXBackgroundPainter.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXBitmapButton.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXBitmapMenu.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXBitmapMenuOrganizer.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXBMPFilePickerCombo.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXBrowseColorEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXBrowseDirEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXButtonAppearanceDlg.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCalculatorCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCalculatorEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCalendar.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCalendarEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCalendarPopup.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCaptionPainter.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXChildFrameState.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXColorPickerButton.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXColorPickerCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCoolComboBox.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCoolControlOrganizer.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCoolCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCoolToolBar.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeBackgroundPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeCaptionPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeCommandsPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeCoolControlsPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeInstanceManagerPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeIntelliMousePage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeManager.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizePage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeShortkeysPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeSplashWindowPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeTabbedMDIPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeToolbarsPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeTrayIconPage.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXCustomizeWorkspaceStatePage.cpp"
+"C:\AIPI Project\AIPI\UTSource\Oxdib.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXDlgBar.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXDockTabCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXDocTemplateSpy.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXDragDockContext.CPP"
+"C:\AIPI Project\AIPI\UTSource\OXDragDropCommands.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXEditList.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXFolderPickerDlg.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXFontComboBox.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXFontPickerButton.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXFrameWndDock.CPP"
+"C:\AIPI Project\AIPI\UTSource\oxgridedit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXGridHdr.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXGridList.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXHistoryCombo.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXHistoryCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXHookWnd.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXImageListBox.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXInstanceManager.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXIntelliMouse.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXIPEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXItemTip.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXItemTipWnd.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXLayoutManager.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXListBoxEx.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXListEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXMaskedEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXMDIFloatWnd.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXMenuBar.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXMultiComboBox.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXOptionTreeCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXPhysicalEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXPhysicalEditEx.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXPopupBarCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXPreviewDialog.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXPropertiesWnd.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXPropertyDescriptionPane.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXPropertyTree.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXRectTracker.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXRegistryItem.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXRegistryValFile.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXScrollWnd.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSeparator.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXShellFolderTree.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXShortcutBar.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXShortkeysOrganizer.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSizeCtrlBar.CPP"
+"C:\AIPI Project\AIPI\UTSource\OXSizeDlgBar.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSizeDockBar.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSizeToolBar.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSkinnedComboBox.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSkinnedSpinCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSkinnedTabCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSkins.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSpinCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSplashWnd.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSplashWndDIB.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSplitterColRowState.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSplitterRect.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXStatic.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXStaticText.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXSzMiniDockFrmWnd.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXTabClientWnd.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXTaskbarIcon.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXToolTipCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXTreeCal.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXTreeCombo.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXTreeCtrl.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXTreeEdit.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXTreeHeader.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXTreeItem.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXUxTheme.cpp"
+"C:\AIPI Project\AIPI\UTSource\OXWorkspaceState.cpp"
+"C:\AIPI Project\AIPI\UTSource\Path.cpp"
+"C:\AIPI Project\AIPI\UTSource\UTBStrOp.cpp"
+"C:\AIPI Project\AIPI\UTSource\Xstatus4.cpp"
+"C:\AIPI Project\AIPI\UTSource\XSTRING.CPP"
+"C:\AIPI Project\AIPI\mvImage\mvImage.cpp"
+"C:\AIPI Project\AIPI\WndImage\WndImage.cpp"
+"C:\AIPI Project\AIPI\NSChart\NSChartCtrl.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartAxis.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartAxisLabel.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartCtrl.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartGrid.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartLegend.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartLineSerie.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartPointsSerie.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartSerie.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartSurfaceSerie.cpp"
+"C:\AIPI Project\AIPI\ChartCtrl\ChartTitle.cpp"
+"C:\AIPI Project\AIPI\CalendarCtrl\CalendarCtrl.cpp"
+"C:\AIPI Project\AIPI\3DMeterCtrl\3DMeterCtrl.cpp"
+"C:\AIPI Project\AIPI\ImageProcess\CimageProcess.cpp"
+"C:\AIPI Project\AIPI\GraphBar\coords.cpp"
+"C:\AIPI Project\AIPI\GraphBar\f2doff.cpp"
+"C:\AIPI Project\AIPI\GraphBar\gen_prop_dlgs.cpp"
+"C:\AIPI Project\AIPI\GraphBar\graph_general.cpp"
+"C:\AIPI Project\AIPI\GraphBar\graph_props.cpp"
+"C:\AIPI Project\AIPI\GraphBar\graphcombobox.cpp"
+"C:\AIPI Project\AIPI\GraphBar\GraphContainer.cpp"
+"C:\AIPI Project\AIPI\GraphBar\GraphFrame.cpp"
+"C:\AIPI Project\AIPI\GraphBar\graphpanel.cpp"
+"C:\AIPI Project\AIPI\GraphBar\GraphWnd.cpp"
+"C:\AIPI Project\AIPI\GraphBar\gruler.cpp"
+"C:\AIPI Project\AIPI\GraphBar\points.cpp"
+"C:\AIPI Project\AIPI\GraphBar\pviewbar.cpp"
+"C:\AIPI Project\AIPI\GraphBar\sizecbar.cpp"
+"C:\AIPI Project\AIPI\ScintillaCtrl\ScintillaCtrl.cpp"
+"C:\AIPI Project\AIPI\ScintillaCtrl\ScintillaDocView.cpp"
+"C:\AIPI Project\AIPI\ScriptObject\SafeArrayHelper.cpp"
+"C:\AIPI Project\AIPI\ScriptObject\ScriptObject.cpp"
+"C:\AIPI Project\AIPI\SQLQuery\SQLQuery.cpp"
+"C:\AIPI Project\AIPI\CadLib\Interface\CadLib.cpp"
+"C:\AIPI Project\AIPI\TreeEditorCtrl\EditTreeCtrl.cpp"
+"C:\AIPI Project\AIPI\TreeEditorCtrl\TreeType.cpp"
+"C:\AIPI Project\AIPI\ComboListCtrl\CheckHeadCtrl.cpp"
+"C:\AIPI Project\AIPI\ComboListCtrl\ComboListCtrl.cpp"
+"C:\AIPI Project\AIPI\ComboListCtrl\InPlaceCombo.cpp"
+"C:\AIPI Project\AIPI\ComboListCtrl\InPlaceEditCombo.cpp"
+"C:\AIPI Project\AIPI\RollupCtrl.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\GridCell.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\GridCellBase.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\NewCellTypes\GridCellCheck.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\NewCellTypes\GridCellCombo.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\NewCellTypes\GridCellDateTime.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\NewCellTypes\GridCellNumeric.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\GridCtrl.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\GridDropTarget.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\NewCellTypes\GridURLCell.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\InPlaceEdit.cpp"
+"C:\AIPI Project\AIPI\GridCtrl\TitleTip.cpp"
+"C:\AIPI Project\AIPI\DataFileCSV\CDataFile.cpp"
+"C:\AIPI Project\AIPI\BasicExcel\BasicExcelVC6.cpp"
+"C:\AIPI Project\AIPI\ConsoleCombo.cpp"
+"C:\AIPI Project\AIPI\Input.cpp"
+"C:\AIPI Project\AIPI\PerfTimer\PerfTimer.cpp"
+"C:\AIPI Project\AIPI\ScintillaWnd\ScintillaWnd.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_CmdLocation.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_CR_LEX.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_CR_MEA.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_CR_Priority.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_CR_Recency.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_CR_RecencyTags.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_CR_Specificity.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_LHS.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_PM.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RepCond.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_AM.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_BM.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_BMCond.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_BME.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_Cond.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_DNode.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_JNode.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_Links.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_NCC.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_NCCNode.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_Net.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_Network.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_NN.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_NNode.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_Node.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_NodeCond.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_NumNode.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_NumVars.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_Operations.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_PNode.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_TK.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_TypeDouble.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_TypeFloat.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_TypeInt.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_TypeLong.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_TypeString.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RETE_Vars.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RHS.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_RHSCmd.cpp"
+"C:\AIPI Project\AIPI\AIPI_Engine\Aipi_WM.cpp"
+"C:\AIPI Project\AIPI\AIPI_DecisionTree\Aipi_DT_AVF.cpp"
+"C:\AIPI Project\AIPI\AIPI_DecisionTree\Aipi_DT_ID3.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP8.tmp" 
+Creating temporary file "C:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP9.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GR /GX /ZI /Od /I "UTInclude" /I "DXBaseClasses" /I "DXInclude" /I "Common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_UNICODE" /D "UNICODE" /D _WIN32_WINNT=0x400 /D "TARGET_WMF9" /Fp"AIPI___Win32_Unicode_Debug/AIPI.pch" /Yc"stdafx.h" /Fo"AIPI___Win32_Unicode_Debug/" /Fd"AIPI___Win32_Unicode_Debug/" /FD /Zm400 /GZ /c 
+"C:\AIPI Project\AIPI\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSP9.tmp" 
+Creating temporary file "C:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSPA.tmp" with contents
+[
+strmiids.lib common\wmvcore.lib msvcrtd.lib shlwapi.lib /nologo /entry:"wWinMainCRTStartup" /subsystem:windows /incremental:yes /pdb:"AIPI___Win32_Unicode_Debug/AIPI.pdb" /debug /machine:I386 /nodefaultlib:"msvcrt.lib gdiplus.lib" /out:"AIPI___Win32_Unicode_Debug/AIPI.exe" /pdbtype:sept 
+".\AIPI___Win32_Unicode_Debug\AIPI.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_CParser.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_Emitter.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_Error.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ExpParser.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ExpParserFile.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ExpParserFileGlobal.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ExpParserGUI.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ExpParserGUIGlobal.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ExpParserRT.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_Init.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_Lexer.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_Main.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_Parser.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ParserFile.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ParserGUI.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ScriptCode.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_ScriptLocation.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_STableClass.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_STableGlobalLiteral.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_STableGlobalNumeric.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_STableLiteral.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_STableLocalLiteral.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_STableLocalNumeric.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_STableNumeric.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_Symbol.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_SymbolTable.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_Tokenizer.obj"
+".\AIPI___Win32_Unicode_Debug\AIPIDoc.obj"
+".\AIPI___Win32_Unicode_Debug\AIPIEditorDoc.obj"
+".\AIPI___Win32_Unicode_Debug\AIPIEditorView.obj"
+".\AIPI___Win32_Unicode_Debug\AIPIGlobalFunctions.obj"
+".\AIPI___Win32_Unicode_Debug\AIPIGlobals.obj"
+".\AIPI___Win32_Unicode_Debug\AIPITabView.obj"
+".\AIPI___Win32_Unicode_Debug\AIPITreeDoc.obj"
+".\AIPI___Win32_Unicode_Debug\AIPITreeView.obj"
+".\AIPI___Win32_Unicode_Debug\AIPIView.obj"
+".\AIPI___Win32_Unicode_Debug\CalendarDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ChartAxisOptionDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ChartBarCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\ChartLinePropDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ChartPointPropDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ChartSerieDelDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ChartSeriePropDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ChartSurfacePropDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ChildFrm.obj"
+".\AIPI___Win32_Unicode_Debug\CntrItem.obj"
+".\AIPI___Win32_Unicode_Debug\ColourPicker.obj"
+".\AIPI___Win32_Unicode_Debug\ColourPopup.obj"
+".\AIPI___Win32_Unicode_Debug\CommandDlgBar.obj"
+".\AIPI___Win32_Unicode_Debug\DocTemplateEx.obj"
+".\AIPI___Win32_Unicode_Debug\DxfCadDlg.obj"
+".\AIPI___Win32_Unicode_Debug\DxfDrawingView.obj"
+".\AIPI___Win32_Unicode_Debug\DxfProgressDlg.obj"
+".\AIPI___Win32_Unicode_Debug\EditInfoCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\FileFinder.obj"
+".\AIPI___Win32_Unicode_Debug\FindInFilesDlg.obj"
+".\AIPI___Win32_Unicode_Debug\FindInFilesExtDlg.obj"
+".\AIPI___Win32_Unicode_Debug\FunctionProperties.obj"
+".\AIPI___Win32_Unicode_Debug\GoToDlg.obj"
+".\AIPI___Win32_Unicode_Debug\GraphAxisDlg.obj"
+".\AIPI___Win32_Unicode_Debug\GraphBarCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\GraphCoordinatesDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ImageCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\ImageDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ImageFilterDlg.obj"
+".\AIPI___Win32_Unicode_Debug\InductionTabView.obj"
+".\AIPI___Win32_Unicode_Debug\InfoCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\jb_playvideo.obj"
+".\AIPI___Win32_Unicode_Debug\jb_videoglobals.obj"
+".\AIPI___Win32_Unicode_Debug\JukeBoxDlg.obj"
+".\AIPI___Win32_Unicode_Debug\ListMultiOptionCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\ListOptionCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\MainFrm.obj"
+".\AIPI___Win32_Unicode_Debug\MediaPlayerDlg.obj"
+".\AIPI___Win32_Unicode_Debug\mp_playvideo.obj"
+".\AIPI___Win32_Unicode_Debug\mp_videoglobals.obj"
+".\AIPI___Win32_Unicode_Debug\NewProjectEndPage.obj"
+".\AIPI___Win32_Unicode_Debug\NewProjectIntroPage.obj"
+".\AIPI___Win32_Unicode_Debug\NewProjectPage1.obj"
+".\AIPI___Win32_Unicode_Debug\NewProjectPage2.obj"
+".\AIPI___Win32_Unicode_Debug\NewProjectSheet.obj"
+".\AIPI___Win32_Unicode_Debug\NSChartBarCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\NSChartDlg.obj"
+".\AIPI___Win32_Unicode_Debug\OleDBConnectionDlg.obj"
+".\AIPI___Win32_Unicode_Debug\OleDBConnectionProp.obj"
+".\AIPI___Win32_Unicode_Debug\OleDBDlg.obj"
+".\AIPI___Win32_Unicode_Debug\OutputTabView.obj"
+".\AIPI___Win32_Unicode_Debug\OXShellNamespaceNavigator.obj"
+".\AIPI___Win32_Unicode_Debug\PageCellSizeDlg.obj"
+".\AIPI___Win32_Unicode_Debug\PageEditDlg.obj"
+".\AIPI___Win32_Unicode_Debug\PageFileDlg.obj"
+".\AIPI___Win32_Unicode_Debug\PageFormatDlg.obj"
+".\AIPI___Win32_Unicode_Debug\PageInsertDlg.obj"
+".\AIPI___Win32_Unicode_Debug\PageOptionsDlg.obj"
+".\AIPI___Win32_Unicode_Debug\PathFinder.obj"
+".\AIPI___Win32_Unicode_Debug\ProjectProperties.obj"
+".\AIPI___Win32_Unicode_Debug\PropertiesBar.obj"
+".\AIPI___Win32_Unicode_Debug\QueryProperties.obj"
+".\AIPI___Win32_Unicode_Debug\ResourceProperties.obj"
+".\AIPI___Win32_Unicode_Debug\RuleProperties.obj"
+".\AIPI___Win32_Unicode_Debug\StaticMeterCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\StdAfx.obj"
+".\AIPI___Win32_Unicode_Debug\StringInputDlg.obj"
+".\AIPI___Win32_Unicode_Debug\VariableProperties.obj"
+".\AIPI___Win32_Unicode_Debug\WorkspaceLocation.obj"
+".\AIPI___Win32_Unicode_Debug\WorkspaceTabDoc.obj"
+".\AIPI___Win32_Unicode_Debug\WorkspaceTabView.obj"
+".\AIPI___Win32_Unicode_Debug\WorkspaceTree1.obj"
+".\AIPI___Win32_Unicode_Debug\WorkspaceView.obj"
+".\AIPI___Win32_Unicode_Debug\ZoomViewDlg.obj"
+".\AIPI___Win32_Unicode_Debug\COPYTREE.OBJ"
+".\AIPI___Win32_Unicode_Debug\DIR.OBJ"
+".\AIPI___Win32_Unicode_Debug\DSTRLIST.OBJ"
+".\AIPI___Win32_Unicode_Debug\FILE.OBJ"
+".\AIPI___Win32_Unicode_Debug\MFCToolBar.obj"
+".\AIPI___Win32_Unicode_Debug\OX3DTabView.obj"
+".\AIPI___Win32_Unicode_Debug\OXAdvancedAssert.obj"
+".\AIPI___Win32_Unicode_Debug\OXAdvancedAssertMail.obj"
+".\AIPI___Win32_Unicode_Debug\OXBackgroundPainter.obj"
+".\AIPI___Win32_Unicode_Debug\OXBitmapButton.obj"
+".\AIPI___Win32_Unicode_Debug\OXBitmapMenu.obj"
+".\AIPI___Win32_Unicode_Debug\OXBitmapMenuOrganizer.obj"
+".\AIPI___Win32_Unicode_Debug\OXBMPFilePickerCombo.obj"
+".\AIPI___Win32_Unicode_Debug\OXBrowseColorEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXBrowseDirEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXButtonAppearanceDlg.obj"
+".\AIPI___Win32_Unicode_Debug\OXCalculatorCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXCalculatorEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXCalendar.obj"
+".\AIPI___Win32_Unicode_Debug\OXCalendarEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXCalendarPopup.obj"
+".\AIPI___Win32_Unicode_Debug\OXCaptionPainter.obj"
+".\AIPI___Win32_Unicode_Debug\OXChildFrameState.obj"
+".\AIPI___Win32_Unicode_Debug\OXColorPickerButton.obj"
+".\AIPI___Win32_Unicode_Debug\OXColorPickerCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXCoolComboBox.obj"
+".\AIPI___Win32_Unicode_Debug\OXCoolControlOrganizer.obj"
+".\AIPI___Win32_Unicode_Debug\OXCoolCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXCoolToolBar.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeBackgroundPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeCaptionPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeCommandsPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeCoolControlsPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeInstanceManagerPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeIntelliMousePage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeManager.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizePage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeShortkeysPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeSplashWindowPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeTabbedMDIPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeToolbarsPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeTrayIconPage.obj"
+".\AIPI___Win32_Unicode_Debug\OXCustomizeWorkspaceStatePage.obj"
+".\AIPI___Win32_Unicode_Debug\Oxdib.obj"
+".\AIPI___Win32_Unicode_Debug\OXDlgBar.obj"
+".\AIPI___Win32_Unicode_Debug\OXDockTabCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXDocTemplateSpy.obj"
+".\AIPI___Win32_Unicode_Debug\OXDragDockContext.obj"
+".\AIPI___Win32_Unicode_Debug\OXDragDropCommands.obj"
+".\AIPI___Win32_Unicode_Debug\OXEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXEditList.obj"
+".\AIPI___Win32_Unicode_Debug\OXFolderPickerDlg.obj"
+".\AIPI___Win32_Unicode_Debug\OXFontComboBox.obj"
+".\AIPI___Win32_Unicode_Debug\OXFontPickerButton.obj"
+".\AIPI___Win32_Unicode_Debug\OXFrameWndDock.obj"
+".\AIPI___Win32_Unicode_Debug\oxgridedit.obj"
+".\AIPI___Win32_Unicode_Debug\OXGridHdr.obj"
+".\AIPI___Win32_Unicode_Debug\OXGridList.obj"
+".\AIPI___Win32_Unicode_Debug\OXHistoryCombo.obj"
+".\AIPI___Win32_Unicode_Debug\OXHistoryCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXHookWnd.obj"
+".\AIPI___Win32_Unicode_Debug\OXImageListBox.obj"
+".\AIPI___Win32_Unicode_Debug\OXInstanceManager.obj"
+".\AIPI___Win32_Unicode_Debug\OXIntelliMouse.obj"
+".\AIPI___Win32_Unicode_Debug\OXIPEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXItemTip.obj"
+".\AIPI___Win32_Unicode_Debug\OXItemTipWnd.obj"
+".\AIPI___Win32_Unicode_Debug\OXLayoutManager.obj"
+".\AIPI___Win32_Unicode_Debug\OXListBoxEx.obj"
+".\AIPI___Win32_Unicode_Debug\OXListEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXMaskedEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXMDIFloatWnd.obj"
+".\AIPI___Win32_Unicode_Debug\OXMenuBar.obj"
+".\AIPI___Win32_Unicode_Debug\OXMultiComboBox.obj"
+".\AIPI___Win32_Unicode_Debug\OXOptionTreeCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXPhysicalEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXPhysicalEditEx.obj"
+".\AIPI___Win32_Unicode_Debug\OXPopupBarCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXPreviewDialog.obj"
+".\AIPI___Win32_Unicode_Debug\OXPropertiesWnd.obj"
+".\AIPI___Win32_Unicode_Debug\OXPropertyDescriptionPane.obj"
+".\AIPI___Win32_Unicode_Debug\OXPropertyTree.obj"
+".\AIPI___Win32_Unicode_Debug\OXRectTracker.obj"
+".\AIPI___Win32_Unicode_Debug\OXRegistryItem.obj"
+".\AIPI___Win32_Unicode_Debug\OXRegistryValFile.obj"
+".\AIPI___Win32_Unicode_Debug\OXScrollWnd.obj"
+".\AIPI___Win32_Unicode_Debug\OXSeparator.obj"
+".\AIPI___Win32_Unicode_Debug\OXShellFolderTree.obj"
+".\AIPI___Win32_Unicode_Debug\OXShortcutBar.obj"
+".\AIPI___Win32_Unicode_Debug\OXShortkeysOrganizer.obj"
+".\AIPI___Win32_Unicode_Debug\OXSizeCtrlBar.obj"
+".\AIPI___Win32_Unicode_Debug\OXSizeDlgBar.obj"
+".\AIPI___Win32_Unicode_Debug\OXSizeDockBar.obj"
+".\AIPI___Win32_Unicode_Debug\OXSizeToolBar.obj"
+".\AIPI___Win32_Unicode_Debug\OXSkinnedComboBox.obj"
+".\AIPI___Win32_Unicode_Debug\OXSkinnedSpinCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXSkinnedTabCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXSkins.obj"
+".\AIPI___Win32_Unicode_Debug\OXSpinCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXSplashWnd.obj"
+".\AIPI___Win32_Unicode_Debug\OXSplashWndDIB.obj"
+".\AIPI___Win32_Unicode_Debug\OXSplitterColRowState.obj"
+".\AIPI___Win32_Unicode_Debug\OXSplitterRect.obj"
+".\AIPI___Win32_Unicode_Debug\OXStatic.obj"
+".\AIPI___Win32_Unicode_Debug\OXStaticText.obj"
+".\AIPI___Win32_Unicode_Debug\OXSzMiniDockFrmWnd.obj"
+".\AIPI___Win32_Unicode_Debug\OXTabClientWnd.obj"
+".\AIPI___Win32_Unicode_Debug\OXTaskbarIcon.obj"
+".\AIPI___Win32_Unicode_Debug\OXToolTipCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXTreeCal.obj"
+".\AIPI___Win32_Unicode_Debug\OXTreeCombo.obj"
+".\AIPI___Win32_Unicode_Debug\OXTreeCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\OXTreeEdit.obj"
+".\AIPI___Win32_Unicode_Debug\OXTreeHeader.obj"
+".\AIPI___Win32_Unicode_Debug\OXTreeItem.obj"
+".\AIPI___Win32_Unicode_Debug\OXUxTheme.obj"
+".\AIPI___Win32_Unicode_Debug\OXWorkspaceState.obj"
+".\AIPI___Win32_Unicode_Debug\Path.obj"
+".\AIPI___Win32_Unicode_Debug\UTBStrOp.obj"
+".\AIPI___Win32_Unicode_Debug\Xstatus4.obj"
+".\AIPI___Win32_Unicode_Debug\XSTRING.OBJ"
+".\AIPI___Win32_Unicode_Debug\mvImage.obj"
+".\AIPI___Win32_Unicode_Debug\WndImage.obj"
+".\AIPI___Win32_Unicode_Debug\NSChartCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\ChartAxis.obj"
+".\AIPI___Win32_Unicode_Debug\ChartAxisLabel.obj"
+".\AIPI___Win32_Unicode_Debug\ChartCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\ChartGrid.obj"
+".\AIPI___Win32_Unicode_Debug\ChartLegend.obj"
+".\AIPI___Win32_Unicode_Debug\ChartLineSerie.obj"
+".\AIPI___Win32_Unicode_Debug\ChartPointsSerie.obj"
+".\AIPI___Win32_Unicode_Debug\ChartSerie.obj"
+".\AIPI___Win32_Unicode_Debug\ChartSurfaceSerie.obj"
+".\AIPI___Win32_Unicode_Debug\ChartTitle.obj"
+".\AIPI___Win32_Unicode_Debug\CalendarCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\3DMeterCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\CimageProcess.obj"
+".\AIPI___Win32_Unicode_Debug\coords.obj"
+".\AIPI___Win32_Unicode_Debug\f2doff.obj"
+".\AIPI___Win32_Unicode_Debug\gen_prop_dlgs.obj"
+".\AIPI___Win32_Unicode_Debug\graph_general.obj"
+".\AIPI___Win32_Unicode_Debug\graph_props.obj"
+".\AIPI___Win32_Unicode_Debug\graphcombobox.obj"
+".\AIPI___Win32_Unicode_Debug\GraphContainer.obj"
+".\AIPI___Win32_Unicode_Debug\GraphFrame.obj"
+".\AIPI___Win32_Unicode_Debug\graphpanel.obj"
+".\AIPI___Win32_Unicode_Debug\GraphWnd.obj"
+".\AIPI___Win32_Unicode_Debug\gruler.obj"
+".\AIPI___Win32_Unicode_Debug\points.obj"
+".\AIPI___Win32_Unicode_Debug\pviewbar.obj"
+".\AIPI___Win32_Unicode_Debug\sizecbar.obj"
+".\AIPI___Win32_Unicode_Debug\ScintillaCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\ScintillaDocView.obj"
+".\AIPI___Win32_Unicode_Debug\SafeArrayHelper.obj"
+".\AIPI___Win32_Unicode_Debug\ScriptObject.obj"
+".\AIPI___Win32_Unicode_Debug\SQLQuery.obj"
+".\AIPI___Win32_Unicode_Debug\CadLib.obj"
+".\AIPI___Win32_Unicode_Debug\EditTreeCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\TreeType.obj"
+".\AIPI___Win32_Unicode_Debug\CheckHeadCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\ComboListCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\InPlaceCombo.obj"
+".\AIPI___Win32_Unicode_Debug\InPlaceEditCombo.obj"
+".\AIPI___Win32_Unicode_Debug\RollupCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\GridCell.obj"
+".\AIPI___Win32_Unicode_Debug\GridCellBase.obj"
+".\AIPI___Win32_Unicode_Debug\GridCellCheck.obj"
+".\AIPI___Win32_Unicode_Debug\GridCellCombo.obj"
+".\AIPI___Win32_Unicode_Debug\GridCellDateTime.obj"
+".\AIPI___Win32_Unicode_Debug\GridCellNumeric.obj"
+".\AIPI___Win32_Unicode_Debug\GridCtrl.obj"
+".\AIPI___Win32_Unicode_Debug\GridDropTarget.obj"
+".\AIPI___Win32_Unicode_Debug\GridURLCell.obj"
+".\AIPI___Win32_Unicode_Debug\InPlaceEdit.obj"
+".\AIPI___Win32_Unicode_Debug\TitleTip.obj"
+".\AIPI___Win32_Unicode_Debug\CDataFile.obj"
+".\AIPI___Win32_Unicode_Debug\BasicExcelVC6.obj"
+".\AIPI___Win32_Unicode_Debug\ConsoleCombo.obj"
+".\AIPI___Win32_Unicode_Debug\Input.obj"
+".\AIPI___Win32_Unicode_Debug\PerfTimer.obj"
+".\AIPI___Win32_Unicode_Debug\ScintillaWnd.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_CmdLocation.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_CR_LEX.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_CR_MEA.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_CR_Priority.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_CR_Recency.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_CR_RecencyTags.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_CR_Specificity.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_LHS.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_PM.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RepCond.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_AM.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_BM.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_BMCond.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_BME.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_Cond.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_DNode.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_JNode.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_Links.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_NCC.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_NCCNode.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_Net.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_Network.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_NN.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_NNode.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_Node.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_NodeCond.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_NumNode.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_NumVars.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_Operations.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_PNode.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_TK.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_TypeDouble.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_TypeFloat.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_TypeInt.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_TypeLong.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_TypeString.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RETE_Vars.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RHS.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_RHSCmd.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_WM.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_DT_AVF.obj"
+".\AIPI___Win32_Unicode_Debug\Aipi_DT_ID3.obj"
+".\AIPI___Win32_Unicode_Debug\AIPI.res"
+".\ImplementationGDIPLUS\GdiPlus.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\MAURIC~1\CONFIG~1\Temp\RSPA.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+AIPI.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_CParser.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_Emitter.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_Error.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_ExpParser.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<double,class std::allocator<double> >::const_iterator::_Add(int)'
+Aipi_ExpParserFile.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<double,class std::allocator<double> >::const_iterator::_Add(int)'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >,class std::allocator<class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > > >::const_iterator::_Add(int)'
+Aipi_ExpParserFileGlobal.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<double,class std::allocator<double> >::const_iterator::_Add(int)'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >,class std::allocator<class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > > >::const_iterator::_Add(int)'
+Aipi_ExpParserGUI.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<double,class std::allocator<double> >::const_iterator::_Add(int)'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >,class std::allocator<class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > > >::const_iterator::_Add(int)'
+Aipi_ExpParserGUIGlobal.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<double,class std::allocator<double> >::const_iterator::_Add(int)'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >,class std::allocator<class std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> > > >::const_iterator::_Add(int)'
+Aipi_ExpParserRT.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<double,class std::allocator<double> >::const_iterator::_Add(int)'
+Aipi_Init.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_Lexer.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_Main.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_Parser.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_ParserFile.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_ParserGUI.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_ScriptCode.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_ScriptLocation.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_STableClass.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_STableGlobalLiteral.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Generating Code...
+Compiling...
+Aipi_STableGlobalNumeric.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_STableLiteral.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_STableLocalLiteral.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_STableLocalNumeric.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_STableNumeric.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_Symbol.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_SymbolTable.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_Tokenizer.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+AIPIDoc.cpp
+AIPIEditorDoc.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+AIPIEditorView.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+c:\archivos de programa\microsoft visual studio\vc98\include\deque(107) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+        c:\archivos de programa\microsoft visual studio\vc98\include\deque(104) : while compiling class-template member function 'void __thiscall std::deque<long,class std::allocator<long> >::const_iterator::_Add(int)'
+AIPIGlobalFunctions.cpp
+AIPIGlobals.cpp
+AIPITabView.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+AIPITreeDoc.cpp
+AIPITreeView.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+AIPIView.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+CalendarDlg.cpp
+ChartAxisOptionDlg.cpp
+ChartBarCtrl.cpp
+Generating Code...
+Compiling...
+ChartLinePropDlg.cpp
+ChartPointPropDlg.cpp
+ChartSerieDelDlg.cpp
+ChartSeriePropDlg.cpp
+ChartSurfacePropDlg.cpp
+ChildFrm.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+CntrItem.cpp
+ColourPicker.cpp
+ColourPopup.cpp
+CommandDlgBar.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+DocTemplateEx.cpp
+DxfCadDlg.cpp
+DxfDrawingView.cpp
+DxfProgressDlg.cpp
+EditInfoCtrl.cpp
+FileFinder.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+FindInFilesDlg.cpp
+FindInFilesExtDlg.cpp
+FunctionProperties.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+GoToDlg.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Generating Code...
+Compiling...
+GraphAxisDlg.cpp
+GraphBarCtrl.cpp
+GraphCoordinatesDlg.cpp
+ImageCtrl.cpp
+ImageDlg.cpp
+ImageFilterDlg.cpp
+InductionTabView.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+InfoCtrl.cpp
+jb_playvideo.cpp
+jb_videoglobals.cpp
+JukeBoxDlg.cpp
+ListMultiOptionCtrl.cpp
+ListOptionCtrl.cpp
+MainFrm.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+MediaPlayerDlg.cpp
+mp_playvideo.cpp
+mp_videoglobals.cpp
+NewProjectEndPage.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+NewProjectIntroPage.cpp
+NewProjectPage1.cpp
+Generating Code...
+Compiling...
+NewProjectPage2.cpp
+NewProjectSheet.cpp
+NSChartBarCtrl.cpp
+NSChartDlg.cpp
+OleDBConnectionDlg.cpp
+OleDBConnectionProp.cpp
+OleDBDlg.cpp
+OutputTabView.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+OXShellNamespaceNavigator.cpp
+PageCellSizeDlg.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+PageEditDlg.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+PageFileDlg.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+PageFormatDlg.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+PageInsertDlg.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+PageOptionsDlg.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+PathFinder.cpp
+ProjectProperties.cpp
+PropertiesBar.cpp
+QueryProperties.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+ResourceProperties.cpp
+Generating Code...
+Compiling...
+RuleProperties.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+StaticMeterCtrl.cpp
+StringInputDlg.cpp
+VariableProperties.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+WorkspaceLocation.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+WorkspaceTabDoc.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+WorkspaceTabView.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+WorkspaceTree1.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+WorkspaceView.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+ZoomViewDlg.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+COPYTREE.CPP
+DIR.CPP
+DSTRLIST.CPP
+FILE.CPP
+MFCToolBar.cpp
+OX3DTabView.cpp
+OXAdvancedAssert.cpp
+OXAdvancedAssertMail.cpp
+OXBackgroundPainter.cpp
+OXBitmapButton.cpp
+Generating Code...
+Compiling...
+OXBitmapMenu.cpp
+OXBitmapMenuOrganizer.cpp
+OXBMPFilePickerCombo.cpp
+OXBrowseColorEdit.cpp
+OXBrowseDirEdit.cpp
+OXButtonAppearanceDlg.cpp
+OXCalculatorCtrl.cpp
+OXCalculatorEdit.cpp
+OXCalendar.cpp
+OXCalendarEdit.cpp
+OXCalendarPopup.cpp
+OXCaptionPainter.cpp
+OXChildFrameState.cpp
+OXColorPickerButton.cpp
+OXColorPickerCtrl.cpp
+OXCoolComboBox.cpp
+OXCoolControlOrganizer.cpp
+OXCoolCtrl.cpp
+OXCoolToolBar.cpp
+OXCustomizeBackgroundPage.cpp
+Generating Code...
+Compiling...
+OXCustomizeCaptionPage.cpp
+OXCustomizeCommandsPage.cpp
+OXCustomizeCoolControlsPage.cpp
+OXCustomizeInstanceManagerPage.cpp
+OXCustomizeIntelliMousePage.cpp
+OXCustomizeManager.cpp
+OXCustomizePage.cpp
+OXCustomizeShortkeysPage.cpp
+OXCustomizeSplashWindowPage.cpp
+OXCustomizeTabbedMDIPage.cpp
+OXCustomizeToolbarsPage.cpp
+OXCustomizeTrayIconPage.cpp
+OXCustomizeWorkspaceStatePage.cpp
+Oxdib.cpp
+OXDlgBar.cpp
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(559) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(183) : see previous definition of 'DB_E_BADBINDINFO'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(560) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(247) : see previous definition of 'DB_E_BADBOOKMARK'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(561) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(274) : see previous definition of 'DB_E_BADCOLUMNID'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(565) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(1125) : see previous definition of 'DB_E_BADINDEXID'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(568) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(294) : see previous definition of 'DB_E_BADVALUES'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(578) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(132) : see previous definition of 'DB_E_SCHEMAVIOLATION'
+OXDockTabCtrl.cpp
+OXDocTemplateSpy.cpp
+OXDragDockContext.CPP
+OXDragDropCommands.cpp
+OXEdit.cpp
+Generating Code...
+Compiling...
+OXEditList.cpp
+OXFolderPickerDlg.cpp
+OXFontComboBox.cpp
+OXFontPickerButton.cpp
+OXFrameWndDock.CPP
+oxgridedit.cpp
+OXGridHdr.cpp
+OXGridList.cpp
+OXHistoryCombo.cpp
+OXHistoryCtrl.cpp
+OXHookWnd.cpp
+OXImageListBox.cpp
+OXInstanceManager.cpp
+OXIntelliMouse.cpp
+OXIPEdit.cpp
+OXItemTip.cpp
+OXItemTipWnd.cpp
+OXLayoutManager.cpp
+OXListBoxEx.cpp
+OXListEdit.cpp
+Generating Code...
+Compiling...
+OXMaskedEdit.cpp
+OXMDIFloatWnd.cpp
+OXMenuBar.cpp
+OXMultiComboBox.cpp
+OXOptionTreeCtrl.cpp
+OXPhysicalEdit.cpp
+OXPhysicalEditEx.cpp
+OXPopupBarCtrl.cpp
+OXPreviewDialog.cpp
+OXPropertiesWnd.cpp
+OXPropertyDescriptionPane.cpp
+OXPropertyTree.cpp
+OXRectTracker.cpp
+OXRegistryItem.cpp
+OXRegistryValFile.cpp
+OXScrollWnd.cpp
+OXSeparator.cpp
+OXShellFolderTree.cpp
+OXShortcutBar.cpp
+OXShortkeysOrganizer.cpp
+Generating Code...
+Compiling...
+OXSizeCtrlBar.CPP
+OXSizeDlgBar.cpp
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(559) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(183) : see previous definition of 'DB_E_BADBINDINFO'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(560) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(247) : see previous definition of 'DB_E_BADBOOKMARK'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(561) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(274) : see previous definition of 'DB_E_BADCOLUMNID'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(565) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(1125) : see previous definition of 'DB_E_BADINDEXID'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(568) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(294) : see previous definition of 'DB_E_BADVALUES'
+c:\archivos de programa\microsoft visual studio\vc98\mfc\src\ocdb.h(578) : note C6311: c:\archivos de programa\microsoft visual studio\vc98\include\oledberr.h(132) : see previous definition of 'DB_E_SCHEMAVIOLATION'
+OXSizeDockBar.cpp
+oxsizedlgbar.cpp line 84 : VS 2003 may need this symbol defined
+OXSizeToolBar.cpp
+OXSkinnedComboBox.cpp
+OXSkinnedSpinCtrl.cpp
+OXSkinnedTabCtrl.cpp
+OXSkins.cpp
+OXSpinCtrl.cpp
+OXSplashWnd.cpp
+OXSplashWndDIB.cpp
+OXSplitterColRowState.cpp
+OXSplitterRect.cpp
+OXStatic.cpp
+OXStaticText.cpp
+OXSzMiniDockFrmWnd.cpp
+OXTabClientWnd.cpp
+OXTaskbarIcon.cpp
+OXToolTipCtrl.cpp
+OXTreeCal.cpp
+Generating Code...
+Compiling...
+OXTreeCombo.cpp
+OXTreeCtrl.cpp
+OXTreeEdit.cpp
+OXTreeHeader.cpp
+OXTreeItem.cpp
+OXUxTheme.cpp
+OXWorkspaceState.cpp
+Path.cpp
+UTBStrOp.cpp
+Xstatus4.cpp
+XSTRING.CPP
+mvImage.cpp
+WndImage.cpp
+NSChartCtrl.cpp
+ChartAxis.cpp
+ChartAxisLabel.cpp
+ChartCtrl.cpp
+ChartGrid.cpp
+ChartLegend.cpp
+ChartLineSerie.cpp
+Generating Code...
+Compiling...
+ChartPointsSerie.cpp
+ChartSerie.cpp
+ChartSurfaceSerie.cpp
+ChartTitle.cpp
+CalendarCtrl.cpp
+3DMeterCtrl.cpp
+CimageProcess.cpp
+coords.cpp
+f2doff.cpp
+gen_prop_dlgs.cpp
+graph_general.cpp
+graph_props.cpp
+graphcombobox.cpp
+GraphContainer.cpp
+GraphFrame.cpp
+graphpanel.cpp
+GraphWnd.cpp
+gruler.cpp
+points.cpp
+pviewbar.cpp
+Generating Code...
+Compiling...
+sizecbar.cpp
+ScintillaCtrl.cpp
+ScintillaDocView.cpp
+SafeArrayHelper.cpp
+ScriptObject.cpp
+SQLQuery.cpp
+CadLib.cpp
+EditTreeCtrl.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+TreeType.cpp
+CheckHeadCtrl.cpp
+ComboListCtrl.cpp
+InPlaceCombo.cpp
+InPlaceEditCombo.cpp
+RollupCtrl.cpp
+GridCell.cpp
+GridCellBase.cpp
+GridCellCheck.cpp
+GridCellCombo.cpp
+GridCellDateTime.cpp
+GridCellNumeric.cpp
+Generating Code...
+Compiling...
+GridCtrl.cpp
+GridDropTarget.cpp
+GridURLCell.cpp
+InPlaceEdit.cpp
+TitleTip.cpp
+CDataFile.cpp
+BasicExcelVC6.cpp
+ConsoleCombo.cpp
+Input.cpp
+PerfTimer.cpp
+ScintillaWnd.cpp
+Aipi_CmdLocation.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_CR_LEX.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_CR_MEA.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_CR_Priority.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_CR_Recency.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_CR_RecencyTags.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_CR_Specificity.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_LHS.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_PM.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Generating Code...
+Compiling...
+Aipi_RepCond.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_AM.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_BM.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_BMCond.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_BME.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_Cond.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_DNode.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_JNode.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_Links.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_NCC.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_NCCNode.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_Net.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_Network.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_NN.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_NNode.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_Node.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_NodeCond.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_NumNode.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_NumVars.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_Operations.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Generating Code...
+Compiling...
+Aipi_RETE_PNode.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_TK.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_TypeDouble.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_TypeFloat.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_TypeInt.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_TypeLong.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_TypeString.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RETE_Vars.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RHS.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_RHSCmd.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_WM.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Aipi_DT_AVF.cpp
+Aipi_DT_ID3.cpp
+c:\aipi project\aipi\dxinclude\amvideo.h(332) : note C6311: c:\aipi project\aipi\utinclude\oxdib.h(87) : see previous definition of 'WIDTHBYTES'
+c:\aipi project\aipi\cadlib\interface\drawingdef.h(30) : note C6311: c:\aipi project\aipi\utinclude\oxcalculatorctrl.h(23) : see previous definition of 'PI'
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+AIPI.exe - 0 error(s), 11 warning(s)
+</pre>
+</body>
+</html>

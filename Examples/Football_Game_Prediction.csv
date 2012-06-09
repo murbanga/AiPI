@@ -1,0 +1,9 @@
+Location,Weather,Own Rec.,Opp. Rec.,Own Team
+Home,Hot,Good,Good,Win
+Home,Rain,Good,Average,Win
+Away,Moderate,Good,Average,Loss
+Away,Hot,Good,Poor,Win
+Home,Cold,Good,Good,Loss
+Away,Hot,Average,Average,Loss
+Home,Moderate,Average,Good,Loss
+Away,Cold,Poor,Average,Win

@@ -1,0 +1,105 @@
+1.	TREE EDITOR
+1.1	Features
+1.1.1	Cursor functions
+1.1.1.1	Scan the tree (Up/Down Arrow)
+1.1.1.2	Scroll (Ctrl + UP/DOWN Arrow) 
+1.1.1.3	Scan while Expanding/Collapsing nodes (Right/Left) Arrow
+1.1.2	Edit Nodes
+1.1.2.1	F2
+1.1.3	Move/Copy Branches
+1.1.3.1	Using Drag and Drop
+1.1.3.1.1	Drag to the RIGHT of selected item to:
+1.1.3.1.1.1	Move as a son of dropped item
+1.1.3.1.1.2	Copy as a son  of dropped item (Press Ctrl)
+1.1.3.1.1.3	Move as a new root (Press F3)
+1.1.3.1.1.4	Copy as a new root (Press Ctrl+Fr3)
+1.1.3.1.2	Drag ON or to the LEFT of selected item
+1.1.3.1.2.1	Move above  of dropped item
+1.1.3.1.2.1.1	Let changes sibling order
+1.1.3.1.2.2	Copy above dropped item (Press Ctrl)
+1.1.3.1.3	Allow scrolling while dragging
+1.1.3.1.3.1	For big trees
+1.1.3.1.4	ESC - Exit drag and drop
+1.1.3.2	or Using Keyboard
+1.1.3.2.1	 Copy (Ctrl+C)
+1.1.3.2.2	Move (Ctrl + X)
+1.1.3.2.3	Paste as a son of dropped item (Ctrl+V)
+1.1.3.2.3.1	Can do multiple Ctrl+V for a single Ctrl+X or Ctrl+C
+1.1.3.2.4	Paste above dropped item (Ctrl+A)
+1.1.3.2.4.1	Can do multiple Ctrl+A for a single Ctrl+X or Ctrl+C
+1.1.4	Add Items
+1.1.4.1	Child (Insert)
+1.1.4.2	Sibling (= brother or sister) (Blank or Return)
+1.1.5	Delete
+1.1.5.1	Delete Item (Del)
+1.1.5.2	Delete Entire Tree (Ctrl+Del)
+1.1.6	Multiple formats supported
+1.1.6.1	CSV (Comma separated values)
+1.1.6.1.1	Separation character
+1.1.6.1.1.1	Comma
+1.1.6.1.1.2	Tab
+1.1.6.1.1.3	Any printable character
+1.1.6.1.2	Idented format
+1.1.6.1.3	Tre format
+1.1.7	Allow Export/Import to/from
+1.1.7.1	Microsoft Excel (R) Sheet
+1.1.7.2	Microsoft WORD (R) Table
+1.1.7.3	Notepad
+1.1.7.4	Mind Manager
+1.1.7.5	Any software which can read CSV
+1.1.8	Allow Copy to/Paste from CLIPBOARD
+1.1.8.1	Copy Entire tree to Clipboard (Ctrl+Insert)
+1.1.8.2	Paste Entire tree from Clipboard (Ctrl+Shift+Insert)
+1.1.9	Open file
+1.1.9.1	Using open menu (Ctrl+O)
+1.1.9.2	Can drag file from Explorer
+1.1.9.3	Can add the file name as a Command argument
+1.1.9.3.1	Support File Association
+1.1.9.3.1.1	tre
+1.1.9.3.1.2	idt
+1.1.9.3.1.3	csv
+1.1.9.4	Can Paste a Tree from the Clipboard
+1.1.9.5	Builds a directory tree (Ctrl+D)
+1.1.9.5.1	As Explorer does
+1.1.10	Save File (Ctrl+S)
+1.1.10.1	Save
+1.1.10.2	Save As
+1.1.11	Sort Entire Tree
+1.1.11.1	Alphabetic (Ctrl+T)
+1.1.11.2	Numeric (Ctrl+Shift+T)
+1.1.12	Calculate the level of a node (Ctrl+L)
+1.1.13	Count Number of items
+1.1.13.1	In a Subtree (Ctrl+N)
+1.1.13.2	In the entire tree (Ctrl+Shift+N)
+1.1.14	Popup Menu
+1.1.14.1	Expand All Trees
+1.1.14.2	Collapse All Trees
+1.1.14.3	Add
+1.1.14.3.1	Add Child
+1.1.14.3.2	Add Sibling
+1.1.14.4	Rename
+1.1.14.5	Delete
+1.1.14.5.1	Delete Subtree
+1.1.14.5.2	Delete Entire Tree
+1.1.14.6	Sort Trees
+1.1.14.6.1	Sort Tree Alphabetic
+1.1.14.6.2	Sort Tree Numeric
+1.1.14.7	Count Tree
+1.1.14.7.1	Count Subtree
+1.1.14.7.2	Count Entire Tree
+1.1.14.8	Calculate Level
+1.2	Applications
+1.2.1	Maintain/Save/Display/Edit
+1.2.1.1	Hierarchies
+1.2.1.2	Classifications
+1.2.1.3	Decision trees
+1.2.2	Organize ideas
+1.2.2.1	Resume
+1.2.2.1.1	Books
+1.2.2.1.2	Articles
+1.2.2.2	Brainstorming
+1.2.3	Computer Tree oriented algorithms
+1.2.3.1	Sorting
+1.2.3.2	Searching
+1.2.3.3	Data Bases
+1.2.3.4	Build hierarchical menus

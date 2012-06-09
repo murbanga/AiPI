@@ -1,0 +1,23 @@
+
+CLASS  persona
+{
+	STRING  nombre;
+	STRING apellido;
+	SHORT edad;
+	INT      estatura;
+}	
+/*		
+CLASS libro
+{
+	STRING  Autor;
+	STRING Materia;
+	STRING Titulo;
+	LONG	NPaginas;
+}
+*/
+
+//ASSERT ( libro Autor "Carlos", Materia "Biologia", Titulo "Las 1000 y una noches", NPaginas == 67);
+//ASSERT( libro Autor "Ximena");
+ASSERT( persona nombre "Ximena", edad == 23, estatura == 5);
+ASSERT( persona nombre "Ronerto", apellido "Juarez", edad == 34);
+

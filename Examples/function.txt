@@ -1,0 +1,31 @@
+void func1( int *x)
+{
+	/*  hola */
+}
+
+void func2( int x[10])
+{
+
+}
+
+void	func3( int x[])
+{
+	//comentario1
+	//comentario2
+	/*   otro comentario */
+}
+
+char *find(char c, char *s)
+{
+
+}
+
+/*
+//Puntero a función
+void comprobar( char *a, char *b, int(*cmp)(const char*, const char*))
+{
+	//Puntero a función
+	int(*p)(const char *, const char *);
+
+}
+*/

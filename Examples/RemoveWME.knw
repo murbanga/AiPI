@@ -1,0 +1,44 @@
+
+ASSERT (block1 	on 		"block2");
+ASSERT( block1 	on 		"block3");
+ASSERT( block1 	color 	"red");
+ASSERT( block2 	on 		"table");
+ASSERT( block2 	left_of 	"block3");
+ASSERT( block2 	color 	"blue");
+ASSERT( block3 	left_of 	"block4");
+ASSERT( block3 	on 		"block4");
+ASSERT( block3 	color 	"red");
+ASSERT( block4 	color 	"blue");
+ASSERT( block4 	on 		"table");
+
+
+RULE "Removing W5"(WEIGHT : 2)
+{
+IF		$x$		on		$y$
+AND		$y$		left_of	$z$
+AND		$z$		color		"red"
+AND		$z$		on		$w$
+AND		$w$		on		"table"
+THEN	block5	right_of	"block4"
+AND     RETRACT( block2  	left_of    "block3") 
+}
+
+RULE "Adding W5"(WEIGHT : 1)
+{
+
+IF         block1      on           "block3"
+AND     block3	   left_of	"block4"
+//THEN    ASSERT( block2		left_of     "block3")	
+THEN	block2	 left_of    "block3"
+}
+
+
+
+/*
+RULE "Adding W5"()
+{
+IF 		block3	left_of	$a$
+AND        $a$		color        "blue" 	
+THEN	block2	 left_of    "block3"
+}
+*/

@@ -1,0 +1,18 @@
+//Comentario
+int cuad(int x );
+
+void main()
+{
+
+
+}
+
+//hello 
+double d = 45.67;
+long a;
+
+int cuad(int x )
+{
+
+return 0;
+}

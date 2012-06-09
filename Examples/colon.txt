@@ -1,0 +1,2 @@
+case:56
+namespace::lucas;

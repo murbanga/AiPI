@@ -1,0 +1,54 @@
+//Classic Sample blocks
+/*
+CLASS block1
+{
+	STRING on;
+	STRING left_of;
+	STRING color;
+}
+
+CLASS block2
+{
+	STRING on;
+	STRING left_of;
+	STRING color;
+}
+
+CLASS block3 
+{
+	STRING on;
+	STRING left_of;
+	STRING color;
+}
+*/
+
+ASSERT (block1 	on 		"block2");
+ASSERT( block1 	on 		"block3");
+ASSERT( block1 	color 	"red");
+ASSERT( block2 	on 		"table");
+ASSERT( block2 	left_of 	"block3");
+ASSERT( block2 	color 	"blue");
+ASSERT( block3 	left_of 	"block4");
+ASSERT( block3 	on 		"table");
+ASSERT( block3 	color 	"red");
+
+
+RULE "Find stack of 2 blocks to the left of a red block"()
+{
+IF 		$x$ 		on		$y$
+AND		$y$   	left_of	$z$
+AND 	$z$		color		"red"
+THEN	block4	right_of 	"block5"
+AND		block5	on		"table"
+AND		block3	left_of	"block1"
+}
+
+RULE "Find stack of 2 blocks to left of a blue block that is on table"()
+{
+IF		$x$		on		$y$
+AND		$y$		left_of	$z$
+AND		$z$ 		color		"blue"
+AND		$z$		on		"table"
+THEN	block5	right_of	"block6"
+}
+

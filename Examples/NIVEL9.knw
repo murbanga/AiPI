@@ -1,0 +1,742 @@
+NIVEL9: Una herramienta basada en Inteligencia Artificial para Crear y Ejecutar Sistemas Expertos
+
+
+Expositor : 
+
+Ing. Mauricio Ernesto Alfaro Parada
+Email: mauricioalfaro@telesal.net
+
+
+
+
+
+INDICE
+
+Introducción ........................................................................................................		Pág. 2
+¿Qué es un Sistema Experto? ...........................................................................		Pág. 3
+Ventajas de los Sistemas Expertos ....................................................................		Pág. 3 - 4
+Campos de Aplicación de los Sistemas Expertos ..............................................		Pág.4 - 5
+NIVEL9 : Una herramienta para facilitar la creación de Sistemas Expertos ......		Pág. 5 - 7
+Módulos Explicativos de NIVEL9 .......................................................................		Pág. 7 - 15
+El Lenguaje NIVEL9 para la creación de Bases de Conocimiento ....................		Pág. 15 - 17
+Diseño del Software NIVEL9...............................................................................		Pág. 17
+Estructuras de Datos ..........................................................................................		Pág. 17 - 18
+Motor de Inferencia ............................................................................................		Pág. 18 - 19
+Lenguaje para Codificar el Conocimiento ...........................................................		Pág. 20 - 26
+Módulo de Reconocimiento de Texto y Sintetizador de Voz ..............................		Pág. 26
+Desafíos de la Inteligencia Artificial y Los Sistemas Expertos en El Salvador ...		Pág. 26 - 27
+Futuro de los Sistemas Expertos ........................................................................		Pág. 27 - 28
+Bibliografía y Referencias ...................................................................................		Pág. 29
+
+
+
+
+
+
+INTRODUCCIÓN
+
+En la actualidad se están analizando estrategias de solución y conocimientos de expertos para la solución de problemas. Es por lo que se están utilizando los Sistemas Expertos como una nueva generación de desarrollo de software para dar respuesta a una serie de situaciones cotidianas en la que de alguna manera se aprovecha el conocimiento de los expertos para obtener los resultados deseados de una forma inteligente y optimizando el tiempo del experto en tareas de mucha mayor envergadura.
+
+Nivel 9 es un software, basado en los Sistemas Expertos, que contiene una interfase gráfica de usuario creada con el objeto de ejecutar código de programas englobado en una base de conocimientos que se apoyan en los conceptos de inteligencia artificial con el fin de dar interpretación a esta base de conocimientos para obtener un resultado. Este software utiliza un programa basado en la experiencia y el conocimiento del experto con el fin de llegar a un resultado apegado a la realidad.
+
+El software contiene una interfase al usuario y un editor. La interfase presenta el proceso que utiliza el usuario para obtener la respuesta. El editor ayuda y facilita la creación de programas que generan las bases de conocimientos.
+
+El lenguaje que se utiliza en la programación es semejante al lenguaje natural con el fin de facilitar al usuario en la creación de las bases de conocimientos y la creación de programas para dar solución a la problemática. Una de las características muy importantes es que se utiliza el lenguaje español para su programación, haciendo a NIVEL 9 un sistema de fácil compresión y programación para los usuarios. Es basado en REGLAS, las que se encuentran relacionadas, así dependiendo de las condiciones que están contenidas es cada regla se pasa de una regla a otra o, se obtiene una conclusión.
+
+NIVEL 9 es un lenguaje fácil de utilizar y su portabilidad hace posible adaptar el software escrito para una computadora con una versión de sistema operativo Microsoft Windows. 
+El presente documento pretende dar una leve introducción a lo que son sistemas expertos, enfocándose en el diseño y el uso de una herramienta para crear y ejecutar dichos sistemas.   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+¿Qué es un Sistema Experto?
+Los sistemas expertos o sistemas basados en conocimiento son programas que se basan en procedimientos de inferencia simbólica para tratar con problemas que son lo suficientemente complejos para requerir a un experto humano en la gestión de su solución. Una definición más universal es la de Forsyth (1986) que dice que: “Un sistema experto es un programa de ordenador que reemplaza a un experto humano”.
+	Los sistemas expertos son apasionantes por dos razones fundamentales: en primer lugar son generalmente programas útiles y prácticos que colman una necesidad concreta en cualquier área del conocimiento humano, y, en segundo lugar, son factibles y viables económicamente para las organizaciones. Estas son las dos razones que apoyan gran parte del éxito comercial de la inteligencia artificial.
+
+Ventajas de los Sistemas Expertos
+
+El principal atractivo de un sistema experto es fundamentalmente su disponibilidad y conveniencia. La mejor forma de ver las ventajas de un sistema experto es comparándolo con un experto humano.
+Los sistemas expertos a diferencia de un humano que tiene que dormir, comer, descansar, tomarse vacaciones y realizar otras actividades que lo distraen de su trabajo, está disponible durante las 24 horas del día, todos los días del año. Además, como cualquier software, pueden crearse muchas copias del mismo, mientras que en el caso de los  expertos humanos siempre habrá un número muy limitado de ellos. Un sistema experto nunca muere por lo que el conocimiento almacenado en él, perdura, este conocimiento puede ser copiado y almacenado fácilmente, siendo muy difícil la pérdida de éste, esto no sucede con los expertos humanos los cuales al morir se llevan todo su conocimiento con ellos perdiéndose de esta manera el conocimiento de grandes eminencias que nunca se recupera.
+	Otra ventaja de los sistemas expertos sobre los humanos es que el software siempre está en pleno rendimiento. Cuando un humano se agota, esta preocupado o estresado, la exactitud y calidad de sus consejos puede decaer enormemente. Sin embargo el sistema experto siempre proporcionará las mejores opciones posibles –-dentro de las limitaciones de su base de conocimientos—ya que nunca se verá afectado por el entorno que lo rodea lo cual lo hace sumamente valioso para lugares hostiles y peligrosos donde el ser humano podría correr serios riesgos. 
+Otro punto importante es la velocidad en que un talento humano puede resolver un problema, lo cual también es influido por muchos factores. Por el contrario, un sistema experto es consistente en la velocidad en que resuelve los problemas, y en muchos casos, supera en gran medida a los expertos humanos en la velocidad en que desarrolla las tareas.
+Los talentos humanos tienden a ser extremadamente costosos. Por lo general los expertos humanos demandan salarios muy altos, por el contrario los sistemas expertos son relativamente baratos. El costo de desarrollo suele ser relativamente elevado, pero en muchos casos, se puede recuperar la inversión rápidamente por los ahorros que el sistema produce a la organización.
+Los sistemas expertos son capaces de explicar los procesos que han utilizado para llegar a una determinada conclusión, lo cual es bastante inusual en los humanos ya que estos generalmente son bastante celosos en cuanto a la revelación de sus conocimientos.
+	Una última ventaja de un sistema experto consiste en que se puede crear un nuevo experto simplemente copiando el programa de una computadora a otra. Un humano necesita mucho tiempo para convertirse en un especialista en ciertos campos, lo que hace difícil que puedan aparecer nuevos especialistas humanos.
+	Incluso la falta de personalidad de un sistema experto puede resultar de gran beneficio en algunas circunstancias. Como probablemente es conocido, las personalidades de las personas no son siempre compatibles. Si una persona no se lleva bien con el humano experto, puede que esta persona se encuentre reticente a recabar sus conocimientos. La situación contraria también puede ocurrir, un humano experto en algún dominio de conocimiento de interés al que una persona no le agrada puede que no le suministre una información fidedigna. Por el contrario, un experto computarizado no tiene personalidad (o al menos no debería de tener), de manera que este tipo de problemas desaparecen.  
+	
+Campos de Aplicación de los Sistemas Expertos
+
+A continuación se detallan algunas áreas de conocimiento que han sido  tratadas por metodologías de sistemas expertos que han tenido gran impacto social.  
+
+MEDICINA
+Diagnóstico y tratamiento de glaucoma
+Diagnóstico de enfermedades de medicina interna
+Diagnóstico y terapia de enfermedades infecciosas bacterianas
+Diagnóstico de nefrología
+Neurología
+Enseñanza de medicina
+Interpretación de pruebas de función pulmonar
+
+FINANZAS Y GESTION
+Análisis de mercados
+Análisis de riesgos y tasación de seguros
+Asesoría jurídica y fiscal
+Concesión de tarjetas de créditos
+Evaluación de riesgos de gestión de cartera
+Planes de inversión de capitales
+Planes de pensiones
+Previsiones en las fluctuaciones del mercado
+
+INDUSTRIA
+Diagnóstico de control de calidad
+Detección y actuación en caso de alarmas y emergencias
+Configuración de equipos y sistemas de baja demanda
+Control de procesos industriales
+Gestión optima de recursos
+Diagnóstico y reparación de averias
+
+ELECTRONICA, INFORMATICA Y TELECOMUNICACIONES
+Diseño de circuitos de alto grado de integración
+Configuración de equipos y sistemas
+Control de redes de comunicación
+Programación automática
+Ajuste de equipos y sistemas
+
+MILITAR
+Guiado de vehículos y proyectiles de forma semiautomática
+Planeación estratégica
+Reconocimiento automático de blancos y valoración de los mismos
+Reconocimientos de planes del enemigo
+Encaminamiento de los mensajes e informaciones en conflicto
+Tiempos mínimos de comunicación
+
+EDUCACION
+Diagnóstico de problemas de aprendizaje en los alumnos
+Recomendaciones sobre terapias de aprendizaje y autoaprendizaje
+
+OTROS CAMPOS DE APLICACIÓN
+Aeronáutica
+Agricultura
+Ingenierías
+Arqueología
+Derecho 
+
+NIVEL9: Una herramienta para facilitar la creación de Sistemas Expertos
+
+NIVEL9 es el nombre del software informático diseñado por el Ing. Mauricio Ernesto Alfaro para la tarea de apoyar o incluso sustituir a expertos en las diferentes áreas del conocimiento humano.
+NIVEL9 nació como un proyecto para apoyar al Instituto de Ciencias del Mar y Limnología (ICMARES)de La Universidad de El Salvador (UES) en la identificación de las Familias de Anélidos Poliquetos de la costa de El Salvador. 
+En este proyecto fue realizado en conjunto con el Ing. José Luis Nuila el cual se encargó de obtener, ordenar traducir y codificar el conocimiento sobre la identificación de Familias de Anélidos,  a través de la colaboración del Lic. Carlos Giovanni Rivera investigador de la UES y experto en el área de identificación de especies marinas en El Salvador. ICMARES reportó un incremento entre el 2000  y 3000 por ciento en la productividad de los biólogos no expertos en la tarea de identificación de especies microscópicas marinas gracias al apoyo de este software, (las identificaciones tomaba alrededor de 35 a 45 minutos,  ahora se realizan en segundos). En la figura 1 se muestra como NIVEL9 es capaz de identificar Familias de los Anélidos Poliquetos, para ello el software proporciona en cada pregunta imágenes apropiadas referentes a las características biológicas de los organismos (estructuras, formas, etc..), de esta forma el biólogo encargado de realizar la identificación puede comparar las imágenes proporcionadas por el sistema con especimenes reales de muestra  vistos desde el microscopio digital y así facilitar la capacidad de respuesta ante las interrogantes que el software va generando. Esto hace que las probabilidades de cometer errores en las identificaciones se reduzcan notablemente o sean nulas.    
+
+ En la figura 1 puede observarse como NIVEL9 identifica un organismo de la Familia de los Poliquetos denominada Sternaspidae.
+	
+
+NIVEL9 es capaz de resolver problemas de clasificación, diseño, control, optimización, instrucción, planeación y diagnóstico por medio de conocimiento específico representado a través de reglas en cualquier área del conocimiento.
+En esta primera fase el software utiliza el método de encadenamiento hacia delante como método de inferencia del conocimiento, en esta técnica el motor de inferencia del software utiliza la información que el usuario le proporciona para moverse a través de una red de operaciones lógicas (ANDs y ORs)  suministradas a través de reglas de conocimiento hasta que encuentra un punto Terminal, que es el objetivo o conclusión del problema a resolver. Si el motor de inferencia no puede encontrar un objetivo usando información existente, entonces pide más. Los atributos que definen al objetivo crean un camino que conduce al mismo objeto: la única forma de alcanzar dicho objeto es la de satisfacer todas sus reglas. Por tanto, el software comienza con alguna información y luego intenta encontrar un objeto que encaje con dicha información. 
+Uno de los módulos más atractivos de NIVEL9 es el servicio TTS (Text-To-Speech) el cual provee la habilidad de convertir texto escrito en palabras habladas. El TTS se vale de sintetizadores de voz creados por otras empresas para generar voces en diferentes idiomas según sea el gusto del usuario. 
+En la figura 2 se muestra el cuadro de diálogo que presenta el software para configurar la voz.   
+ 
+Figura 2. Cuadro de diálogo para configurar la voz. En la figura se muestra como el usuario puede seleccionar entre varias opciones de sintetizadores de voz. También el software es capaz de modular el tono, la velocidad y el volumen en que la voz va ser generada. 
+NIVEL9 consta de tres modos explicativos que permiten al usuario obtener información y seguir la pista sobre el razonamiento que el software está efectuando en ese momento. El software puede mostrar la forma  en que solucionó un problema o dedujo la conclusión final del razonamiento.
+	
+
+Módulos Explicativos de NIVEL9
+
+INSTRUCCIÓN ¿PORQUE? - La instrucción PORQUE de NIVEL9 intenta aclarar al usuario la razón por la cual el sistema está realizando dicha pregunta, es decir, la instrucción intenta conocer el porque (¿Por qué?) de una pregunta. El sistema trata de encontrar hechos que lo lleven a sacar información importante para luego obtener una conclusión definitiva que le permita solucionar un problema determinado. La instrucción PORQUE intenta mostrar a donde se quiere llegar una vez se responda la pregunta en cuestión para que de esta manera el usuario entienda que camino tomará el programa. Esta instrucción debe utilizarse antes de que la sesión haya finalizado, ya que su función es generar el razonamiento de la pregunta en curso y a que regla pertenece. 
+      La figura 3 muestra como funciona esta instrucción para un pequeño sistema experto de prueba que realiza diagnósticos de fallas en los sistemas eléctricos de automóviles de combustión. El sistema intenta verificar si la falla proviene de la batería, primero intenta averiguar si el problema se debe a una mala conexión de la batería y una vez que a determinado que no se debe a esa causa, verifica si la batería está defectuosa a través de pruebas de lectura con el voltímetro. A continuación se muestra parte de la sesión del software para aclarar el funcionamiento de la instrucción PORQUE. 
+Muestra de un extracto de la sesión de un sistema experto para detección de problemas eléctricos en automóviles de combustión. 
+….
+>> El sistema comenzará el chequeo de conexión de batería...
+>> ¿Se observa que al mover ó apretar los contactos las luces se vuelven más brillantes?
+RESPUESTA: No
+>> ¿Se observa que los contactos de las luces no están unidos?
+RESPUESTA: No
+>> ¿Se observa que al mover ó apretar los contactos, las luces no se vuelven más brillantes?
+RESPUESTA: Sí
+>> La conexión de la batería esta bien.
+
+>> El sistema comenzará el chequeo de batería con el voltímetro...
+>> ¿Se observa que la prueba de lectura del voltímetro es negativa?
+RESPUESTA: ¿Porque?
+Con la pregunta activa pretendo resolver un hecho desconocido.
+La pregunta actual la obtuve de la regla número 9.
+
+El razonamiento en el que me fundamenté fue el siguiente: 
+si la tarea es comenzar diagnóstico de batería,
+y la prueba de lectura del voltímetro es negativa,
+entonces el problema es una batería defectuosa.
+
+>> ¿Se observa que la prueba de lectura del voltímetro es negativa?
+ …
+ 
+Figura 3. La instrucción PORQUE muestra al usuario la  justificación del porque el sistema pregunta sobre la lectura del voltímetro en la prueba de chequeo de la batería de un automóvil.    
+
+INSTRUCCIÓN ¿DONDE? - La instrucción DONDE de NIVEL9 realiza un resumen de todas las reglas utilizadas hasta el momento para inferir nuevo conocimiento o bien para descifrar la conclusión definitiva del sistema, esta instrucción intenta determinar de dónde (¿Dónde?)provienen las afirmaciones proporcionadas por el software en la resolución del conflicto del problema. Esta instrucción muestra un análisis descendente, es decir desde la primera hasta la última regla del razonamiento seguido por el software para llegar a la pregunta en cuestión. Esta instrucción puede ser utilizada en cualquier momento de la sesión, aunque generalmente se utiliza al final con el propósito de obtener el razonamiento seguido por el programa para llegar a la respuesta definitiva.
+En la figura 4 se pone de manifiesto la instrucción DONDE. En este caso NIVEL9 esta corriendo un sistema experto que calcula la forma óptima en que debe cargarse un carro vacío basado en el peso límite que puede soportar el carro. El carro sólo puede cargar personas pequeñas, medianas y grandes y a cada grupo de estos se le ha asignado un peso específico, por lo tanto la misión de este sistema es decidir la mejor forma de cargar cada uno de los carros hasta terminar de cargar a todas las personas.    
+El sistema en este caso toma como hechos iniciales base la siguiente información: 
+Número de Personas Pequeñas = 4
+Número de Personas Medianas = 4
+Número de Personas Grandes = 4
+Personas Pequeñas en Carro = 0
+Personas Medianas en Carro = 0
+Personas Grandes en Carro = 0
+Peso de Carro = 0
+Número de Carro = 0
+Peso de Personas Pequeñas = 100
+Peso de Personas Medianas = 200
+Peso de Personas Grandes = 300
+Peso Máximo de Carro = 1000
+
+ 
+Figura 4. El software NIVEL9 explica en forma descendente a través de la instrucción DONDE como resolvió el problema de cargar un carro en forma óptima utilizando la información de pesos de personas pequeñas, medianas y grandes.   
+
+
+La sesión para la resolución del problema anterior se muestra a continuación:
+> ¿Desea comenzar a empacar un nuevo carro?
+RESPUESTA: Sí
+Número de Carro: 1
+Peso de  Carro: 1000
+Número de personas grandes: 3
+Número de personas medianas: 0
+Número de personas pequeñas: 1
+
+>> ¿Desea comenzar a empacar un nuevo carro?
+RESPUESTA: Sí
+Número de Carro: 2
+Peso de  Carro: 1000
+Número de personas grandes: 1
+Número de personas medianas: 3
+Número de personas pequeñas: 1
+
+>> ¿Desea comenzar a empacar un nuevo carro?
+RESPUESTA: Sí
+Número de Carro: 3
+Peso de  Carro: 400
+Número de personas grandes: 0
+Número de personas medianas: 1
+Número de personas pequeñas: 2
+
+>> El número de personas a  ordenar ha finalizado
+
+El sistema determina que basta con tres carros para cargar a las 12 personas. Estas 12 personas se subdividen en 4 pequeñas, 4 medianas y 4 grandes. Obsérvese que los dos primeros carros van totalmente cargados de manera que el peso ha sido optimizado al máximo (1000lbs), y es hasta el tercer carro que el peso sólo llega a 400lbs debido a que sólo faltaba cargarse a 1 persona mediana y 2 personas pequeñas para cargar a todos los pasajeros(12 personas). El sistema muestra cuantas personas pequeñas, medianas y grandes deben cargarse para cada carro.   
+
+A continuación se muestra la respuesta de NIVEL9 ante la instrucción DONDE para el problema anterior:
+…
+¿Donde?
+Todo el nuevo conocimiento que he inferido viene del procesamiento de las reglas en forma descendente que he encontrado en mi base de conocimientos.
+
+La 1ª regla útil que encontré para resolver el problema es la regla número 9: 
+si número de personas pequeñas es igual que 0,
+y número de personas medianas es igual que 0,
+y número de personas grandes es igual que 0,
+entonces la tarea está completada,
+sino la tarea es comenzar un nuevo carro.
+
+La 2ª regla útil que encontré para resolver el problema es la regla número 1 : 
+si la tarea es comenzar un nuevo carro,
+entonces la tarea es acomodar persona grande,
+sino la tarea está completada.
+
+La 3ª regla útil que encontré para resolver el problema es la regla número 3 : 
+si la tarea es acomodar persona grande,
+y número de personas grandes es igual que 0,
+o peso de personas grandes sumado a peso de carro es mayor que peso máximo de carro,
+entonces la tarea es acomodar persona mediana.
+
+La 4ª regla útil que encontré para resolver el problema es la regla número 5 : 
+si la tarea es acomodar persona mediana,
+y número de personas medianas es igual que 0,
+o peso de personas medianas sumado a peso de carro es mayor que peso máximo de carro,
+entonces la tarea es acomodar persona pequeña.
+
+La 5ª regla útil que encontré para resolver el problema es la regla número 7 : 
+si la tarea es acomodar persona pequeña,
+y número de personas pequeñas es igual que 0,
+o peso de personas pequeñas sumado a peso de carro es mayor que peso máximo de carro,
+entonces la tarea es desplegar el carro presente.
+
+La 6ª regla útil que encontré para resolver el problema es la regla número 8 : 
+si la tarea es desplegar el carro presente,
+entonces desplegar el contenido del carro.
+
+La 7ª regla útil que encontré para resolver el problema es la regla número 9 : 
+si número de personas pequeñas es igual que 0,
+y número de personas medianas es igual que 0,
+y número de personas grandes es igual que 0,
+entonces la tarea está completada,
+sino la tarea es comenzar un nuevo carro.
+
+
+
+INSTRUCCIÓN ¿COMO? - La instrucción COMO intenta determinar cómo (¿Cómo?)se llegó a una conclusión determinada en el análisis. Esta instrucción realiza una tarea muy parecida a la instrucción DONDE con la diferencia de que muestra la lista de reglas en forma ascendente.  Esta instrucción muestra un análisis del razonamiento seguido por el software a partir de la última regla utilizada hasta la primera para llegar a la pregunta en cuestión. Esta instrucción además de realizar el análisis mencionado, muestra los hechos que se declararon previamente en el código del lenguaje y además una lista todas las preguntas que fueron respondidas por el usuario en forma positiva. Al igual que la instrucción DONDE, la instrucción COMO puede ser utilizada en cualquier momento de la sesión, aunque generalmente se utiliza al final con el propósito de obtener el razonamiento seguido por el programa para llegar a la respuesta definitiva.
+En la figura 5 se pone de manifiesto la instrucción COMO. En este caso NIVEL9 esta corriendo un sistema experto ficticio que realiza asesoramiento financiero a clientes que presentan un perfil específico de interés. Para este caso el sistema pregunta datos de importantes que definen el perfil del cliente que va a ser analizado para luego dar el asesoramiento financiero pertinente al mismo. A continuación se muestra como ejemplo una sesión realizada para una persona que desea invertir $60,000.        
+
+
+>> Bienvenido al sistema experto para asesoramiento financiero de inversiones para clientes particulares que están registrados como contribuyentes naturales.
+>> Responda a cada pregunta según las indicaciones del sistema.
+
+>> ¿Cual es la edad del Cliente?
+--- Digite la edad en años   en el cuadro de Respuesta y luego oprima el botón Enviar. ---
+42
+
+>> ¿Cuánto tiempo ha permanecido el cliente laborando en la empresa en que trabaja actualmente?
+--- Digite el número de años   en el cuadro de Respuesta y luego oprima el botón Enviar. ---
+7
+
+>> ¿En que categoría se puede clasificar la empresa en que labora actualmente?
+>> --- Digite el número correspondiente deacuerdo a las opciones  que se muestran a continuación ---
+>> 1- Servicios
+>> 2- Comercio
+>> 3- Industria
+>> 4- Educación
+>> 5- Agricultura
+>> 6- Construcción
+>> 7- Financiera
+RESPUESTA: 2
+
+>> ¿Cual es el monto del total de activos del cliente?
+--- Digite el total de activos en dólares   en el cuadro de Respuesta y luego oprima el botón Enviar. ---
+120000
+
+>> ¿Cual es el monto del total de pasivos del cliente?
+--- Digite el total de pasivos en dólares   en el cuadro de Respuesta y luego oprima el botón Enviar. ---
+80000
+
+>> ¿Cuanto es el monto de inversión del cliente?
+--- Digite el monto aproximado en dólares que el cliente está dispuesto a invertir    en el cuadro de Respuesta y luego oprima el botón Enviar. ---
+60000
+
+>> ¿Tiene el cliente esposa e hijos?
+RESPUESTA: No
+>>  Asesoramiento del estado Personal: El cliente muestra un estado personal conservativo en cuanto al riesgo de inversión.
+>>  Asesoramiento del estado Financiero: El cliente muestra un estado financiero agresivo en cuanto a la capacidad de inversión.
+>> ANÁLISIS DE INVERSION PARA EL CLIENTE: 
+>> Se recomienda invertir el 60% del dinero en acciones, el 30% en bonos y el 10% en el mercado de valores
+El monto invertido en acciones equivale a 36000 dólares
+El monto invertido en bonos equivale a 18000 dólares
+El monto invertido en el mercado de valores equivale a 6000 dólares
+
+
+ 
+Figura 5. NIVEL9 explicando como determinó el asesoramiento financiero correcto para una persona registrada como natural ante el fisco. Para este caso el software definió que debería de invertirse $36000 en acciones de alguna empresa, $18,000 en bonos y $6,000 en el mercado de valores.
+ 
+   
+
+
+
+A continuación de muestra el razonamiento del sistema experto para llegar a la conclusión de que sería favorable para el cliente invertir el 60% del dinero en acciones, el 30% en bonos y el 10% en el mercado de valores.
+
+…
+¿Como?
+El conocimiento obtenido lo inferí de la siguiente manera:
+
+Utilicé la regla número 28 para determinar la conclusión anterior, basándome en el siguiente razonamiento: 
+si se aconseja invertir el 60% del dinero en acciones, 30% en bonos y 10% en el mercado de valores,
+entonces imprime valores.
+
+Utilicé la regla número 27 para determinar la conclusión anterior, basándome en el siguiente razonamiento: 
+si el estado personal del cliente sugiere una posición conservativa,
+y el estado financiero del cliente sugiere una posición agresiva,
+entonces se aconseja invertir el 60% del dinero en acciones, 30% en bonos y 10% en el mercado de valores.
+
+Utilicé la regla número 22 para determinar la conclusión anterior, basándome en el siguiente razonamiento: 
+si el total del activo es mayor que el total del pasivo,
+y el total del activo es menor que el factor de seguridad multiplicado por el total del pasivo,
+y el cliente no tiene niños,
+entonces el estado financiero del cliente sugiere una posición agresiva.
+
+Utilicé la regla número 17 para determinar la conclusión anterior, basándome en el siguiente razonamiento: 
+si el cliente es viejo,
+o el trabajo del cliente es inestable,
+entonces el estado personal del cliente sugiere una posición conservativa.
+
+Utilicé la regla número 14 para determinar la conclusión anterior, basándome en el siguiente razonamiento: 
+si el rango de servicios es mayor o igual que el servicio corto,
+y el rango de servicios es menor que el servicio largo,
+y la tasa de rotación del personal en la organización es baja,
+entonces el trabajo del cliente es estable.
+
+Utilicé la regla número 12 para determinar la conclusión anterior, basándome en el siguiente razonamiento: 
+si la tasa de rotación del personal en la organización es menor o igual que 2.3,
+entonces la tasa de rotación del personal en la organización es baja.
+
+Utilicé la regla número 5 para determinar la conclusión anterior, basándome en el siguiente razonamiento: 
+si el tipo de empresa es igual que 2,
+entonces la empresa tiene rubro comercial.
+
+Utilicé la regla número 3 para determinar la conclusión anterior, basándome en el siguiente razonamiento: 
+si la edad del cliente es mayor que la edad madura,
+entonces el cliente es viejo.
+
+Utilicé la regla número 1 para determinar la conclusión anterior, basándome en el siguiente razonamiento: 
+si el cliente tiene familia,
+entonces el cliente tiene niños,
+sino el cliente no tiene niños.
+Todo lo anterior está basado en el conocimiento en forma de hechos encontrados.
+Tomé como hechos iniciales base las siguientes sentencias: 
+La edad madura = 40
+El factor de seguridad = 1.7
+El servicio corto = 3
+El servicio largo = 10
+El monto de inversión.
+El monto de inversión en acciones.
+El monto de inversión en bonos.
+El monto de inversión en mercado de valores.
+La edad del cliente.
+El rango de servicios.
+El total del activo.
+El total del pasivo.
+El tipo de empresa.
+La tasa de rotación del personal en la organización.
+Para obtener las conclusiones también me he basado en los hechos confirmados por el usuario.
+Tomé como hechos base introducidos por el usuario las siguientes sentencias: 
+La edad del cliente = 42
+El rango de servicios = 7
+El tipo de empresa = 2
+El total del activo = 120000
+El total del pasivo = 80000
+El monto de inversión = 60000
+Finalmente tomé en cuenta las respuestas introducidas por el usuario en las consultas.
+
+
+El Lenguaje NIVEL9 para la creación de bases de conocimiento
+
+NIVEL9 consta de su propio lenguaje de programación y es a través de este que se pueden generar ficheros con código que reflejen información en cualquier domino del conocimiento. La codificación del conocimiento se realiza en forma de reglas, las cuales luego son suministradas al software. Estas reglas son gestionadas por el software a través de técnicas de inteligencia artificial para inferir nuevo conocimiento en las sesiones con el usuario. El lenguaje propio de NIVEL9 ha sido diseñado para ser bastante amigable al usuario y sobretodo se ha buscado que las reglas puedan codificarse lo más similar posible al lenguaje natural que utilizamos diariamente. 
+	El lenguaje creado para NIVEL9 esta diseñado en español, lo cual le permite almacenar el conocimiento en dicho idioma.
+Para facilitar la codificación de las bases de conocimiento a través este lenguaje NIVEL9 provee al usuario un editor propio que realiza varias funciones que vuelven menos tediosa la escritura del código que envuelve el conocimiento. 
+Entre las principales ventajas que proporciona este editor se encuentran las siguientes:
+1.	Coloreado de palabras claves del lenguaje
+2.	Análisis gramatical de la sintaxis escrita
+3.	Detección de errores de tipo léxico, sintáctico y semántico
+4.	Funciones para formatear el texto escrito
+5.	Guardado e impresión de ficheros
+En la figura 6 se muestra una parte del código utilizado para la creación de una base de conocimientos que detecta fallos en una estación de bombeo. Puede observarse claramente como el código se compone de reglas escritas en lenguaje natural las cuales están relacionadas unas con otras y que reflejan la manera de proceder de las personas para analizar un problema.
+
+  
+ Figura 6. Muestra del editor propio de NIVEL9 para codificar reglas de conocimiento. Puede observarse como el editor colorea las palabras claves del lenguaje con el fin de que le sea mucho más fácil depurar errores al usuario. 
+
+
+La figura 7 muestra como el editor proporciona funciones que permiten simplificar la detección de errores gramaticales en la codificación del conocimiento.
+Para el caso el software define el tipo de error (semántico o sintáctico), indica el número de línea correspondiente al editor en donde fue encontrado dicho error y por último detalla más información pertinente al error encontrado. 
+   
+Figura 7. El editor tiene funciones que permiten la detección de errores de tipo gramatical. 
+
+
+DISEÑO DEL SOFTWARE NIVEL9
+
+NIVEL9 se puede descomponer en cuatro grandes módulos según la función que realizan dentro del software: 
+1.	ESTRUCTURAS DE DATOS 
+2.	MOTOR DE INFERENCIA
+3.	LENGUAJE PARA CODIFICAR EL CONOCIMIENTO
+4.	MODULO DE RECONOCIMIENTO DE TEXTO Y SINTETIZADOR DE VOZ
+
+ESTRUCTURAS DE DATOS
+
+Las estructuras de datos dentro del software tienen la función de almacenar información importante en forma ordenada en la memoria de la computadora. Toda la información está  clasificada de forma conveniente dentro de las estructuras con el fin de que el software pueda diferenciar y utilizar dichos datos de manera eficiente según los propósitos de cada módulo. 
+NIVEL9 utiliza siete diferentes estructuras de datos para suplir a los módulos restantes del sistema estas se pueden enumerar como sigue:
+·	Base de Conocimientos (BC)
+·	Memoria de Trabajo (MT)
+·	Tabla de Premisas (TP)
+·	Tabla de Datos (TD)
+·	Tabla de Cadenas (TC)
+·	Tabla de Símbolos (TS)
+·	Máquina P (MP)
+
+La Base de Conocimientos (BC) junto con la Memoria de Trabajo (MT) son las encargadas de dar apoyo al Motor de Inferencia para que este pueda realizar las búsquedas y resoluciones de la forma más rápida y eficiente. 
+La Tabla de Premisas (TP) junto con las dos estructuras anteriores tiene la función de hacer posibles los módulos explicativos del software. Se puede decir que estas tres estructuras son las responsables de toda la parte relacionada con la inteligencia artificial, específicamente la metodología de Sistemas Expertos.
+Por otro lado las cuatro estructuras restantes están más relacionadas con la gestión del lenguaje de codificación del conocimiento creado para estos fines.
+La Máquina P (MP) es una pila que se encarga de gestionar diferentes operaciones de tipo aritmético, relacional y lógico. Esta funciona en base a técnicas clásicas de compiladores e interpretes. 
+La Tabla de Datos (TD) proporciona a la MP los datos o valores con los cuales esta va a llevar a cabo resultados preliminares sobre operaciones de varios tipos. 
+La Tabla de Cadenas (TC) aunque también almacena valores de variables como la hace la TD no se relaciona directamente con la MP ya que en las variables de tipo cadena no se lleva a cabo ningún tipo de operación.
+Por último la Tabla de Símbolos (TS) tal como su nombre lo dice lleva el registro de todos los símbolos empleados por la codificación del conocimiento en el lenguaje propio de NIVEL9.
+
+MOTOR DE INFERENCIA
+
+El motor de inferencia es el módulo encargado de construir en forma controlada y sistemática las soluciones de los diferentes problemas que se intentan resolver por medio de información almacenada en la BC. 
+	El motor de inferencia tiene como función principal el seleccionar, decidir, interpretar y aplicar el conocimiento almacenado en la BC  sobre la MT con la finalidad de recoger la solución buscada y luego arrojarla a la interfaz de usuario por los mecanismos de salida del sistema. 
+El funcionamiento del motor de inferencia de NIVEL9 puede clasificarse según el orden de ejecución de los algoritmos que se generan en:
+·	EVALUACION: El motor de inferencia selecciona la información útil a emplear en la inferencia. Debe distinguir cuándo se trata de una premisa y cuándo de un hecho, además debe identificar en las producciones cuándo se trata de proposiciones y cuándo de expresiones de tipo aritmético, relacional o lógico. 
+·	COMPROBACION: El motor debe realizar diferentes comprobaciones para cerciorarse de que las producciones que le van llegando son aplicables para la inferencia.
+·	INFERENCIA: En esta fase el motor de inferencia debe realizar búsquedas dentro del la MT o Base de Hechos para comparar hechos anteriormente inferidos con reglas nuevas y así inferir nuevos hechos.
+·	OPTIMIZACION: El motor es responsable también por optimizar de la mejor forma posible las búsquedas de el mismo va generando. Para esto se vale de parámetros obtenidos de la BC con los cuales puede definir anticipadamente rangos limitados de búsqueda.
+·	CONTROL: Este enunciado se refiere al control de posiciones en las estructuras de datos y al control del orden en que se van gestionando las producciones obtenidas de las reglas codificadas.        
+·	CHEQUEO DE ERRORES: El motor también es capaz de gestionar la mayoría de errores debidos a codificaciones deficientes del conocimiento en el lenguaje que puedan ocurrir durante la inferencia del conocimiento. El motor manda mensajes de error a los módulos de salida del sistema que permitan al usuario descifrar la causa del error.    
+
+	El mecanismo de búsqueda que utiliza NIVEL9 es la búsqueda ordenada de soluciones. Esta se basa en el encadenamiento del conocimiento representado en forma de reglas de producción. Este encadenamiento se consigue haciendo que el consecuente (hecho) o acción de una regla se convierta en el antecedente (premisa) de la siguiente regla a considerar.
+	El encadenamiento genera estructuras en forma de árbol y este puede darse por terminado cuando se encuentra una solución o el conjunto total de las mismas.
+	La búsqueda ordenada de soluciones del motor de inferencia de NIVEL9 utiliza el uso de heurísticos para la poda del árbol de soluciones. Un heurístico es un proceso creador, el cual permite a partir de un conjunto de operaciones elementales suficientes, resolver todos los problemas de una clase específica. Los heurísticos utilizados consideran el conocimiento representado en las reglas para dirigir la búsqueda de la solución, para lo que el lenguaje cuenta con instrucciones especiales para este propósito. Esto significa que el sentido de la búsqueda puede hacerse tanto por profundidad o por amplitud, ya que esto depende de cómo se ordenen las reglas en el código del lenguaje.   
+	Como se mencionó anteriormente NIVEL9 utiliza el encadenamiento hacia delante o deductivo como método de inferencia. El motor de inferencia enlaza los conocimientos a partir de unas producciones con el fin de obtener una solución de un problema. El encadenamiento hacia delante fue escogido como método de inferencia por ser el modo de trabajo al que estamos acostumbrados y el más práctico para cálculos de tipo numérico. Además éste tipo de inferencia permite la resolución de problemas de diseño, lo cual no es posible a través del encadenamiento hacia atrás.
+	La operatividad del motor de inferencia con encadenamiento hacia delante de NIVEL9 se basa en el “modus ponens” de la lógica formal el cual enuncia lo siguiente:
+Si conocemos la regla: <<Si A entonces B>> y es cierto <<A>>, entonces podemos deducir que <<B>> es también cierto.  
+	En el caso de NIVEL9 las premisas son obtenidas de las reglas almacenadas en la Base de Conocimientos (BC) según el orden en que van siendo codificadas por el lenguaje, mientras que los hechos son obtenidos de la Memoria de Trabajo (MT). La MT se va llenando a partir de los hechos obtenidos de las reglas que se van disparando. Cuando es aplicable,  el motor de inferencia compara premisas con hechos para separarlos en una sección de conflicto en donde se lleva a cabo la resolución del conflicto entre proposiciones, de tal manera que si el conflicto se resuelva positivamente la regla se dispara y el hecho extraído de esa regla se añade a la MT y así vuelve a comenzar el ciclo.     
+	La figura H muestra el algoritmo utilizado por el motor de inferencia de NIVEL9 para inferir conocimiento a través del método de encadenamiento hacia adelante.
+	La figura I muestra la forma en que interrelacionan la BC y la MT durante el proceso de inferencia de NIVEL9.
+
+ 
+Figura H. Estrategia de inferencia encadenamiento hacia delante
+
+
+LENGUAJE PARA CODIFICAR EL CONOCIMIENTO
+
+	Este módulo se encarga de crear los mecanismos necesarios de análisis gramatical (análisis léxico, análisis sintáctico, análisis semántico) para que el conocimiento pueda ser codificado en forma de reglas de producción. La representación del conocimiento en forma de reglas de producción fue propuesta por Post en 1943 y es la forma más común de representar el conocimiento, debido a su gran sencillez por ser la formulación más inmediata del principio de causalidad (causa-efecto).
+	Según una encuesta realizada en 1986 en Japón por el JIPDEC  sobre la creación de empresas que realizaban sistemas expertos durante esa época, los sistemas de representación del conocimiento más utilizados eran los siguientes:
+
+METODOS	PORCENTAJE DE USO
+Reglas de producción	65.3%
+Marcos	42.9%
+Redes semánticas	7.1%
+Otros	11.2%
+
+	La generación de código para representar el conocimiento esta relacionado con las teorías de creación de compiladores. Esto incluye la creación de autómatas finitos para el analizador léxico, la invención de una gramática libre de contexto para el analizador sintáctico que se pueda codificar de la forma más natural posible (es decir que se parezca lo más posible al lenguaje natural utilizado por las personas diariamente), la generación de una gramática de atributos que pueda gestionar los errores semánticos y por fin la codificación de una máquina virtual que pueda convertir el lenguaje fuente (reglas de producción expresadas en lenguaje natural) a un lenguaje objeto (código intermedio que pueda ser gestionado convenientemente por la Base de Conocimiento).   
+La figura J muestra en forma general el funcionamiento del intérprete creado para la herramienta NIVEL9.     
+	
+	 
+Figura J. Esquema del intérprete utilizado por NIVEL9
+
+FASES DEL INTERPRETE NIVEL9
+
+El intérprete del lenguaje puede descomponerse en dos fases, las cuales transformarán al programa fuente de una representación a otra, teniendo en cada fase una serie de tareas fundamentales. La fase que analiza la entrada y genera estructuras intermedias se llama FASE DE ANÁLISIS, y la fase que sintetiza la salida se denomina FASE DE SÍNTESIS. La figura K. muestra un diagrama de las fases de un intérprete/compilador.
+
+
+
+Figura K. Fases de un INTERPRETE/COMPILADOR.
+
+
+
+
+La Fase de Análisis tiene como objetivos el controlar la corrección del programa fuente y generar las estructuras necesarias para comenzar la síntesis, los que se llevan a cabo realizando las tareas siguientes:
+
+·	Análisis Léxico:
+
+Este divide el programa fuente en componentes básico: números, identificadores de usuario (variables, constantes, tipos, nombres de procedimientos, ...), palabras reservadas, signos de puntuación, y otros símbolos,  asociándole a cada uno de estos la categoría a la que pertenece.
+
+Este reconoce los componentes denominados “Tokens”, agrupa secuencias de caracteres desde el programa fuente de entrada en unidades llamadas componentes léxicos.
+Los tokens (componentes léxicos) son las unidades básicas del mismo nodo en que las palabras y los signos de puntuación son las unidades básicas de una oración. La elección de los tokens es una tarea del diseñador del compilador o intérprete.
+Además de reconocer las palabras claves, identificadores, operadores, etc., el analizador léxico realiza las tareas de eliminar espacios en blanco y comentarios, así como también identificar y detectar errores sencillos como los de ortografía.
+
+·	Análisis Sintáctico:
+
+Con ayuda de reglas gramaticales, comprueba que la estructura de los componentes básicos sea la correcta.
+Este analizador es más complicado que el analizador léxico. Este agrupa los tokens en estructuras sintácticas en forma muy similar a las estructuras gramaticales de las oraciones de un lenguaje estructurado, identificando las diferentes partes de la oración que lo componen. De esta forma el analizador léxico reconoce los tokes que se encuentran agrupados en una expresión, lo que puede llegar a determinar una sentencia de asignación; determinando a su vez si la secuencia de tokens es sintácticamente correcta, de acuerdo a la definición del lenguaje.
+
+·	Análisis Semántico:
+
+Comprueba todo lo relacionado con el significado, chequeo de tipos, rangos de valores, existencia de variables, números de regla repetidos, etc.
+Este analizador determina el significado del programa mediante la creación de tablas de símbolos, verificando cuáles de las variables utilizadas han sido definidas y una infinidad de tareas. Dos de las tareas principales son: 
+a) la verificación estática del programa y 
+b) la generación de una representación intermedia.
+
+La Fase de Síntesis tiene como objetivo el construir el programa objeto a partir de las estructuras generadas por la fase de análisis, el que se lleva a cabo realizando las siguientes tareas:
+
+·	Generación de código intermedio:
+
+Genera un código independiente de la máquina que facilita la optimización de código.	
+	El código intermedio consiste en una estructura de datos que representa el programa fuente durante la traducción a lenguaje objeto, generando una linealización del árbol sintáctico, es decir, una representación del árbol sintáctico en forma lineal. NIVEL9 utilizó como forma de representar el código intermedio el Código P (también conocido como Máquina P o Máquina Pila). El diseño del Código P para el software involucra principalmente a la Máquina P (MP) la cual ya se explico anteriormente, y esta involucra a las estructuras siguientes:
+Tabla de Datos (TD)
+Tabla de Cadenas (TC)
+ Las cuales juegan el papel de pequeñas memorias que almacenan información importante que la MP utiliza para gestionar su traducción en forma directa.
+Ejemplo:
+Como un ejemplo sencillo de código P, analicemos la siguiente expresión:
+20 * A + ( B – 30 )
+El árbol sintáctico para se representaría de la siguiente forma:
+ 
+La versión de Código P de NIVEL9 para la expresión anterior se muestra a continuación:
+
+MP_Apila(x) à MP_Apila(20) à Carga el número 20
+MP_Apilar(x) à MP_Apila(A)  à Carga el valor de la variable A
+MP_Multiplica(x, y) à MP_Multiplica(20, A) à Multiplicación de números (20*A)
+MP_Apila(x) à MP_Apila(B) à Carga el valor de la variable B 
+MP_Apilar(x) à MP_Apila(30) à Carga el número 30
+MP_Resta(x, y) à MP_Resta(B, 30) à Sustracción de números (B-30)
+MP_Suma(x, y) à MP_Suma((20*A), (B-30)) à Suma de números (20*A) + (B-30)
+
+Estas instrucciones representan las operaciones en la Máquina P (MP). En primer lugar se inserta el valor 20  en la pila temporal. Luego se inserta el valor de la variable A en la pila. La instrucción MP_Multiplica(x, y) toma como parámetros los dos valores de la pila, los multiplica (en orden inverso) e inserta el resultado en la pila. Las siguientes dos instrucciones (MP_Apila(B) y MP_Apila(30)) insertan el valor de B y la constante 30 en la pila (Ahora se tienen tres valores en la pila). Posteriormente, la instrucción MP_Resta(x, y) toma de parámetros los dos valores superiores de la pila, resta el primero del segundo, e inserta el resultado. Finalmente, la instrucción MP_Suma(x, y) extrae los dos valores restantes de la pila, los suma e inserta el resultado. El código finaliza con un solo valor en la pila, que representa el resultado del cálculo.
+	Los valores de las variables A y B son extraídos de la Tabla de Datos (TD) la cual se encarga de buscarlos a través de sus nombres (A y B).  
+	En la figura G  y en la sección de las estructuras de datos se muestra otro ejemplo en forma más gráfica sobre el funcionamiento de la Máquina P. 
+ 	Para las expresiones relacionales y lógicas la Máquina P (MP) va almacenando los enteros 1 y 0 dependiendo si el resultado de las expresiones es verdadero o falso.
+	Cada expresión tiene su instrucción en el Código P la cual se encarga de gestionar el resultado de las expresiones.
+Ejemplo:
+( 20 < B ) Y ( B == 50 )
+
+El código P generado sería el siguiente:
+
+MP_Apila(x) à MP_Apila( 20 ) à Carga el número 20
+MP_Aplia(x) à MP_Aplia(B) à Carga el valor de la variable B
+MP_MenorQue(x, y) à MP_MenorQue(20, B) à Gestiona si 20 es menor que B
+MP_Apila(x) à MP_Apila( 20 < B ) à Carga el resultado de la instrucción anterior
+MP_Apila(x) à MP_Apila(B) à Carga el valor de la variable B
+MP_Aplia(x) à MP_Apila(50) à Carga el número 50
+MP_IgualQue(x, y) à MP_IgualQue(B, 50) àGestiona si B es igual a 50
+MP_Y(x, y) à MP_Y( (20<B), (B==50)) à Gestiona el operador AND para (20<B) y (B==50)
+
+	Este caso es bastante similar que el anterior en cuanto al funcionamiento de la Máquina P (MP), sin embargo los resultados almacenados por las instrucciones de tipo relacional y las instrucciones de tipo lógico son enteros que simbolizan un resultado de tipo booleano, es decir, cierto o falso, los cuales se representa por los enteros 1 y 0 en la MP. La instrucción MP_MenorQue(x, y) que toma como parámetros los valores almacenados en la pila (20 y B) generan como resultado un 1 o un 0 dependiendo del valor de la variable B. Si el valor de B es 50 entonces el resultado devuelto será 1, este uno se almacenará en la cima de la pila. La instrucción MP_IgualQue(x, y) funciona de la misma forma, esta se encarga de comparar los dos últimos valores almacenados en la pila. Si el valor de la variable B es 50 entonces el resultado de la instrucción será 1. Finalmente la instrucción lógica (MP_Y(x, y)) se encarga de gestionar los resultados devueltos por las dos instrucciones anteriores operando de esta forma los dos enteros restantes de la pila ( 1 y 1) para almacenar en la pila el resultado que sería 1 ( 1 AND 1 à 1 ) à ( true AND true à true ).    
+	Las instrucciones lógicas también son capaces de operar producciones, de manera que los parámetros de la instrucción MP_Y(x, y) pueden ser proposiciones, las cuales son gestionadas en forma dinámica por el usuario en tiempo de ejecución.
+Ejemplo:
+¿Todos los hombres son mortales? Y ¿Mauricio es hombre?
+
+La forma en que NIVEL9 gestiona la producción anterior es la siguiente:
+
+¿Todos los hombres son mortales? à Proposición ( producción) 
+Respuesta del usuario: Sí à Gestión dinámica de la producción
+MP_Apila(x) à MP_Aplia(1) à Carga el resultado booleano 1
+¿Mauricio es hombre?  à Proposición ( producción)
+Respuesta del usuario: Sí à Gestión dinámica de la producción
+MP_Apila(x) à MP_Aplia(1) à Carga el resultado booleano 1
+MP_Y(x, y) à MP_(1, 1) à Gestiona el operador AND para 1 y 1
+	Para las instrucciones de control como el SI/ENTONCES/SI_FIN o el MIENTRAS/HACER/MIENTRAS_FIN el código intermedio tiene funciones especiales que gestionan estas operaciones, dependiendo de los resultados generados por las operaciones lógicas dentro de las sentencias almacenadas en la Máquina P (MP). Para el caso de la instrucción SI, las expresiones o producciones que se evalúan dentro de las instrucciones propias de la sentencia produciendo unos o ceros. Si los resultados son verdaderos las conclusiones posteriores a la palabra clave ENTONCES son almacenadas en la Memoria de Trabajo (MT) y en el caso opuesto simplemente las conclusiones no se almacenan.   
+       
+
+
+·	Generación de código para la BC:
+
+En los compiladores tradicionales esta etapa se encarga de generar el ejecutable “.exe” del programa directamente o la generación de un archivo “.obj”. Para el caso de NIVEL9 esta etapa se encarga de generar un código adecuado que pueda ser gestionado por la Base de Conocimientos (BC). Para el caso de NIVEL9 el código intermedio es interpretado por otras funciones las cuales se encargan de ir colocando los valores en forma ordenada en la Base de Conocimientos para que esta ha su vez pueda ser gestionada por el motor de inferencia.  
+
+·	Optimización:
+
+Esta se realiza durante la generación de código intermedio y durante  la generación de código para la BC, pero ambos procesos son independientes entre sí. La optimización del código intermedio se produce al generarse una gramática que elimina la recursión de las producciones y que facilita las operaciones de la pila en forma directa y de una sola pasada. Una vez que las variables o constantes de la pila han sido operadas estas son eliminadas de la pila, de esta forma no se utiliza memoria adicional y las operaciones aritméticas relacionales y lógicas se realizan de forma más eficiente. Las instrucciones para la gestión de las expresiones lógicas utilizan los algoritmos denominados de ‘mínimo esfuerzo’ , es decir, que en vez de evaluar toda la tabla de verdad para obtener el resultado sólo evalúan si los dos parámetros tomados por la función son iguales para saber si el resultado es cierto o falso.
+Ejemplo:
+MP_Y(x, y) à Gestiona el operador AND lógico
+Si los parámetros de MP_Y(x, y) son ambos unos, entonces devuelve 1 de lo contrario devuelve 0.
+MP_Y(x, y) à MP_Y(1, 1) à 1
+MP_Y(x, y) à MP_Y(1, 0) à 0
+MP_Y(x, y) à MP_Y(0, 1) à 0
+MP_Y(x, y) à MP_Y(0, 0) à 0
+
+MP_O(x, y) à Gestiona el operador OR lógico
+Si los parámetros de MP_Y(x, y) son ambos ceros, entonces devuelve 0 de lo contrario devuelve 1.
+MP_Y(x, y) à MP_Y(0, 0) à 0
+MP_Y(x, y) à MP_Y(1, 0) à 1
+MP_Y(x, y) à MP_Y(0, 1) à 1
+MP_Y(x, y) à MP_Y(1, 1) à 1
+	La optimización al generarse código para la BC consiste en la creación de etiquetas que se relacionan mutuamente entre las demás estructuras de datos del software. Al existir identificadores que apuntan a las posiciones de las estructuras relacionas con la BC es posible generar punteros que busquen directamente en memoria dicha información en vez de realizar búsquedas que entorpecerían el rendimiento del intérprete.
+	En la sección de las estructuras de datos se explica las relaciones entre estructuras con mayor detalle.    
+MODULO DE RECONOCIMIENTO DE TEXTO Y SINTETIZOR DE VOZ
+
+	El módulo de reconocimiento de voz y sintetizador de voz se encarga tal como su nombre lo dice de reconocer textos, números, fechas pertenecientes a algún lenguaje natural humano conocido que se presente en la salida de la interfaz del software y a la vez emular dichos símbolos a través de un sintetizador de voz el cual se encarga de generar e imitar a través de tecnología multimedia la voz humana.
+	Para generar este módulo se utilizó la Speech Application Programming Interface (SAPI) de Microsoft. SAPI es parte del modelo WOSA (Windows Open Services Architecture) de Microsoft el cual consta de reconocimiento de voz “speech recognition (SR)” y el texto para voz “text-to-speech (TTS)”. 
+NIVEL9 utiliza el servicio TTS el cual provee la habilidad de convertir texto escrito en palabras habladas. El TTS se vale de sintetizadores de voz creados por otras empresas para generar voces en diferentes idiomas según sea el gusto del usuario. 
+	Si se desea conocer más información sobre esta tecnología se recomienda visitar el sitio de Microsoft  http://www.microsoft.com
+
+
+Desafíos de la Inteligencia Artificial y los Sistemas Expertos en El Salvador
+
+	Las metodologías de inteligencia artificial han ido tomando gran auge a través del tiempo como instrumentos que resuelven problemas complejos de la sociedad y como técnicas que simplifican el uso de la nueva tecnología de punta desarrollada.
+	Actualmente la inteligencia artificial se utiliza en la gran mayoría de tecnología y equipos electrónicos de forma muy sutil (lavadoras, refrigeradoras, computadoras, software, autos, aviones, tecnología de comunicaciones etc… ), todo esto con el fin de simplificar la vida del ser humano y hacerlo más eficiente en sus labores cotidianas.
+	En países tercermundistas como El Salvador las metodologías de inteligencia artificial serían extremadamente útiles para la solución de problemas sociales y económicos graves que entorpecen nuestro desarrollo. Existe una clara necesidad de inversión por parte del gobierno hacia la educación superior y hacia la especialización como apuesta hacia una rentabilidad a largo y mediano plazo que es indispensable para el desarrollo económico de nuestro país. La inversión por parte de las empresas privadas hacia este rubro es también muy lamentable, la falta de políticas que motiven a la inversión privada por parte del gobierno demuestra una tremenda miopía en nuestras políticas de desarrollo.   
+	Con respecto a las universidades nacionales hay una obvia falta de interés en toda la  investigación relacionada con el fomento al desarrollo de tecnología propia que sea exportable internacionalmente, la falta de postgrados y de grupos multidiciplinarios especializados producen un gran vacío cultural en la búsqueda de desarrollo como medio de superación económica. Es necesario el fortalecimiento de disciplinas básicas como la matemática, la estadística, la robótica, la electrónica, y sobre todo la informática, las cuales aplicadas a otras ciencias como la medicina, la química y la ingeniería pueden generar conocimiento y herramientas de alto valor científico. No hay que olvidar también que la tecnología es un medio muy eficiente para evitar la corrupción, existe software que permite la detección de fraudes en tarjetas de crédito a través de la gestión de los patrones de compra de los usuarios, de esta misma forma podrían generarse sistemas que permitan fraudes en la recaudación de impuestos en nuestros país, por poner un ejemplo, lo cual sería muchísimo mas beneficioso y rentable que investigar la percepción de la población ante el comportamiento de los partidos políticos que es lo que están investigando algunas universidades nacionales. La postura de las universidades ante la problemática nacional debe abordarse desde un punto de vista meramente científico y no un punto de vista crítico social (ya que es obvio que el gobierno no pone mucha atención a estos llamados y al final esto no soluciona nada en forma práctica).       
+	Los sistemas expertos como una de las áreas que estudia la inteligencia artificial busca apoyar a las personas en la resolución de problemas complejos que generalmente atañen a expertos especializados, y su a vez, a no cometer errores en la ejecución de tareas especializadas importantes. La generación de sistemas expertos en diferentes áreas de conocimiento en un medio como el nuestro, en donde es clara la falta de expertos y además el desenvolvimiento de muchos de nuestros profesionales es bastante cuestionable, podría mejorar la calidad de vida de nuestra sociedad en forma dramática. La mala práctica de los profesionales en áreas como la medicina produce terribles daños a costa de vidas humanas, por lo que una solución tecnológica al problema podría involucrar el uso de esta metodología. 
+
+Existen otros campos muy interesantes en que puede apostarse por metodologías avanzadas de inteligencia artificial y minería de datos, con un sentido más práctico y de impacto social  y de esta forma conseguir mejorar la calidad de los servicios prestados a la población y desarrollarnos a nivel cultural y tecnológico.
+
+Futuro  de los Sistemas Expertos
+
+El futuro de los sistemas expertos puede tomar varios rumbos no esperados en la actualidad, en el mejor de los escenarios es posible que estos sistemas se popularicen tanto en las organizaciones, que compitan con las mismas bases de datos  y los sistemas de información, que son los medios de gestión utilizados comúnmente en la actualidad, y sin ir demasiado lejos, se podría pensar en sistemas expertos para computadoras personales resolviendo problemas comunes del que hacer diario; asumiendo que se diera este escenario, lo más probable es que se construya software para emular bases de conocimiento sin conocimiento programado ( tal como lo hace NIVEL9 ), para que de esta manera, estos realicen únicamente el proceso de inferencia de conocimiento y que por a parte se vendan bases de conocimiento sobre temas variados de interés público. La masificación del software y las bases de conocimiento provocaría que los precios de estos fueran bajos de manera que estarían al alcance de cualquiera. Es fácil imaginar que siguiendo esta línea se generen empresas especializadas en la creación de bases de conocimientos para diferentes áreas específicas y especializadas de conocimiento y las distribuyan a precios accesibles a dichas empresas. Lo anterior provocaría una alta demanda de ingenieros del conocimiento en las diferentes organizaciones que se dediquen a la creación de bases de conocimiento para las diferentes actividades que realizan las empresas y de esta forma es posible que se prescindiera de los cargos intermedios en las empresas, polarizándose a puestos bajos donde las personas solo tendrían que saber manejar el sistema experto y los puestos altos donde estarían los expertos creadores de las bases de conocimiento. 
+Sin embargo un escenario menos optimista podría venir a desembocar en la misma desaparición de los sistemas expertos por considerarse técnicas obsoletas para la resolución de problemas. No hay que olvidar que técnicas como las redes neuronales y la programación genética mezcladas con la estadística, lógica difusa y la matemática discreta avanzada están alcanzando un gran impacto en la resolución de problemas, creando mejores soluciones que los mismos sistemas expertos. Mucha de la investigación sobre inteligencia artificial suele enfocarse en la comparación de las diferentes técnicas para ver cual es más certera y cual lanza un porcentaje de error mínimo, aunque por supuesto cada técnica tiene sus propias ventajas ante determinados problemas.
+Tomando una postura intermedia ante ambos escenarios, lo más probable es que los sistemas expertos empiecen a mezclarse con otras técnicas y ciencias dando como resultado una ensalada de técnicas que terminen en soluciones más robustas ante la gran gama de problemas que presentan tanto personas como organizaciones. En este sentido se está desarrollando un concepto relativamente novedoso denominado “soft computing” y “data mining”. El “data mining” no es más que la utilización de una serie de técnicas estadísticas y de inteligencia artificial para el manejo efectivo de los datos y así generar nuevo conocimiento importante para las organizaciones y la ciencia. El concepto va desde la forma de extraer los datos de las bases de datos hasta el procesamiento de la información. El “soft computing” tiene que ver más con la mezcla de diferentes técnicas de aprendizaje automático e inteligencia artificial, lo que se busca es reforzar la debilidad de una técnica con la fortaleza de otra y así crear un sistema mucho más robusto y exacto.     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BIBLIOGRAFIA Y REFERENCIAS
+
+a.	“Expert Systems, Design and Development”
+John Durkin
+Prentice-Hall, Englewood Cliffs, New Jersey, 1994
+ISBN : 0-02-330970-9
+	
+b.	“Sistemas Expertos”
+Dieter Nebendahl
+Siemens S.A., Aktiengesellschaft, Berlín y Munich, 1988
+ISBN : 84-267-0678-9
+
+c.	“Sistemas Expertos, Una metodología de Programación”
+J.P. Sánchez y Beltrán
+Macrobit Editores, S.A. de C.V.
+ISBN : 970-604-037-4
+
+d.	“Aritificial intelligence, Volumen IV”
+Avron barr, Paul R. Cochen
+Addison-Wesley Publishing Company, Inc,1989
+ISBN: 0-201-1731-0
+Pág. Consultadas: 149-191
+
+e.	“Inteligencia Artificial”
+Elaine Rich, Kevin Knight
+McGraw – Hill, Segunda edición, 1994
+ISBN: 84-481-1858-8
+Pág. Consultadas: 607-618 
+
+f.	“Artificial Intelligence, A Modern Approach”
+Stuart Russell, Petter Norvig
+Prentice-Hall, Inc., 1995
+ISBN: 0-13-103805-2
+Pág. Consultadas: 149-332
+
+g.	“AI. The Tumultuous History Of The Search For Artificial Intelligence”
+Daniel Grevier
+Basic Books, 1993
+Pág. Consultadas: 145-162
+ISBN: 0-465-02997-3
+
+h.	“Inteligencia Artificial”
+Patrick Henry Winston
+Addison-Wesley Iberoamericana, Tercera edición
+ISBN: 0-201-51876-7
+Pág. Consultadas: 131-177
+
+i.	“Metodología de la Investigación”
+Roberto Hernández Sampieri, Carlos Fernández Collado, Pilar Baptista Lucio
+McGraw Hill, Segunda Edición, 1998
+ISBN: 970-10-1899-0
+Pág. Consultadas: 1 – 54
+
+
+
+
+  
+   
+	       	 
+	       
+
+

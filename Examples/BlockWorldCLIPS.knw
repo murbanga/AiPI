@@ -1,0 +1,89 @@
+//Block World
+//Rule Upper Block
+//The way CLIPS solve it
+
+CLASS block
+{
+	STRING name;
+}
+
+CLASS on_top_of
+{
+	STRING upper;
+	STRING lower;
+}
+
+CLASS goal
+{
+	STRING move;
+	STRING status;
+}
+
+/*
+ASSERT (block 		name 	"A");
+ASSERT( block 		name 	"B");
+ASSERT( block 		name 	"C");
+ASSERT( block 		name 	"D");
+ASSERT (block 		name 	"E");
+ASSERT( block 		name 	"F");
+ASSERT (on_top_of 	upper 	"nothing");
+ASSERT( on_top_of 	lower 	"A");
+ASSERT (on_top_of 	upper 	"A");
+ASSERT( on_top_of 	lower 	"B");
+ASSERT (on_top_of 	upper 	"B");
+ASSERT( on_top_of 	lower 	"C");
+ASSERT (on_top_of 	upper 	"C");
+ASSERT( on_top_of 	lower 	"floor");
+ASSERT (on_top_of 	upper 	"nothing");
+ASSERT( on_top_of 	lower 	"D");
+ASSERT (on_top_of 	upper 	"D");
+ASSERT( on_top_of 	lower 	"E");
+ASSERT (on_top_of 	upper 	"E");
+ASSERT( on_top_of 	lower 	"F");
+ASSERT (on_top_of 	upper 	"F");
+ASSERT( on_top_of 	lower 	"floor");
+ASSERT(goal		move	"B");
+
+RULE "Move upper block"()
+{
+IF		goal			move	$block1$
+AND		block		name	$block1$
+AND		on_top_of	lower	$block1$
+AND		on_top_of	upper	$block2$
+AND		block		name	$block2$
+THEN	goal			status	"ok"
+
+}
+
+
+
+*/
+
+
+
+ASSERT (block 		name 	"A");
+ASSERT( block 		name 	"B");
+ASSERT( block 		name 	"C");
+ASSERT( block 		name 	"D");
+ASSERT (block 		name 	"E");
+ASSERT( block 		name 	"F");
+ASSERT (nothing	on		"A");
+ASSERT( nothing 	on 		"D");
+ASSERT (A 		on 		"B");
+ASSERT( B		on 		"C");
+ASSERT (D		on 		"E");
+ASSERT( E 		on 		"F");
+ASSERT (C 		on		"floor");
+ASSERT( F 		on 		"floor");
+ASSERT(goal		move	"B");
+
+RULE "Move upper block"()
+{
+IF		goal			move	$block1$
+AND		block		name	$block1$
+AND		block		name	$block2$
+AND		$block2$		on		$block1$
+THEN	goal			status	"ok"
+
+}
+
